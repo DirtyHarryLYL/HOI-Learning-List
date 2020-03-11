@@ -24,7 +24,7 @@ More...
 
 PaStaNet (CVPR2020) [[Code]]() [[Paper]]() 
 
-Pairwise Bodypart Attention for Recognizing Human-Object Interactions (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf)
+Pairwise (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf)
 
 Learning Models for Actions and Person-Object Interactions with Transfer to Question Answering (ECCV2016) [[Code]](https://uofi.box.com/s/yflrqbser1r5m3iez1satkprawmsouag) [[Paper]](https://arxiv.org/pdf/1604.04808.pdf)
 
