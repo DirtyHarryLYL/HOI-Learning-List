@@ -2,17 +2,17 @@
 A list of some recent (2015-now) Human-Object Interaction Learing studies.
 
 ## Dataset
-HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/)[[Paper]](https://arxiv.org/pdf/1904.06539.pdf)
+HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/1904.06539.pdf)
 
-HICO-DET (WACV2018) [[Website]](http://www-personal.umich.edu/~ywchao/hico/)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
+HICO-DET (WACV2018) [[Website]](http://www-personal.umich.edu/~ywchao/hico/) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
 
-HCVRD (AAAI2018) [[Website]](https://bitbucket.org/jingruixiaozhuang/hcvrd-a-benchmark-for-large-scale-human-centered-visual/src/master/)[[Paper]](https://pdfs.semanticscholar.org/c94f/1aaf62f87d97dd579cb6451cb9149fb4967d.pdf)
+HCVRD (AAAI2018) [[Website]](https://bitbucket.org/jingruixiaozhuang/hcvrd-a-benchmark-for-large-scale-human-centered-visual/src/master/) [[Paper]](https://pdfs.semanticscholar.org/c94f/1aaf62f87d97dd579cb6451cb9149fb4967d.pdf)
 
-V-COCO (May 2015) [[Website]](https://github.com/s-gupta/v-coco)[[Paper]](https://arxiv.org/pdf/1505.04474.pdf)
+V-COCO (May 2015) [[Website]](https://github.com/s-gupta/v-coco) [[Paper]](https://arxiv.org/pdf/1505.04474.pdf)
 
-HICO (ICCV2015) [[Website]](http://www-personal.umich.edu/~ywchao/hico/)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
+HICO (ICCV2015) [[Website]](http://www-personal.umich.edu/~ywchao/hico/) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
 
-OpenImage [[Website]](https://visualgenome.org/)[[Paper]](https://arxiv.org/abs/1602.07332)
+OpenImage [[Website]](https://visualgenome.org/) [[Paper]](https://arxiv.org/abs/1602.07332)
 
 PIC [[Website]](http://picdataset.com/challenge/index/)
 
