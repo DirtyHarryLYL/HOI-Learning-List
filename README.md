@@ -49,6 +49,7 @@ TIN [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Netwo
 Relation Parsing Neural Network for Human-Object Interaction Detection (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
 
 Classifying All Interacting Pairs in a Single Shot (Jan 2020) [[Paper]](https://arxiv.org/pdf/2001.04360.pdf)
+
 VSGNet (2020) [[Paper]](https://vision.ece.ucsb.edu/sites/default/files/publications/vsgnet_spatial_attention_network_for_detecting_human_object_interactions_using_graph_convolutions_0.pdf)
 
 Deep Contextual Attention for Human-Object Interaction Detection (Oct 2019) [[Paper]](https://arxiv.org/pdf/1910.07721.pdf)
