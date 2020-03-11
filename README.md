@@ -50,9 +50,9 @@ PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https:
 
 No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
 
-Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
+Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy) [[Paper]](https://www.di.ens.fr/willow/research/analogy/paper.pdf)
 
-Relation Parsing Neural Network for Human-Object Interaction Detection (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
+RPNN (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
 
 Deep Contextual Attention for Human-Object Interaction Detection (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
 
@@ -66,7 +66,7 @@ InteractNet (CVPR2018) [[Paper]](https://arxiv.org/pdf/1704.07333.pdf)
 
 Scaling Human-Object Interaction Recognition through Zero-Shot Learning (WACV2018) [[Paper]](http://vision.stanford.edu/pdf/shen2018wacv.pdf)
 
-
+HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
 
 VSGNet (Mar 2020) [[Paper]](https://vision.ece.ucsb.edu/sites/default/files/publications/vsgnet_spatial_attention_network_for_detecting_human_object_interactions_using_graph_convolutions_0.pdf)
 
@@ -76,7 +76,43 @@ Classifying All Interacting Pairs in a Single Shot (Jan 2020) [[Paper]](https://
 
 Deep Contextual Attention for Human-Object Interaction Detection (Oct 2019) [[Paper]](https://arxiv.org/pdf/1910.07721.pdf)
 
-
-HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
-
 More...
+
+## Results on Widely-used Benchmarks
+
+HICO-DET:
+
+|Method| Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf)| WACV2018 |  6.46 | 4.24 | 7.12| - | - | - |
+|[HO-RCNN](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)| WACV2018 | 7.81|  5.37|  8.54|  10.41|  8.94 | 10.85 |
+|[InteractNet}(https://arxiv.org/pdf/1704.07333.pdf)| CVPR2018 |  9.94|  7.16 | 10.77| - | - |-|
+|[GPNN](https://arxiv.org/pdf/1808.07962.pdf)| ECCV2018 |  13.11 | 9.34 | 14.23| - | - |-|
+|[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84|  10.45 | 16.15 | 16.26  | 11.33| 17.73 |
+|[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
+|[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|17.35| 12.78| 18.71|
+|[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|16.24 |11.16| 17.75| 17.73| 12.78| 19.21|
+|[Xu et. al](https://www-users.cs.umn.edu/~qzhao/publications/pdf/xu2019cvpr.pdf)|ICCV2019|14.70 |13.26| 15.13|-|-|-|
+|[No-Frills](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)| ICCV2019 | 17.18 |12.17| 18.68 |-|-|-|
+|[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
+|[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.4 |14.6| 20.9|-|-|-|
+|[PPDM](https://arxiv.org/pdf/1912.12898.pdf)|CVPR2020|21.10 |14.46| 23.09| -|-|-|
+|[DJ-RN]()| CVPR2020 | 21.06 |17.67 |22.07| 23.48| 20.00 |24.56|
+|[PaStaNet(with HAKE Part States)]()| CVPR2020 | 22.03|19.86|22.68|24.26|22.37|24.82}|
+
+
+V-COCO:
+
+|Method| Publication | AP(role) |
+|:---:|:---:|:---:|
+|[Gupta et al.](https://arxiv.org/pdf/1505.04474.pdf)|arXiv| 31.8|
+|[InteractNet}(https://arxiv.org/pdf/1704.07333.pdf)|CVPR2018|40.0|
+|[GPNN](https://arxiv.org/pdf/1808.07962.pdf)|ECCV2018|44.0|
+|[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 45.3| 
+|[Xu et. al](https://www-users.cs.umn.edu/~qzhao/publications/pdf/xu2019cvpr.pdf)| CVPR2019| 45.9|
+|[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)| ICCV2019|47.3|
+|[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|47.5|
+|[Interactiveness}(https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
+|[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
+|[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
+|[PaStaNet(with HAKE Part States)]()| CVPR2020 | 51.0| 
