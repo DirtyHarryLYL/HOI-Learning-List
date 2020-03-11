@@ -32,7 +32,7 @@ Attentional Pooling for Action Recognition (NIPS2017) [[Code]](https://github.co
 
 Contextual Action Recognition with R\*CNN (ICCV2015) [[Code]](https://github.com/gkioxari/RstarCNN) [[Paper]](https://arxiv.org/pdf/1505.01197.pdf)
 
-HOCNN (ICCV2015) [[Code]](https://github.com/ywchao/hico_benchmark)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
+HOCNN (ICCV2015) [[Code]](https://github.com/ywchao/hico_benchmark) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
 
 More...
 
@@ -82,11 +82,11 @@ More...
 
 HICO-DET:
 
-|Method| Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf)| WACV2018 |  6.46 | 4.24 | 7.12| - | - | - |
 |[HO-RCNN](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)| WACV2018 | 7.81|  5.37|  8.54|  10.41|  8.94 | 10.85 |
-|[InteractNet}(https://arxiv.org/pdf/1704.07333.pdf)| CVPR2018 |  9.94|  7.16 | 10.77| - | - |-|
+|[InteractNet](https://arxiv.org/pdf/1704.07333.pdf)| CVPR2018 |  9.94|  7.16 | 10.77| - | - |-|
 |[GPNN](https://arxiv.org/pdf/1808.07962.pdf)| ECCV2018 |  13.11 | 9.34 | 14.23| - | - |-|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84|  10.45 | 16.15 | 16.26  | 11.33| 17.73 |
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
@@ -103,16 +103,16 @@ HICO-DET:
 
 V-COCO:
 
-|Method| Publication | AP(role) |
+|Method| Pub | AP(role) |
 |:---:|:---:|:---:|
 |[Gupta et al.](https://arxiv.org/pdf/1505.04474.pdf)|arXiv| 31.8|
-|[InteractNet}(https://arxiv.org/pdf/1704.07333.pdf)|CVPR2018|40.0|
+|[InteractNet](https://arxiv.org/pdf/1704.07333.pdf)|CVPR2018|40.0|
 |[GPNN](https://arxiv.org/pdf/1808.07962.pdf)|ECCV2018|44.0|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 45.3| 
 |[Xu et. al](https://www-users.cs.umn.edu/~qzhao/publications/pdf/xu2019cvpr.pdf)| CVPR2019| 45.9|
 |[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)| ICCV2019|47.3|
 |[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|47.5|
-|[Interactiveness}(https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
+|[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 |[PaStaNet(with HAKE Part States)]()| CVPR2020 | 51.0| 
