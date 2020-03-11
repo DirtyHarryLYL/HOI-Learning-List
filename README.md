@@ -44,7 +44,7 @@ No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Pa
 
 Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
 
-Interactiveness [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network) [[Paper]](https://arxiv.org/pdf/1811.08264.pdf)
+Interactiveness (CVPR2019) [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network) [[Paper]](https://arxiv.org/pdf/1811.08264.pdf)
 
 Relation Parsing Neural Network for Human-Object Interaction Detection (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
 
