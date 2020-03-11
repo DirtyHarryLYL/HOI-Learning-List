@@ -20,7 +20,7 @@ More...
 
 ## Methods
 
-1) HOI Recognition: Image-based, to recognize all the HOIs in one image, no need of instance detection.
+### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
 HOCNN [[Code]](https://github.com/ywchao/hico_benchmark)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
 
@@ -28,23 +28,23 @@ pairwise bodypart attention for recognizing human-object interactions (ECCV2018)
 
 More...
 
-2) HOI Detection: Instance-based, to detect all the HOIs (human and object boxes) and classify the interactions.
+### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-PaStaNet (CVPR2020) [[Code]]()[[Paper]]()
+PaStaNet (CVPR2020) [[Code]]() [[Paper]]()
 
-DJ-RN (CVPR2020) [[Code]]()[[Paper]]()
+DJ-RN (CVPR2020) [[Code]]() [[Paper]]()
 
-Cascaded Human-Object Interaction Recognition (CVPR2020) [Code](https://github.com/tfzhou/C-HOI)[Paper](https://arxiv.org/pdf/2003.04262.pdf)
+Cascaded Human-Object Interaction Recognition (CVPR2020) [[Code]](https://github.com/tfzhou/C-HOI) [[Paper]](https://arxiv.org/pdf/2003.04262.pdf)
 
 PPDM (CVPR2020) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
 
-PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet)[[Paper]](https://arxiv.org/abs/1909.08453)
+PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
 
-No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det)[[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
+No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
 
-Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy)[[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
+Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
 
-TIN [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)[[Paper]](https://arxiv.org/pdf/1811.08264.pdf)
+TIN [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network) [[Paper]](https://arxiv.org/pdf/1811.08264.pdf)
 
 Relation Parsing Neural Network for Human-Object Interaction Detection (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
 
@@ -56,6 +56,6 @@ Deep Contextual Attention for Human-Object Interaction Detection (Oct 2019) [[Pa
 Visual-Semantic Graph Attention Networks for Human-Object Interaction Detection (Mar 2020) [[Paper]](https://arxiv.org/pdf/2001.02302.pdf)
 
 
-HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
+HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
 
 More...
