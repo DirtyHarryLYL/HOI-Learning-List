@@ -2,29 +2,29 @@
 A list of the Human-Object Interaction Learing related resource.
 
 ## Dataset
-HICO (ICCV2015) [[Website]](http://www-personal.umich.edu/~ywchao/hico/)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
+HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/)[[Paper]](https://arxiv.org/pdf/1904.06539.pdf)
 
 HICO-DET (WACV2018) [[Website]](http://www-personal.umich.edu/~ywchao/hico/)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
 
-V-COCO [[Website]](https://github.com/s-gupta/v-coco)[[Paper]]
-
-HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/)[[Paper]](https://arxiv.org/pdf/1904.06539.pdf)
-
 HCVRD (AAAI2018) [[Website]](https://bitbucket.org/jingruixiaozhuang/hcvrd-a-benchmark-for-large-scale-human-centered-visual/src/master/)[[Paper]](https://pdfs.semanticscholar.org/c94f/1aaf62f87d97dd579cb6451cb9149fb4967d.pdf)
 
-OpenImage [[Website]](https://visualgenome.org/)[PDF](https://arxiv.org/abs/1602.07332)
+V-COCO (May 2015) [[Website]](https://github.com/s-gupta/v-coco)[[Paper]](https://arxiv.org/pdf/1505.04474.pdf)
 
-PIC [[Website]]()
+HICO (ICCV2015) [[Website]](http://www-personal.umich.edu/~ywchao/hico/)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
+
+OpenImage [[Website]](https://visualgenome.org/)[[Paper]](https://arxiv.org/abs/1602.07332)
+
+PIC [[Website]](http://picdataset.com/challenge/index/)
 
 More...
 
 ## Methods
 
 1) HOI Recognition: Image-based, to recognize all the HOIs in one image, no need of instance detection.
+
 HOCNN [[Code]](https://github.com/ywchao/hico_benchmark)[[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
 
- [[Code]]()[[Paper]]()
-
+pairwise bodypart attention for recognizing human-object interactions (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf)
 
 More...
 
@@ -33,6 +33,8 @@ More...
 PaStaNet (CVPR2020) [[Code]]()[[Paper]]()
 
 DJ-RN (CVPR2020) [[Code]]()[[Paper]]()
+
+Cascaded Human-Object Interaction Recognition (CVPR2020) [Code](https://github.com/tfzhou/C-HOI)[Paper](https://arxiv.org/pdf/2003.04262.pdf)
 
 PPDM (CVPR2020) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
 
