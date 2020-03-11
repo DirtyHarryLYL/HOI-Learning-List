@@ -88,17 +88,17 @@ HICO-DET:
 |[HO-RCNN](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)| WACV2018 | 7.81|  5.37|  8.54|  10.41|  8.94 | 10.85 |
 |[InteractNet](https://arxiv.org/pdf/1704.07333.pdf)| CVPR2018 |  9.94|  7.16 | 10.77| - | - |-|
 |[GPNN](https://arxiv.org/pdf/1808.07962.pdf)| ECCV2018 |  13.11 | 9.34 | 14.23| - | - |-|
-|[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84|  10.45 | 16.15 | 16.26  | 11.33| 17.73 |
-|[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
-|[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|17.35| 12.78| 18.71|
-|[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|16.24 |11.16| 17.75| 17.73| 12.78| 19.21|
 |[Xu et. al](https://www-users.cs.umn.edu/~qzhao/publications/pdf/xu2019cvpr.pdf)|ICCV2019|14.70 |13.26| 15.13|-|-|-|
+|[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84|  10.45 | 16.15 | 16.26  | 11.33| 17.73 |
+|[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|16.24 |11.16| 17.75| 17.73| 12.78| 19.21|
+|[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
 |[No-Frills](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)| ICCV2019 | 17.18 |12.17| 18.68 |-|-|-|
+|[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|17.35| 12.78| 18.71|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
-|[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.4 |14.6| 20.9|-|-|-|
+|[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[PPDM](https://arxiv.org/pdf/1912.12898.pdf)|CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[DJ-RN]()| CVPR2020 | 21.06 |17.67 |22.07| 23.48| 20.00 |24.56|
-|[PaStaNet(with HAKE Part States)]()| CVPR2020 | 22.03|19.86|22.68|24.26|22.37|24.82}|
+|[Interactiveness+PaStaNet]()| CVPR2020 | 22.03|19.86|22.68|24.26|22.37|24.82}|
 
 
 V-COCO:
@@ -114,5 +114,5 @@ V-COCO:
 |[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|47.5|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
+|[Interactiveness+PaStaNet]()| CVPR2020 | 51.0|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
-|[PaStaNet(with HAKE Part States)]()| CVPR2020 | 51.0| 
