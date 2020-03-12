@@ -99,7 +99,7 @@ HICO-DET:
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[PPDM](https://arxiv.org/pdf/1912.12898.pdf)|CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[DJ-RN]()| CVPR2020 | 21.06 |17.67 |22.07| 23.48| 20.00 |24.56|
-|[Interactiveness+PaStaNet]()| CVPR2020 | 22.03|19.86|22.68|24.26|22.37|24.82}|
+|[Interactiveness+PaStaNet]()| CVPR2020 | 22.03|19.86|22.68|24.26|22.37|24.82|
 
 
 V-COCO:
