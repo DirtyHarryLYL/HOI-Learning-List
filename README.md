@@ -18,7 +18,7 @@ PIC [[Website]](http://picdataset.com/challenge/index/)
 
 More...
 
-## Methods
+## Method
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
@@ -78,7 +78,7 @@ Deep Contextual Attention for Human-Object Interaction Detection (Oct 2019) [[Pa
 
 More...
 
-## Results on Widely-used Benchmarks
+## Result
 
 HICO-DET:
 
