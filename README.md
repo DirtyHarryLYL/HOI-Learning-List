@@ -95,6 +95,7 @@ HICO-DET:
 |[No-Frills](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)| ICCV2019 | 17.18 |12.17| 18.68 |-|-|-|
 |[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|17.35| 12.78| 18.71|-|-|-|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
+|[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[PPDM](https://arxiv.org/pdf/1912.12898.pdf)|CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[DJ-RN]()| CVPR2020 | 21.06 |17.67 |22.07| 23.48| 20.00 |24.56|
@@ -114,5 +115,6 @@ V-COCO:
 |[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|47.5|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
+|[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
 |[Interactiveness+PaStaNet]()| CVPR2020 | 51.0|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
