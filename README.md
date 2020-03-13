@@ -26,9 +26,9 @@ PaStaNet (CVPR2020) [[Code]]() [[Paper]]()
 
 Pairwise (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf)
 
-Learning Models for Actions and Person-Object Interactions with Transfer to Question Answering (ECCV2016) [[Code]](https://uofi.box.com/s/yflrqbser1r5m3iez1satkprawmsouag) [[Paper]](https://arxiv.org/pdf/1604.04808.pdf)
-
 Attentional Pooling for Action Recognition (NIPS2017) [[Code]](https://github.com/rohitgirdhar/AttentionalPoolingAction) [[Paper]](https://arxiv.org/pdf/1711.01467.pdf)
+
+Learning Models for Actions and Person-Object Interactions with Transfer to Question Answering (ECCV2016) [[Code]](https://uofi.box.com/s/yflrqbser1r5m3iez1satkprawmsouag) [[Paper]](https://arxiv.org/pdf/1604.04808.pdf)
 
 Contextual Action Recognition with R\*CNN (ICCV2015) [[Code]](https://github.com/gkioxari/RstarCNN) [[Paper]](https://arxiv.org/pdf/1505.01197.pdf)
 
