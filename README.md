@@ -44,7 +44,7 @@ More...
 
 - Cascaded Human-Object Interaction Recognition (CVPR2020) [[Code]](https://github.com/tfzhou/C-HOI) [[Paper]](https://arxiv.org/pdf/2003.04262.pdf)
 
-- PPDM (CVPR2020) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
+- PPDM (CVPR2020) [[Code]](https://github.com/YueLiao/PPDM) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
 
 - VSGNet (CVPR2020) [[Code]](https://github.com/ASMIftekhar/VSGNet) [[Paper]](https://vision.ece.ucsb.edu/sites/default/files/publications/vsgnet_spatial_attention_network_for_detecting_human_object_interactions_using_graph_convolutions_0.pdf)
 
