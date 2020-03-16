@@ -22,59 +22,59 @@ More...
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
-[1] PaStaNet (CVPR2020) [[Code]]() [[Paper]]() 
+- PaStaNet (CVPR2020) [[Code]]() [[Paper]]() 
 
-[2] Pairwise (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf)
+- Pairwise (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf)
 
-[3] Attentional Pooling for Action Recognition (NIPS2017) [[Code]](https://github.com/rohitgirdhar/AttentionalPoolingAction) [[Paper]](https://arxiv.org/pdf/1711.01467.pdf)
+- Attentional Pooling for Action Recognition (NIPS2017) [[Code]](https://github.com/rohitgirdhar/AttentionalPoolingAction) [[Paper]](https://arxiv.org/pdf/1711.01467.pdf)
 
-[4] Learning Models for Actions and Person-Object Interactions with Transfer to Question Answering (ECCV2016) [[Code]](https://uofi.box.com/s/yflrqbser1r5m3iez1satkprawmsouag) [[Paper]](https://arxiv.org/pdf/1604.04808.pdf)
+- Learning Models for Actions and Person-Object Interactions with Transfer to Question Answering (ECCV2016) [[Code]](https://uofi.box.com/s/yflrqbser1r5m3iez1satkprawmsouag) [[Paper]](https://arxiv.org/pdf/1604.04808.pdf)
 
-[5] Contextual Action Recognition with R\*CNN (ICCV2015) [[Code]](https://github.com/gkioxari/RstarCNN) [[Paper]](https://arxiv.org/pdf/1505.01197.pdf)
+- Contextual Action Recognition with R\*CNN (ICCV2015) [[Code]](https://github.com/gkioxari/RstarCNN) [[Paper]](https://arxiv.org/pdf/1505.01197.pdf)
 
-[6] HOCNN (ICCV2015) [[Code]](https://github.com/ywchao/hico_benchmark) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
+- HOCNN (ICCV2015) [[Code]](https://github.com/ywchao/hico_benchmark) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
 
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-[1] PaStaNet (CVPR2020) [[Code]]() [[Paper]]()
+- PaStaNet (CVPR2020) [[Code]]() [[Paper]]()
 
-[2] DJ-RN (CVPR2020) [[Code]]() [[Paper]]()
+- DJ-RN (CVPR2020) [[Code]]() [[Paper]]()
 
-[3] Cascaded Human-Object Interaction Recognition (CVPR2020) [[Code]](https://github.com/tfzhou/C-HOI) [[Paper]](https://arxiv.org/pdf/2003.04262.pdf)
+- Cascaded Human-Object Interaction Recognition (CVPR2020) [[Code]](https://github.com/tfzhou/C-HOI) [[Paper]](https://arxiv.org/pdf/2003.04262.pdf)
 
-[4] PPDM (CVPR2020) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
+- PPDM (CVPR2020) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
 
-[5] PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
+- VSGNet (CVPR2020) [[Paper]](https://vision.ece.ucsb.edu/sites/default/files/publications/vsgnet_spatial_attention_network_for_detecting_human_object_interactions_using_graph_convolutions_0.pdf)
 
-[6] No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
+- PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
 
-[7] Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy) [[Paper]](https://www.di.ens.fr/willow/research/analogy/paper.pdf)
+- No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
 
-[8] RPNN (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
+- Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy) [[Paper]](https://www.di.ens.fr/willow/research/analogy/paper.pdf)
 
-[8] Deep Contextual Attention for Human-Object Interaction Detection (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
+- RPNN (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
 
-[9] Interactiveness (CVPR2019) [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network) [[Paper]](https://arxiv.org/pdf/1811.08264.pdf)
+- Deep Contextual Attention for Human-Object Interaction Detection (ICCV2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)
 
-[10] GPNN (ECCV2018) [[Code]](https://github.com/SiyuanQi/gpnn) [[Paper]](https://arxiv.org/pdf/1808.07962.pdf)
+- Interactiveness (CVPR2019) [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network) [[Paper]](https://arxiv.org/pdf/1811.08264.pdf)
 
-[11] iCAN (BMVC2018) [[Code]](https://github.com/vt-vl-lab/iCAN) [[Paper]](https://arxiv.org/pdf/1808.10437.pdf)
+- GPNN (ECCV2018) [[Code]](https://github.com/SiyuanQi/gpnn) [[Paper]](https://arxiv.org/pdf/1808.07962.pdf)
 
-[12] InteractNet (CVPR2018) [[Paper]](https://arxiv.org/pdf/1704.07333.pdf)
+- iCAN (BMVC2018) [[Code]](https://github.com/vt-vl-lab/iCAN) [[Paper]](https://arxiv.org/pdf/1808.10437.pdf)
 
-[13] Scaling Human-Object Interaction Recognition through Zero-Shot Learning (WACV2018) [[Paper]](http://vision.stanford.edu/pdf/shen2018wacv.pdf)
+- InteractNet (CVPR2018) [[Paper]](https://arxiv.org/pdf/1704.07333.pdf)
 
-[14] HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
+- Scaling Human-Object Interaction Recognition through Zero-Shot Learning (WACV2018) [[Paper]](http://vision.stanford.edu/pdf/shen2018wacv.pdf)
 
-[15] VSGNet (Mar 2020) [[Paper]](https://vision.ece.ucsb.edu/sites/default/files/publications/vsgnet_spatial_attention_network_for_detecting_human_object_interactions_using_graph_convolutions_0.pdf)
+- HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf) 
 
-[15] Visual-Semantic Graph Attention Networks for Human-Object Interaction Detection (Mar 2020) [[Paper]](https://arxiv.org/pdf/2001.02302.pdf)
+- Visual-Semantic Graph Attention Networks for Human-Object Interaction Detection (Mar 2020) [[Paper]](https://arxiv.org/pdf/2001.02302.pdf)
 
-[16] Classifying All Interacting Pairs in a Single Shot (Jan 2020) [[Paper]](https://arxiv.org/pdf/2001.04360.pdf)
+- Classifying All Interacting Pairs in a Single Shot (Jan 2020) [[Paper]](https://arxiv.org/pdf/2001.04360.pdf)
 
-[17] Deep Contextual Attention for Human-Object Interaction Detection (Oct 2019) [[Paper]](https://arxiv.org/pdf/1910.07721.pdf)
+- Deep Contextual Attention for Human-Object Interaction Detection (Oct 2019) [[Paper]](https://arxiv.org/pdf/1910.07721.pdf)
 
 More...
 
