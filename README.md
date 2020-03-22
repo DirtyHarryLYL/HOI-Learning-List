@@ -98,7 +98,7 @@ Detector: COCO pre-trained
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
-|[VS-GATs]()|arxiv|19.66 |15.79 |20.81|-|-|-|
+|[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arxiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[DJ-RN]()| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[Interactiveness+PaStaNet\*]() (PaSta label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
