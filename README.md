@@ -1,5 +1,5 @@
 # HOI-Learning-List
-Some recent (2015-now) Human-Object Interaction Learing studies.
+Some recent (2015-now) Human-Object Interaction Learing studies. Let's keeping enriching it together! If you find any errors or problems, please feel free to comment.
 
 ## Dataset
 [1] HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/1904.06539.pdf)
@@ -80,7 +80,7 @@ More...
 
 ## Result
 
-HICO-DET:
+### HICO-DET:
 
 Detector: COCO pre-trained
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -99,7 +99,7 @@ Detector: COCO pre-trained
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
-|[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arxiv|19.66 |15.79 |20.81|-|-|-|
+|[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[DJ-RN]()| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[Interactiveness+PaStaNet\*]() (PaSta label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
@@ -112,7 +112,7 @@ Detector: COCO pre-trained and finetuned on HICO-DET train set (GT human-object 
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 
 
-V-COCO:
+### V-COCO:
 
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
