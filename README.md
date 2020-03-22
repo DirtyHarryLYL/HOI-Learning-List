@@ -105,7 +105,7 @@ Detector: COCO pre-trained
 |[Interactiveness+PaStaNet\*]() (PaSta label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
 |[Interactiveness+PaStaNet]() (PaSta label)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
 
-Detector: COCO pre-trained and finetuned on HICO-DET train set (GT human-object pair boxes)
+Detector: trained on HICO-DET train set (with GT human-object pair boxes)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[PPDM](https://arxiv.org/pdf/1912.12898.pdf) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
