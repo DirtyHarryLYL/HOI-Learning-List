@@ -81,6 +81,7 @@ More...
 ## Result
 
 HICO-DET:
+
 Detector: COCO pre-trained
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
