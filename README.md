@@ -128,3 +128,13 @@ Detector: COCO pre-trained and finetuned on HICO-DET train set (GT human-object 
 |[Interactiveness+PaStaNet]()| CVPR2020 | 51.0|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
+
+### HICO
+|Method| mAP |
+|:---:|:---:|
+[R\*CNN](https://arxiv.org/pdf/1505.01197.pdf) | 28.5 |
+[Girdhar et.al.](https://arxiv.org/pdf/1711.01467.pdf) |34.6|
+[Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
+[Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
+[Pairwise+PaStaNet\*]() (PaSta label)|45.9|
+[Pairwise+PaStaNet]() (PaSta label)|46.3|
