@@ -98,10 +98,10 @@ HICO-DET:
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
-|[PPDM](https://arxiv.org/pdf/1912.12898.pdf)|CVPR2020|21.10 |14.46| 23.09| -|-|-|
+|[PPDM(detector finetuned on train set)](https://arxiv.org/pdf/1912.12898.pdf)|CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[DJ-RN]()| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
-|[Interactiveness+PaStaNet\*]()| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
-|[Interactiveness+PaStaNet]()| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
+|[Interactiveness+PaStaNet\*]()(PaSta label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
+|[Interactiveness+PaStaNet]()(PaSta label)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
 
 
 V-COCO:
