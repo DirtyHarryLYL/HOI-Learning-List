@@ -102,8 +102,8 @@ Detector: COCO pre-trained
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[DJ-RN]()| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
-|[Interactiveness+PaStaNet\*]() (PaSta label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
-|[Interactiveness+PaStaNet]() (PaSta label)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
+|[Interactiveness+PaStaNet\*]() (with PaSta label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
+|[Interactiveness+PaStaNet]() (with PaSta label)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
 
 Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
