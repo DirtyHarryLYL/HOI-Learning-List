@@ -125,7 +125,7 @@ Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-o
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
-|[Interactiveness+PaStaNet]()| CVPR2020 | 51.0|
+|[Interactiveness+PaStaNet]() (with PaSta label)| CVPR2020 | 51.0|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 
@@ -136,5 +136,5 @@ Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-o
 [Girdhar et.al.](https://arxiv.org/pdf/1711.01467.pdf) |34.6|
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
-[Pairwise+PaStaNet\*]() (PaSta label)|45.9|
-[Pairwise+PaStaNet]() (PaSta label)|46.3|
+[Pairwise+PaStaNet\*]() ((with PaSta label))|45.9|
+[Pairwise+PaStaNet]() ((with PaSta label))|46.3|
