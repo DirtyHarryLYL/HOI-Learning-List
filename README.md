@@ -70,6 +70,8 @@ More...
 
 - HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf) 
 
+- HOID (Mar 2020)  [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
+
 - VS-GATs (Mar 2020) [[Paper]](https://arxiv.org/pdf/2001.02302.pdf)
 
 - Classifying All Interacting Pairs in a Single Shot (Jan 2020) [[Paper]](https://arxiv.org/pdf/2001.04360.pdf)
@@ -98,6 +100,7 @@ Detector: COCO pre-trained
 |[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|17.35| 12.78| 18.71|-|-|-|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
+|[HOID](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)| -| 17.85 |12.85 |19.34|-|-|-|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
