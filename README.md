@@ -128,7 +128,7 @@ Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-o
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
-|[Interactiveness+PaStaNet]() (with PaSta label)| CVPR2020 | 51.0|
+|[Interactiveness+PaStaNet]() (transfer learning)| CVPR2020 | 51.0|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 
