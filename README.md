@@ -1,5 +1,5 @@
 # HOI-Learning-List
-Some recent (2015-now) Human-Object Interaction Learing studies. Let's keeping enriching it together! If you find any errors or problems, please feel free to comment.
+Some recent (2015-now) Human-Object Interaction Learing studies. If you find any errors or problems, please feel free to comment.
 
 ## Dataset
 [1] HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/1904.06539.pdf)
