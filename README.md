@@ -105,15 +105,20 @@ Detector: COCO pre-trained
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[DJ-RN]()| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
-|[Interactiveness+PaStaNet\*]() (with PaSta label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
-|[Interactiveness+PaStaNet]() (with PaSta label)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
+
 
 Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[PPDM](https://arxiv.org/pdf/1912.12898.pdf) (one-stage) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
+|[PPDM](https://arxiv.org/pdf/1912.12898.pdf) (one-stage, paper) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
+|[PPDM](https://github.com/YueLiao/PPDM) (one-stage, github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 
+With extra supervision:
+|Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[Interactiveness+PaStaNet\*]() (with HAKE label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
+|[Interactiveness+PaStaNet]() (with HAKE label)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
 
 ### V-COCO:
 
@@ -128,9 +133,13 @@ Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-o
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
-|[Interactiveness+PaStaNet]() (transfer learning)| CVPR2020 | 51.0|
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
+
+With extra supervision:
+|Method| Pub | AP(role) |
+|:---:|:---:|:---:|
+|[Interactiveness+PaStaNet]() (HAKE transfer learning)| CVPR2020 | 51.0|
 
 ### HICO
 |Method| mAP |
@@ -139,5 +148,9 @@ Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-o
 [Girdhar et.al.](https://arxiv.org/pdf/1711.01467.pdf) |34.6|
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
-[Pairwise+PaStaNet\*]() ((with PaSta label))|45.9|
-[Pairwise+PaStaNet]() ((with PaSta label))|46.3|
+
+With extra supervision:
+|Method| mAP |
+|:---:|:---:|
+[Pairwise+PaStaNet\*]() ((with HAKE label))|45.9|
+[Pairwise+PaStaNet]() ((with HAKE label))|46.3|
