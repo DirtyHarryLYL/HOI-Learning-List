@@ -155,5 +155,5 @@ Enhanced with HAKE:
 |Method| mAP |
 |:---:|:---:|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
-[Pairwise+PaStaNet\*]() ((with HAKE label))|45.9|
-[Pairwise+PaStaNet]() ((with HAKE label))|46.3|
+[Pairwise+PaStaNet\*]() (with HAKE label)|45.9|
+[Pairwise+PaStaNet]() (with HAKE label)|46.3|
