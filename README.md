@@ -121,7 +121,7 @@ Enhanced with HAKE:
 |[Interactiveness+PaStaNet\*]() (with HAKE label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
 |[Interactiveness+PaStaNet]() (with HAKE label)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
 
-### V-COCO:
+### V-COCO: Scenario1
 
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
