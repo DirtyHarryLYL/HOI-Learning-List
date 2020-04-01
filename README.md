@@ -86,7 +86,7 @@ More...
 
 ### HICO-DET:
 
-Detector: COCO pre-trained
+#### 1) Detector: COCO pre-trained
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf)| WACV2018 |  6.46 | 4.24 | 7.12| - | - | - |
@@ -110,14 +110,14 @@ Detector: COCO pre-trained
 |[DJ-RN]()| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 
 
-Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
+#### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[PPDM](https://arxiv.org/pdf/1912.12898v1.pdf) (one-stage, paper) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[PPDM](https://github.com/YueLiao/PPDM) (one-stage, github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 
-Enhanced with HAKE:
+#### 3) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
@@ -126,6 +126,7 @@ Enhanced with HAKE:
 
 ### V-COCO: Scenario1
 
+#### 1) Detector: COCO pre-trained
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
 |[Gupta et al.](https://arxiv.org/pdf/1505.04474.pdf)|arXiv| 31.8|
@@ -141,13 +142,15 @@ Enhanced with HAKE:
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 
-Enhanced with HAKE:
+#### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Interactiveness+PaStaNet]() (HAKE transfer learning)| CVPR2020 | 51.0|
 
 ### HICO
+
+#### 1) Default
 |Method| mAP |
 |:---:|:---:|
 [R\*CNN](https://arxiv.org/pdf/1505.01197.pdf) | 28.5 |
@@ -155,7 +158,7 @@ Enhanced with HAKE:
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
 
-Enhanced with HAKE:
+#### 2) Enhanced with HAKE:
 |Method| mAP |
 |:---:|:---:|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
