@@ -46,6 +46,8 @@ More...
 
 - PPDM (CVPR2020) [[Code]](https://github.com/YueLiao/PPDM) [[Paper]](https://arxiv.org/pdf/1912.12898.pdf)
 
+- IP-Net (CVPR2020) [[Code]](https://github.com/vaesl/IP-Net) [[Paper]](https://arxiv.org/pdf/2003.14023.pdf)
+
 - VSGNet (CVPR2020) [[Code]](https://github.com/ASMIftekhar/VSGNet) [[Paper]](https://vision.ece.ucsb.edu/sites/default/files/publications/vsgnet_spatial_attention_network_for_detecting_human_object_interactions_using_graph_convolutions_0.pdf)
 
 - PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
@@ -102,6 +104,7 @@ Detector: COCO pre-trained
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
 |[HOID](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)| -| 17.85 |12.85 |19.34|-|-|-|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
+|[IP-Net](https://arxiv.org/pdf/2003.14023.pdf) | CVPR2020| 19.56 |12.79| 21.58 |22.05 |15.77 |23.92|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[DJ-RN]()| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
@@ -134,6 +137,7 @@ Enhanced with HAKE:
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
+|[IP-Net](https://arxiv.org/pdf/2003.14023.pdf)|CVPR2020|51.0|
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 
