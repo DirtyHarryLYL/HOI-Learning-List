@@ -38,7 +38,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- PaStaNet (CVPR2020) [[Code]]() [[Paper]]()
+- PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action) [Data](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
 - DJ-RN (CVPR2020) [[Code]]() [[Paper]]()
 
@@ -121,8 +121,8 @@ More...
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
-|[Interactiveness+PaStaNet\*]() (with HAKE label)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
-|[Interactiveness+PaStaNet]() (with HAKE label)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
+|[Interactiveness+HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
+|[Interactiveness+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
 
 ### V-COCO: Scenario1
 
@@ -146,7 +146,7 @@ More...
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
-|[Interactiveness+PaStaNet]() (HAKE transfer learning)| CVPR2020 | 51.0|
+|[Interactiveness+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 51.0|
 
 ### HICO
 
@@ -162,5 +162,5 @@ More...
 |Method| mAP |
 |:---:|:---:|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
-[Pairwise+PaStaNet\*]() (with HAKE label)|45.9|
-[Pairwise+PaStaNet]() (with HAKE label)|46.3|
+[Pairwise+HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action)|45.9|
+[Pairwise+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action)|46.3|
