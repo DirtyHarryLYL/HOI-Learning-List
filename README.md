@@ -120,6 +120,8 @@ More...
 #### 3) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84	|10.45	|16.15|	16.26	|11.33|	17.73|
+|[iCAN+HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 19.61	|17.29	|20.30|	22.10|	20.46|	22.59|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
 |[Interactiveness+HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
 |[Interactiveness+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
@@ -145,6 +147,8 @@ More...
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
+|[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| CVPR2019 | 45.3| 
+|[iCAN+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 49.2|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Interactiveness+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 51.0|
 
