@@ -165,6 +165,8 @@ More...
 #### 2) Enhanced with HAKE:
 |Method| mAP |
 |:---:|:---:|
+[Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
+[Mallya et.al.+HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) |45.0|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
 [Pairwise+HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action)|45.9|
 [Pairwise+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action)|46.3|
