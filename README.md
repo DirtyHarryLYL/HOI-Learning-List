@@ -40,7 +40,7 @@ More...
 
 - PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
-- DJ-RN (CVPR2020) [[Code]]() [[Paper]]()
+- DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]]()
 
 - Cascaded Human-Object Interaction Recognition (CVPR2020) [[Code]](https://github.com/tfzhou/C-HOI) [[Paper]](https://arxiv.org/pdf/2003.04262.pdf)
 
@@ -107,7 +107,7 @@ More...
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf) | CVPR2020| 19.56 |12.79| 21.58 |22.05 |15.77 |23.92|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
-|[DJ-RN]()| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
+|[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
