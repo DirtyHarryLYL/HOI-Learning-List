@@ -128,11 +128,12 @@ More...
 |[Interactiveness+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
 
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
+#### Detector: COCO pre-trained
 |Method| mAP |
 |:---:|:---:|
-|[iCAN](https://github.com/vt-vl-lab/iCAN)    | 8.14 |
-|[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)     | 8.22 |
-|[Julia et al.(reproduced)](https://github.com/jpeyre/analogy) | 9.72 |
+|[iCAN](https://github.com/vt-vl-lab/iCAN)| 8.14 |
+|[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| 8.22 |
+|[Julia et al.(reproduced)](https://github.com/jpeyre/analogy)| 9.72 |
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| 10.37 |
 
 
