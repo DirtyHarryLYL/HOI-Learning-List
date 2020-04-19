@@ -2,19 +2,21 @@
 Some recent (2015-now) Human-Object Interaction Learing studies. If you find any errors or problems, please feel free to comment.
 
 ## Dataset
-[1] HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
+- HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
-[2] HICO-DET (WACV2018) [[Website]](http://www-personal.umich.edu/~ywchao/hico/) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
+- Ambiguous-HOI [Website](https://github.com/DirtyHarryLYL/DJ-RN) [Paper](todo)
 
-[3] HCVRD (AAAI2018) [[Website]](https://bitbucket.org/jingruixiaozhuang/hcvrd-a-benchmark-for-large-scale-human-centered-visual/src/master/) [[Paper]](https://pdfs.semanticscholar.org/c94f/1aaf62f87d97dd579cb6451cb9149fb4967d.pdf)
+- HICO-DET (WACV2018) [[Website]](http://www-personal.umich.edu/~ywchao/hico/) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
 
-[4] V-COCO (May 2015) [[Website]](https://github.com/s-gupta/v-coco) [[Paper]](https://arxiv.org/pdf/1505.04474.pdf)
+- HCVRD (AAAI2018) [[Website]](https://bitbucket.org/jingruixiaozhuang/hcvrd-a-benchmark-for-large-scale-human-centered-visual/src/master/) [[Paper]](https://pdfs.semanticscholar.org/c94f/1aaf62f87d97dd579cb6451cb9149fb4967d.pdf)
 
-[5] HICO (ICCV2015) [[Website]](http://www-personal.umich.edu/~ywchao/hico/) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
+- V-COCO (May 2015) [[Website]](https://github.com/s-gupta/v-coco) [[Paper]](https://arxiv.org/pdf/1505.04474.pdf)
 
-[6] OpenImage [[Website]](https://visualgenome.org/) [[Paper]](https://arxiv.org/abs/1602.07332)
+- HICO (ICCV2015) [[Website]](http://www-personal.umich.edu/~ywchao/hico/) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
 
-[7] PIC [[Website]](http://picdataset.com/challenge/index/)
+- OpenImage [[Website]](https://visualgenome.org/) [[Paper]](https://arxiv.org/abs/1602.07332)
+
+- PIC [[Website]](http://picdataset.com/challenge/index/)
 
 More...
 
@@ -40,7 +42,7 @@ More...
 
 - PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
-- DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]]()
+- DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](todo)
 
 - Cascaded Human-Object Interaction Recognition (CVPR2020) [[Code]](https://github.com/tfzhou/C-HOI) [[Paper]](https://arxiv.org/pdf/2003.04262.pdf)
 
@@ -109,7 +111,6 @@ More...
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 
-
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -125,6 +126,15 @@ More...
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
 |[Interactiveness+HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
 |[Interactiveness+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
+
+### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
+|Method| mAP |
+|:---:|:---:|
+|[iCAN](https://github.com/vt-vl-lab/iCAN)    | 8.14 |
+|[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)     | 8.22 |
+|[Julia et al.(reproduced)](https://github.com/jpeyre/analogy) | 9.72 |
+|[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| 10.37 |
+
 
 ### V-COCO: Scenario1
 
