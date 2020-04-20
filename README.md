@@ -4,7 +4,7 @@ Some recent (2015-now) Human-Object Interaction Learing studies. If you find any
 ## Dataset
 - HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
-- Ambiguous-HOI [Website](https://github.com/DirtyHarryLYL/DJ-RN) [Paper](todo)
+- Ambiguous-HOI [Website](https://github.com/DirtyHarryLYL/DJ-RN) [Paper](https://arxiv.org/pdf/2004.08154.pdf)
 
 - HICO-DET (WACV2018) [[Website]](http://www-personal.umich.edu/~ywchao/hico/) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
 
@@ -42,7 +42,7 @@ More...
 
 - PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
-- DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](todo)
+- DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
 
 - Cascaded Human-Object Interaction Recognition (CVPR2020) [[Code]](https://github.com/tfzhou/C-HOI) [[Paper]](https://arxiv.org/pdf/2003.04262.pdf)
 
