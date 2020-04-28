@@ -4,7 +4,7 @@ Some recent (2015-now) Human-Object Interaction Learing studies. If you find any
 ## Dataset
 - HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
-- Ambiguous-HOI [[Website]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
+- Ambiguous-HOI (CVPR2020) [[Website]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
 
 - HICO-DET (WACV2018) [[Website]](http://www-personal.umich.edu/~ywchao/hico/) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)
 
