@@ -50,7 +50,7 @@ More...
 
 - IP-Net (CVPR2020) [[Code]](https://github.com/vaesl/IP-Net) [[Paper]](https://arxiv.org/pdf/2003.14023.pdf)
 
-- VSGNet (CVPR2020) [[Code]](https://github.com/ASMIftekhar/VSGNet) [[Paper]](https://vision.ece.ucsb.edu/sites/default/files/publications/vsgnet_spatial_attention_network_for_detecting_human_object_interactions_using_graph_convolutions_0.pdf)
+- VSGNet (CVPR2020) [[Code]](https://github.com/ASMIftekhar/VSGNet) [[Paper]](https://arxiv.org/pdf/2003.05541.pdf)
 
 - PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
 
