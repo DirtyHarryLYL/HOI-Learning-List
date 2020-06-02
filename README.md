@@ -52,6 +52,8 @@ More...
 
 - VSGNet (CVPR2020) [[Code]](https://github.com/ASMIftekhar/VSGNet) [[Paper]](https://arxiv.org/pdf/2003.05541.pdf)
 
+- HOID (CVPR2020)  [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
+
 - PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
 
 - No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
@@ -73,8 +75,6 @@ More...
 - Scaling Human-Object Interaction Recognition through Zero-Shot Learning (WACV2018) [[Paper]](http://vision.stanford.edu/pdf/shen2018wacv.pdf)
 
 - HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf) 
-
-- HOID (Mar 2020)  [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
 
 - VS-GATs (Mar 2020) [[Paper]](https://arxiv.org/pdf/2001.02302.pdf)
 
