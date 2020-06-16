@@ -38,6 +38,9 @@ More...
 
 More...
 
+#### Unseen or zero-shot learning (image-level recognition).
+- Compositional Learning for Human Object Interaction (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Keizo_Kato_Compositional_Learning_of_ECCV_2018_paper.pdf)
+
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
 - PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
@@ -52,7 +55,7 @@ More...
 
 - VSGNet (CVPR2020) [[Code]](https://github.com/ASMIftekhar/VSGNet) [[Paper]](https://arxiv.org/pdf/2003.05541.pdf)
 
-- HOID (CVPR2020)  [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
+- HOID (CVPR2020) [[Code]](https://github.com/scwangdyd/zero_shot_hoi) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
 
 - Diagnosing Rarity in Human-Object Interaction Detection (CVPRW2020) [[Paper]](https://arxiv.org/pdf/2006.05728.pdf)
 
@@ -91,6 +94,15 @@ More...
 - Novel Human-Object Interaction Detection via Adversarial Domain Generalization (May 2020) [[Paper]](https://arxiv.org/pdf/2005.11406.pdf)
 
 More...
+
+#### Unseen or zero-shot learning (instance-level detection).
+- HOID (CVPR2020) [[Code]](https://github.com/scwangdyd/zero_shot_hoi) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
+
+- Novel Human-Object Interaction Detection via Adversarial Domain Generalization (May 2020) [[Paper]](https://arxiv.org/pdf/2005.11406.pdf)
+
+- Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy) [[Paper]](https://www.di.ens.fr/willow/research/analogy/paper.pdf)
+
+- Functional (AAAI2020) [[Paper]](https://arxiv.org/pdf/1904.03181.pdf)
 
 ## Result
 
