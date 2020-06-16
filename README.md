@@ -54,6 +54,12 @@ More...
 
 - HOID (CVPR2020)  [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
 
+- Diagnosing Rarity in Human-Object Interaction Detection (CVPRW2020) [[Paper]](https://arxiv.org/pdf/2006.05728.pdf)
+
+- MLCNet (ICMR2020) [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)
+
+- SIGN (ICME2020) [[Paper]](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)
+
 - PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
 
 - No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
@@ -82,6 +88,8 @@ More...
 
 - Deep Contextual Attention for Human-Object Interaction Detection (Oct 2019) [[Paper]](https://arxiv.org/pdf/1910.07721.pdf)
 
+- Novel Human-Object Interaction Detection via Adversarial Domain Generalization (May 2020) [[Paper]](https://arxiv.org/pdf/2005.11406.pdf)
+
 More...
 
 ## Result
@@ -103,8 +111,10 @@ More...
 |[No-Frills](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)| ICCV2019 | 17.18 |12.17| 18.68 |-|-|-|
 |[RPNN](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Relation_Parsing_Neural_Network_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)|ICCV2019|17.35| 12.78| 18.71|-|-|-|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
+|[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|17.51| 15.31 |18.53 |20.49| 17.53| 21.51|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
 |[HOID](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)| -| 17.85 |12.85 |19.34|-|-|-|
+|[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020| 17.95 |16.62 |18.35|22.28 |20.73 |22.74|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf) | CVPR2020| 19.56 |12.79| 21.58 |22.05 |15.77 |23.92|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
@@ -154,6 +164,8 @@ More...
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf)|CVPR2020|51.0|
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
+|[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
+|[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
