@@ -41,6 +41,8 @@ More...
 #### Unseen or zero-shot learning (image-level recognition).
 - Compositional Learning for Human Object Interaction (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Keizo_Kato_Compositional_Learning_of_ECCV_2018_paper.pdf)
 
+More...
+
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
 - PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
@@ -105,6 +107,17 @@ More...
 - Functional (AAAI2020) [[Paper]](https://arxiv.org/pdf/1904.03181.pdf)
 
 - Scaling Human-Object Interaction Recognition through Zero-Shot Learning (WACV2018) [[Paper]](http://vision.stanford.edu/pdf/shen2018wacv.pdf)
+
+More...
+
+### Video HOI methods
+- Zero-Shot Generation of Human-Object Interaction Videos (Dec 2019) [[Paper]](https://arxiv.org/pdf/1912.02401.pdf)
+
+- Grounded Human-Object Interaction Hotspots from Video (ICCV2019) [[Code]](https://github.com/Tushar-N/interaction-hotspots) [[Paper]](https://arxiv.org/pdf/1812.04558.pdf)
+
+- GPNN (ECCV2018) [[Code]](https://github.com/SiyuanQi/gpnn) [[Paper]](https://arxiv.org/pdf/1808.07962.pdf)
+
+More...
 
 ## Result
 
