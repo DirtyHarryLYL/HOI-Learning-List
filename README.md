@@ -104,6 +104,8 @@ More...
 
 - Functional (AAAI2020) [[Paper]](https://arxiv.org/pdf/1904.03181.pdf)
 
+- Scaling Human-Object Interaction Recognition through Zero-Shot Learning (WACV2018) [[Paper]](http://vision.stanford.edu/pdf/shen2018wacv.pdf)
+
 ## Result
 
 ### HICO-DET:
