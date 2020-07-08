@@ -36,7 +36,7 @@ More...
 
 - HOCNN (ICCV2015) [[Code]](https://github.com/ywchao/hico_benchmark) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf)
 
--SGAP-Net (AAAI2020) [[Paper]](https://aaai.org/Papers/AAAI/2020GB/AAAI-JiZ.4799.pdf)
+- SGAP-Net (AAAI2020) [[Paper]](https://aaai.org/Papers/AAAI/2020GB/AAAI-JiZ.4799.pdf)
 
 More...
 
