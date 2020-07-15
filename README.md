@@ -67,6 +67,8 @@ More...
 
 - SIGN (ICME2020) [[Paper]](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)
 
+- In-GraphNet (IJCAI-PRICAI 2020) [[Paper]](https://arxiv.org/pdf/2007.06925.pdf)
+
 - PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
 
 - No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
@@ -142,6 +144,7 @@ More...
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|17.51| 15.31 |18.53 |20.49| 17.53| 21.51|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
+|[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|17.72 |12.93 |19.31|-|-|-|
 |[HOID](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)| -| 17.85 |12.85 |19.34|-|-|-|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020| 17.95 |16.62 |18.35|22.28 |20.73 |22.74|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
@@ -189,6 +192,7 @@ More...
 |[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)| ICCV2019|47.3|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
+|[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|48.9|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf)|CVPR2020|51.0|
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
