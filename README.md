@@ -113,7 +113,7 @@ More...
 More...
 
 ### Video HOI methods
-- Zero-Shot Generation of Human-Object Interaction Videos (Dec 2019) [[Paper]](https://arxiv.org/pdf/1912.02401.pdf)
+- Generating Videos of Zero-Shot Compositions of Actions and Objects (Jul 2020), HOI GAN, [[Paper]](https://arxiv.org/pdf/1912.02401.pdf)
 
 - Grounded Human-Object Interaction Hotspots from Video (ICCV2019) [[Code]](https://github.com/Tushar-N/interaction-hotspots) [[Paper]](https://arxiv.org/pdf/1812.04558.pdf)
 
