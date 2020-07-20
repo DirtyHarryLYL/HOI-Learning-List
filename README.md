@@ -47,6 +47,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- ACP (ECCV2020) [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/) [[Paper]](https://arxiv.org/pdf/2007.08728.pdf)
+
 - PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
 - DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
@@ -151,6 +153,7 @@ More...
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf) | CVPR2020| 19.56 |12.79| 21.58 |22.05 |15.77 |23.92|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
+|[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
@@ -198,6 +201,7 @@ More...
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
+|[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98/53.23|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 
 #### 2) Enhanced with HAKE:
