@@ -47,6 +47,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- VCL (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.12407.pdf) [[Code]](https://github.com/zhihou7/VCL)
+
 - Action-Guided Attention Mining and Relation Reasoning Network for Human-Object Interaction Detection (IJCAI2020) [[Paper]](https://www.ijcai.org/Proceedings/2020/0154.pdf)
 
 - ACP (ECCV2020) [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/) [[Paper]](https://arxiv.org/pdf/2007.08728.pdf)
@@ -106,6 +108,9 @@ More...
 More...
 
 #### Unseen or zero-shot learning (instance-level detection).
+
+- VCL (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.12407.pdf) [[Code]](https://github.com/zhihou7/VCL)
+
 - HOID (CVPR2020) [[Code]](https://github.com/scwangdyd/zero_shot_hoi) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
 
 - Novel Human-Object Interaction Detection via Adversarial Domain Generalization (May 2020) [[Paper]](https://arxiv.org/pdf/2005.11406.pdf)
@@ -153,6 +158,7 @@ More...
 |[HOID](https://github.com/scwangdyd/zero_shot_hoi)|CVPR2020| 17.85 |12.85 |19.34|-|-|-|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020| 17.95 |16.62 |18.35|22.28 |20.73 |22.74|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
+|[[VCL]](https://github.com/zhihou7/VCL)|ECCV2020|19.43 |16.55| 20.29| 22.00| 19.09| 22.87|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf) | CVPR2020| 19.56 |12.79| 21.58 |22.05 |15.77 |23.92|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
@@ -165,6 +171,7 @@ More...
 |[PPDM](https://arxiv.org/pdf/1912.12898v1.pdf) (one-stage, paper) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[PPDM](https://github.com/YueLiao/PPDM) (one-stage, github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
+|[[VCL]](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
 
 #### 3) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -198,6 +205,7 @@ More...
 |[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)| ICCV2019|47.3|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Lin et. al](https://www.ijcai.org/Proceedings/2020/0154.pdf)|IJCAI2020|48.1|
+|[[VCL]](https://github.com/zhihou7/VCL)|ECCV2020|48.3|
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
 |[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|48.9|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
@@ -205,7 +213,7 @@ More...
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
-|[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98/53.23|
+|[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (*53.23)|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 
 #### 2) Enhanced with HAKE:
