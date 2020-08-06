@@ -75,6 +75,8 @@ More...
 
 - In-GraphNet (IJCAI-PRICAI 2020) [[Paper]](https://arxiv.org/pdf/2007.06925.pdf)
 
+- Deep Contextual Attention for Human-Object Interaction Detection (ICCV2019) [[Paper]](https://arxiv.org/pdf/1910.07721.pdf)
+
 - PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
 
 - No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
@@ -97,13 +99,13 @@ More...
 
 - HO-RCNN (WACV2018) [[Code]](https://github.com/ywchao/ho-rcnn) [[Paper]](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf) 
 
-- VS-GATs (Mar 2020) [[Paper]](https://arxiv.org/pdf/2001.02302.pdf)
+- VS-GATs (Mar. 2020) [[Paper]](https://arxiv.org/pdf/2001.02302.pdf)
 
-- Classifying All Interacting Pairs in a Single Shot (Jan 2020) [[Paper]](https://arxiv.org/pdf/2001.04360.pdf)
+- Classifying All Interacting Pairs in a Single Shot (Jan. 2020) [[Paper]](https://arxiv.org/pdf/2001.04360.pdf)
 
-- Deep Contextual Attention for Human-Object Interaction Detection (Oct 2019) [[Paper]](https://arxiv.org/pdf/1910.07721.pdf)
+- Novel Human-Object Interaction Detection via Adversarial Domain Generalization (May. 2020) [[Paper]](https://arxiv.org/pdf/2005.11406.pdf)
 
-- Novel Human-Object Interaction Detection via Adversarial Domain Generalization (May 2020) [[Paper]](https://arxiv.org/pdf/2005.11406.pdf)
+- PMN (Jul. 2020) [[Paper]](https://arxiv.org/pdf/2008.02042.pdf) [[Code]](https://github.com/birlrobotics/PMN)
 
 More...
 
@@ -163,6 +165,7 @@ More...
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
+|[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
@@ -211,6 +214,7 @@ More...
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf)|CVPR2020|51.0|
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
+|[PMN](https://github.com/birlrobotics/PMN)|arXiv|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
