@@ -47,7 +47,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- PD-Net (ECCV2020) [[Paper]](https://www.researchgate.net/publication/343536295_Polysemy_Deciphering_Network_for_Human-Object_Interaction_Detection) [[Code]](https://github.com/MuchHair/PD-Net)
+- PD-Net (ECCV2020) [[Paper-1]](https://www.researchgate.net/publication/343536295_Polysemy_Deciphering_Network_for_Human-Object_Interaction_Detection) [[Paper-2]](https://arxiv.org/pdf/2008.02918.pdf) [[Code]](https://github.com/MuchHair/PD-Net)
 
 - VCL (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.12407.pdf) [[Code]](https://github.com/zhihou7/VCL)
 
