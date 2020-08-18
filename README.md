@@ -47,15 +47,23 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- UniDet (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)
+
+- DRG (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)
+
+- FCMNet (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)
+
+- Contextual Heterogeneous Graph Network for Human-Object Interaction Detection (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)
+
 - PD-Net (ECCV2020) [[Paper-1]](https://www.researchgate.net/publication/343536295_Polysemy_Deciphering_Network_for_Human-Object_Interaction_Detection) [[Paper-2]](https://arxiv.org/pdf/2008.02918.pdf) [[Code]](https://github.com/MuchHair/PD-Net)
 
 - VCL (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.12407.pdf) [[Code]](https://github.com/zhihou7/VCL)
 
+- ACP (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.08728.pdf) [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)
+
 - ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/YLiuEric/ConsNet)
 
 - Action-Guided Attention Mining and Relation Reasoning Network for Human-Object Interaction Detection (IJCAI2020) [[Paper]](https://www.ijcai.org/Proceedings/2020/0154.pdf)
-
-- ACP (ECCV2020) [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/) [[Paper]](https://arxiv.org/pdf/2007.08728.pdf)
 
 - PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
 
@@ -160,28 +168,33 @@ More...
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|17.51| 15.31 |18.53 |20.49| 17.53| 21.51|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
+|[Wang et.al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|17.57 |16.85| 17.78| 21.00| 20.74| 21.08|
 |[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|17.72 |12.93 |19.31|-|-|-|
 |[HOID](https://github.com/scwangdyd/zero_shot_hoi)|CVPR2020| 17.85 |12.85 |19.34|-|-|-|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020| 17.95 |16.62 |18.35|22.28 |20.73 |22.74|
+|[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|19.26 |17.74 |19.71 |23.40 |21.75 |23.89|
 |[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|19.43 |16.55| 20.29| 22.00| 19.09| 22.87|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf) | CVPR2020| 19.56 |12.79| 21.58 |22.05 |15.77 |23.92|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
+|[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|20.41 |17.34| 21.56| 22.04 |18.97| 23.12|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|22.15 |17.12 |23.65|-|-|-|
 
-#### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
+#### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[UniDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)|ECCV2020|17.58 |11.72 |19.33 |19.76 |14.68 |21.27|
 |[PPDM](https://arxiv.org/pdf/1912.12898v1.pdf) (one-stage, paper) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[PPDM](https://github.com/YueLiao/PPDM) (one-stage, github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
 |[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|24.39 |17.10 |26.56|-|-|-|
+|[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
 
 #### 3) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -213,6 +226,7 @@ More...
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 45.3| 
 |[Xu et. al](https://www-users.cs.umn.edu/~qzhao/publications/pdf/xu2019cvpr.pdf)| CVPR2019| 45.9|
 |[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)| ICCV2019|47.3|
+|[UniDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)|ECCV2020|47.5|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Lin et. al](https://www.ijcai.org/Proceedings/2020/0154.pdf)|IJCAI2020|48.1|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|48.3|
@@ -220,12 +234,15 @@ More...
 |[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|48.9|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf)|CVPR2020|51.0|
+|[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|51.0|
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|52.6|
+|[Wang et.al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|52.7|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
+|[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 
