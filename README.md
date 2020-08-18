@@ -51,7 +51,7 @@ More...
 
 - VCL (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.12407.pdf) [[Code]](https://github.com/zhihou7/VCL)
 
-- ConsNet (ACMMM2020) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/liu_mm20.pdf)
+- ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/YLiuEric/ConsNet)
 
 - Action-Guided Attention Mining and Relation Reasoning Network for Human-Object Interaction Detection (IJCAI2020) [[Paper]](https://www.ijcai.org/Proceedings/2020/0154.pdf)
 
@@ -172,7 +172,7 @@ More...
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
-|[ConsNet](https://cse.buffalo.edu/~jsyuan/papers/2020/liu_mm20.pdf)|ACMMM2020|22.15 |17.12 |23.65|-|-|-|
+|[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|22.15 |17.12 |23.65|-|-|-|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -181,7 +181,7 @@ More...
 |[PPDM](https://github.com/YueLiao/PPDM) (one-stage, github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
-|[ConsNet](https://cse.buffalo.edu/~jsyuan/papers/2020/liu_mm20.pdf)|ACMMM2020|24.39 |17.10 |26.56|-|-|-|
+|[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|24.39 |17.10 |26.56|-|-|-|
 
 #### 3) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -226,7 +226,7 @@ More...
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|52.6|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
-|[ConsNet](https://cse.buffalo.edu/~jsyuan/papers/2020/liu_mm20.pdf)|ACMMM2020|53.2|
+|[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 
 #### 2) Enhanced with HAKE:
