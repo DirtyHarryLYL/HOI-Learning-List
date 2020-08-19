@@ -189,8 +189,8 @@ More...
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[UniDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)|ECCV2020|17.58 |11.72 |19.33 |19.76 |14.68 |21.27|
-|[PPDM](https://arxiv.org/pdf/1912.12898v1.pdf) (one-stage, paper) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
-|[PPDM](https://github.com/YueLiao/PPDM) (one-stage, github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
+|[PPDM](https://arxiv.org/pdf/1912.12898v1.pdf) (paper) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
+|[PPDM](https://github.com/YueLiao/PPDM) (github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
 |[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|24.39 |17.10 |26.56|-|-|-|
