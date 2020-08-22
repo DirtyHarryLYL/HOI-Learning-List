@@ -138,6 +138,8 @@ More...
 More...
 
 ### Video HOI methods
+- LIGHTEN (ACMMM2020) [[Paper]](https://www.cse.iitb.ac.in/~rdabral/docs/acm_lighten.pdf) [[Code]](https://github.com/praneeth11009/LIGHTEN-Learning-Interactions-with-Graphs-and-Hierarchical-TEmporal-Networks-for-HOI)
+
 - Generating Videos of Zero-Shot Compositions of Actions and Objects (Jul 2020), HOI GAN, [[Paper]](https://arxiv.org/pdf/1912.02401.pdf)
 
 - Grounded Human-Object Interaction Hotspots from Video (ICCV2019) [[Code]](https://github.com/Tushar-N/interaction-hotspots) [[Paper]](https://arxiv.org/pdf/1812.04558.pdf)
