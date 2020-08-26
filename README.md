@@ -175,7 +175,7 @@ More...
 |[HOID](https://github.com/scwangdyd/zero_shot_hoi)|CVPR2020| 17.85 |12.85 |19.34|-|-|-|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020| 17.95 |16.62 |18.35|22.28 |20.73 |22.74|
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|19.26 |17.74 |19.71 |23.40 |21.75 |23.89|
-|[Julia et al.](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
+|[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|19.43 |16.55| 20.29| 22.00| 19.09| 22.87|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf) | CVPR2020| 19.56 |12.79| 21.58 |22.05 |15.77 |23.92|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
@@ -213,7 +213,7 @@ More...
 |:---:|:---:|
 |[iCAN](https://github.com/vt-vl-lab/iCAN)| 8.14 |
 |[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| 8.22 |
-|[Julia et al.(reproduced)](https://github.com/jpeyre/analogy)| 9.72 |
+|[Analogy (reproduced)](https://github.com/jpeyre/analogy)| 9.72 |
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| 10.37 |
 
 
