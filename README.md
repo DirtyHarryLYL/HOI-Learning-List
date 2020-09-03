@@ -43,6 +43,8 @@ More...
 #### Unseen or zero-shot learning (image-level recognition).
 - Compositional Learning for Human Object Interaction (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Keizo_Kato_Compositional_Learning_of_ECCV_2018_paper.pdf)
 
+- Zero-Shot Human-Object Interaction Recognition via Affordance Graphs (Sep. 2020) [[Paper]](https://arxiv.org/pdf/2009.01039.pdf)
+
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
@@ -123,11 +125,13 @@ More...
 
 #### Unseen or zero-shot learning (instance-level detection).
 
+- Zero-Shot Human-Object Interaction Recognition via Affordance Graphs (Sep. 2020) [[Paper]](https://arxiv.org/pdf/2009.01039.pdf)
+
 - VCL (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.12407.pdf) [[Code]](https://github.com/zhihou7/VCL)
 
 - HOID (CVPR2020) [[Code]](https://github.com/scwangdyd/zero_shot_hoi) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/05225.pdf)
 
-- Novel Human-Object Interaction Detection via Adversarial Domain Generalization (May 2020) [[Paper]](https://arxiv.org/pdf/2005.11406.pdf)
+- Novel Human-Object Interaction Detection via Adversarial Domain Generalization (May. 2020) [[Paper]](https://arxiv.org/pdf/2005.11406.pdf)
 
 - Analogy (ICCV2019) [[Code]](https://github.com/jpeyre/analogy) [[Paper]](https://www.di.ens.fr/willow/research/analogy/paper.pdf)
 
@@ -170,10 +174,11 @@ More...
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|17.51| 15.31 |18.53 |20.49| 17.53| 21.51|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
-|[Wang et.al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|17.57 |16.85| 17.78| 21.00| 20.74| 21.08|
+|[Wang et al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|17.57 |16.85| 17.78| 21.00| 20.74| 21.08|
 |[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|17.72 |12.93 |19.31|-|-|-|
 |[HOID](https://github.com/scwangdyd/zero_shot_hoi)|CVPR2020| 17.85 |12.85 |19.34|-|-|-|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020| 17.95 |16.62 |18.35|22.28 |20.73 |22.74|
+|[Sarullo et al.](https://arxiv.org/pdf/2009.01039.pdf)|arXiv|18.74|-|-|-|-|-|
 |[DRG](https://github.com/vt-vl-lab/DRG)|ECCV2020|19.26 |17.74 |19.71 |23.40 |21.75 |23.89|
 |[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|19.43 |16.55| 20.29| 22.00| 19.09| 22.87|
