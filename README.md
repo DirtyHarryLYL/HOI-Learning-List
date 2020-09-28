@@ -89,8 +89,6 @@ More...
 
 - In-GraphNet (IJCAI-PRICAI 2020) [[Paper]](https://arxiv.org/pdf/2007.06925.pdf)
 
-- Deep Contextual Attention for Human-Object Interaction Detection (ICCV2019) [[Paper]](https://arxiv.org/pdf/1910.07721.pdf)
-
 - PMFNet(ICCV2019) [[Code]](https://github.com/bobwan1995/PMFNet) [[Paper]](https://arxiv.org/abs/1909.08453)
 
 - No-Frills (ICCV2019) [[Code]](https://github.com/BigRedT/no_frills_hoi_det) [[Paper]](http://tanmaygupta.info/assets/img/no_frills/paper.pdf)
