@@ -121,6 +121,10 @@ More...
 
 - PMN (Jul. 2020) [[Paper]](https://arxiv.org/pdf/2008.02042.pdf) [[Code]](https://github.com/birlrobotics/PMN)
 
+- DIRV (Oct. 2020) [[Paper]](https://arxiv.org/pdf/2010.01005.pdf)
+
+- DecAug (Oct. 2020) [[Paper]](https://arxiv.org/pdf/2010.01007.pdf)
+
 More...
 
 #### Unseen or zero-shot learning (instance-level detection).
@@ -191,6 +195,7 @@ More...
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
+|[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| arXiv|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
 |[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|22.15 |17.12 |23.65|-|-|-|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector
@@ -254,6 +259,7 @@ More...
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
+|[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| arXiv|56.1|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
