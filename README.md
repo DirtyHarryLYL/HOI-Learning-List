@@ -49,6 +49,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- IDN (NeurIPS2020) [[Paper]]() [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))
+
 - UniDet (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)
 
 - DRG (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf) [[Code]](https://github.com/vt-vl-lab/DRG)
@@ -196,6 +198,7 @@ More...
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| arXiv|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
 |[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|22.15 |17.12 |23.65|-|-|-|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|22.47|23.63|26.43|25.01|26.85|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -208,8 +211,18 @@ More...
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
 |[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|24.39 |17.10 |26.56|-|-|-|
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 
-#### 3) Enhanced with HAKE:
+#### 3) Detector: Ground Truth human-object pair boxes
+|Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
+|:---:|:---:|:---:|:---:|:---:|
+|[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 33.38|  21.43 |36.95|
+|[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 |34.26|22.90 |37.65|
+|[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 |34.35 | 27.57 |36.38|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|43.98|40.27|45.09|
+
+
+#### 4) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84	|10.45	|16.15|	16.26	|11.33|	17.73|
@@ -258,8 +271,9 @@ More...
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
-|[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| arXiv|56.1|
+|[DIRV](https://arxiv.org/pdf/2010.01005.pdf)|arXiv|56.1|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
