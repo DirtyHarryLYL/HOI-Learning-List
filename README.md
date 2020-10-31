@@ -51,6 +51,8 @@ More...
 
 - IDN (NeurIPS2020) [[Paper]]() [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))
 
+- PFNet (CVM) [[Paper]](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)
+
 - UniDet (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)
 
 - DRG (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf) [[Code]](https://github.com/vt-vl-lab/DRG)
@@ -191,6 +193,7 @@ More...
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|19.43 |16.55| 20.29| 22.00| 19.09| 22.87|
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
+|[PFNet](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)|CVM|20.05 |16.66 |21.07| 24.01| 21.09| 24.89|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|20.41 |17.34| 21.56| 22.04 |18.97| 23.12|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
@@ -226,10 +229,10 @@ More...
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84	|10.45	|16.15|	16.26	|11.33|	17.73|
-|[iCAN+HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 19.61	|17.29	|20.30|	22.10|	20.46|	22.59|
+|[iCAN + HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 19.61	|17.29	|20.30|	22.10|	20.46|	22.59|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
-|[Interactiveness+HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
-|[Interactiveness+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
+|[Interactiveness + HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
+|[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
 
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
 #### Detector: COCO pre-trained
@@ -237,7 +240,7 @@ More...
 |:---:|:---:|
 |[iCAN](https://github.com/vt-vl-lab/iCAN)| 8.14 |
 |[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| 8.22 |
-|[Analogy (reproduced)](https://github.com/jpeyre/analogy)| 9.72 |
+|[Analogy(reproduced)](https://github.com/jpeyre/analogy)| 9.72 |
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| 10.37 |
 
 
@@ -267,6 +270,7 @@ More...
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|52.6|
 |[Wang et.al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|52.7|
+|[PFNet](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)|CVM|52.8|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
@@ -279,9 +283,9 @@ More...
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| CVPR2019 | 45.3| 
-|[iCAN+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 49.2|
+|[iCAN + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 49.2|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
-|[Interactiveness+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 51.0|
+|[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 51.0|
 
 ### HICO
 
