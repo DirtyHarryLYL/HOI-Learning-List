@@ -213,7 +213,7 @@ More...
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 
-#### 3) Detector: Ground Truth human-object pair boxes
+#### 3) Ground Truth human-object pair boxes
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
 |:---:|:---:|:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 33.38|  21.43 |36.95|
