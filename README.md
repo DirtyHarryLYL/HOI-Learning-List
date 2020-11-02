@@ -49,7 +49,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- IDN (NeurIPS2020) [[Paper]]() [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))
+- IDN (NeurIPS2020) [[Paper]](https://arxiv.org/pdf/2010.16219.pdf) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))
 
 - PFNet (CVM) [[Paper]](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)
 
