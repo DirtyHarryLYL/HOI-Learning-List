@@ -133,7 +133,7 @@ More...
 
 #### Unseen or zero-shot learning (instance-level detection).
 
-- Detecting Human-Object Interaction with Mixed Supervision (Nov. 2020) [Paper](https://arxiv.org/pdf/2011.04971v1.pdf)
+- Detecting Human-Object Interaction with Mixed Supervision (Nov. 2020) [[Paper]](https://arxiv.org/pdf/2011.04971v1.pdf)
 
 - Zero-Shot Human-Object Interaction Recognition via Affordance Graphs (Sep. 2020) [[Paper]](https://arxiv.org/pdf/2009.01039.pdf)
 
