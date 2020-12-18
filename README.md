@@ -51,6 +51,10 @@ More...
 
 - IDN (NeurIPS2020) [[Paper]](https://arxiv.org/pdf/2010.16219.pdf) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))
 
+- DIRV (AAAI2021) [[Paper]](https://arxiv.org/pdf/2010.01005.pdf)
+
+- DecAug (AAAI2021) [[Paper]](https://arxiv.org/pdf/2010.01007.pdf)
+
 - PFNet (CVM) [[Paper]](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)
 
 - UniDet (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)
@@ -125,9 +129,7 @@ More...
 
 - PMN (Jul. 2020) [[Paper]](https://arxiv.org/pdf/2008.02042.pdf) [[Code]](https://github.com/birlrobotics/PMN)
 
-- DIRV (Oct. 2020) [[Paper]](https://arxiv.org/pdf/2010.01005.pdf)
-
-- DecAug (Oct. 2020) [[Paper]](https://arxiv.org/pdf/2010.01007.pdf)
+- SAG (Dec 2020) [[Paper]](https://arxiv.org/pdf/2012.06060.pdf) [[Code]](https://github.com/fredzzhang/spatio-attentive-graphs)
 
 More...
 
@@ -189,6 +191,7 @@ More...
 |[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|17.72 |12.93 |19.31|-|-|-|
 |[HOID](https://github.com/scwangdyd/zero_shot_hoi)|CVPR2020| 17.85 |12.85 |19.34|-|-|-|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020| 17.95 |16.62 |18.35|22.28 |20.73 |22.74|
+|[SAG](https://github.com/fredzzhang/spatio-attentive-graphs)|arXiv| 18.26 |13.40 |19.71|-|-|-|
 |[Sarullo et al.](https://arxiv.org/pdf/2009.01039.pdf)|arXiv|18.74|-|-|-|-|-|
 |[DRG](https://github.com/vt-vl-lab/DRG)|ECCV2020|19.26 |17.74 |19.71 |23.40 |21.75 |23.89|
 |[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 | 19.40 |14.60| 20.90|-|-|-|
