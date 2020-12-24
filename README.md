@@ -131,6 +131,8 @@ More...
 
 - SAG (Dec 2020) [[Paper]](https://arxiv.org/pdf/2012.06060.pdf) [[Code]](https://github.com/fredzzhang/spatio-attentive-graphs)
 
+- SABRA (Dec 2020) [[Paper]](https://arxiv.org/pdf/2012.12510.pdf)
+
 More...
 
 #### Unseen or zero-shot learning (instance-level detection).
@@ -216,9 +218,12 @@ More...
 |[PPDM](https://arxiv.org/pdf/1912.12898v1.pdf) (paper) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[PPDM](https://github.com/YueLiao/PPDM) (github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
+|[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 23.48| 16.39| 25.59| 28.79| 22.75| 30.54|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
+|[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  24.12 |15.91| 26.57| 29.65| 22.92| 31.65|
 |[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|24.39 |17.10 |26.56|-|-|-|
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
+|[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 
 #### 3) Ground Truth human-object pair boxes
@@ -281,8 +286,11 @@ More...
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
+|[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
+|[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 54.69|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)|AAAI2021|56.1|
+|[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 56.62|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
