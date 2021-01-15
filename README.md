@@ -212,6 +212,7 @@ More...
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|22.47|23.63|26.43|25.01|26.85|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector
+Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness) and thus suppress many false miss pairings.
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[UniDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)|ECCV2020|17.58 |11.72 |19.33 |19.76 |14.68 |21.27|
@@ -227,7 +228,7 @@ More...
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 
-#### 3) Ground Truth human-object pair boxes
+#### 3) Ground Truth human-object pair boxes (only evaluating the HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
 |:---:|:---:|:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 33.38|  21.43 |36.95|
@@ -235,15 +236,14 @@ More...
 |[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 |34.35 | 27.57 |36.38|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|43.98|40.27|45.09|
 
-
 #### 4) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84	|10.45	|16.15|	16.26	|11.33|	17.73|
-|[iCAN + HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 19.61	|17.29	|20.30|	22.10|	20.46|	22.59|
+|[iCAN + HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 19.61 (**+4.77**)	|17.29	|20.30|	22.10|	20.46|	22.59|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
-|[Interactiveness + HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12|20.19|22.69|24.06|22.19|24.62|
-|[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66|21.17|23.09|24.53|23.00|24.99|
+|[Interactiveness + HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12 (**+5.09**)|20.19|22.69|24.06|22.19|24.62|
+|[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66 (**+5.63**)|21.17|23.09|24.53|23.00|24.99|
 
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
 #### Detector: COCO pre-trained
@@ -297,9 +297,9 @@ More...
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| CVPR2019 | 45.3| 
-|[iCAN + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 49.2|
+|[iCAN + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 49.2 (**+3.9**)|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
-|[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 51.0|
+|[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 51.0 (**+3.2**)|
 
 ### HICO
 
@@ -315,7 +315,7 @@ More...
 |Method| mAP |
 |:---:|:---:|
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
-[Mallya et.al.+HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) |45.0|
-[Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
-[Pairwise+HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action)|45.9|
-[Pairwise+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action)|46.3|
+[Mallya et.al.+HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) |45.0 (**+8.9**)|
+[Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9| 
+[Pairwise+HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action)|45.9 (**+6.0**)|
+[Pairwise+HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action)|46.3 (**+6.4**)|
