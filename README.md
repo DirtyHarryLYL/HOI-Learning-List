@@ -212,7 +212,7 @@ More...
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|22.47|23.63|26.43|25.01|26.85|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector
-Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppress many false wrong pairings and boost the performance.
+Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppress many wrong pairings (non-interactive human-object pairs) and boost the performance.
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[UniDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)|ECCV2020|17.58 |11.72 |19.33 |19.76 |14.68 |21.27|
