@@ -169,6 +169,18 @@ More...
 
 ## Result
 
+### [PaStaNet-HOI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network):
+Proposed by TIN (TPAMI version, Transferable Interactiveness Network).
+It is built on HAKE data, includes 110K+ images and 520 HOIs (without the 80 "no_interaction" HOIs of HICO-DET to avoid the incomplete labeling). 
+It has a more severe long-tailed data distribution thus is more difficult.
+
+#### Detector: COCO pre-trained
+|Method| mAP |
+|:---:|:---:|
+|iCAN|11.0|
+|[TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| 15.38|
+
+
 ### HICO-DET:
 
 #### 1) Detector: COCO pre-trained
