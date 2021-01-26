@@ -50,6 +50,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- TIN (TPAMI2021) [[Paper]](https://arxiv.org/pdf/2101.10292.pdf), [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)
+
 - IDN (NeurIPS2020) [[Paper]](https://arxiv.org/pdf/2010.16219.pdf) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))
 
 - DIRV (AAAI2021) [[Paper]](https://arxiv.org/pdf/2010.01005.pdf)
@@ -177,7 +179,8 @@ It has a more severe long-tailed data distribution thus is more difficult.
 #### Detector: COCO pre-trained
 |Method| mAP |
 |:---:|:---:|
-|iCAN|11.0|
+|iCAN|11.00|
+|iCAN+NIS|13.13|
 |[TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| 15.38|
 
 
@@ -217,6 +220,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|20.41 |17.34| 21.56| 22.04 |18.97| 23.12|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
+|[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|20.93	|18.95|	21.32|	23.02|	20.96|	23.42|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
@@ -285,7 +289,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|48.3|
 |[Zhou et. al.](https://arxiv.org/pdf/2003.04262.pdf) |CVPR2020|48.9|
 |[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|48.9|
-|[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0	|
+|[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 49.0|
+|[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|49.1|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf)|CVPR2020|51.0|
 |[DRG](https://github.com/vt-vl-lab/DRG)|ECCV2020|51.0|
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
