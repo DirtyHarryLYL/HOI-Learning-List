@@ -244,7 +244,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 
-#### 3) Ground Truth human-object pair boxes (only evaluating the HOI recognition)
+#### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
 |:---:|:---:|:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 33.38|  21.43 |36.95|
