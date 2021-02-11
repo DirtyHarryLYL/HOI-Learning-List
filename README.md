@@ -1,6 +1,8 @@
 # HOI-Learning-List
 Some recent (2015-now) Human-Object Interaction Learing studies. If you find any errors or problems, please feel free to comment.
 
+A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transformer-in-Vision.
+
 ## Dataset
 - HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf) [[HAKE-Action-Torch]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch) [[HAKE-Action-TF]](https://github.com/DirtyHarryLYL/HAKE-Action)
 
