@@ -4,7 +4,7 @@ Some recent (2015-now) Human-Object Interaction Learing studies. If you find any
 A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transformer-in-Vision.
 
 ## Dataset
-- HAKE (CVPR2020) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf) [[HAKE-Action-Torch]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch) [[HAKE-Action-TF]](https://github.com/DirtyHarryLYL/HAKE-Action)
+- HAKE (CVPR2020) [[Demo]](https://t.co/hXiAYPXEuL?amp=1) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf) [[HAKE-Action-Torch]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch) [[HAKE-Action-TF]](https://github.com/DirtyHarryLYL/HAKE-Action)
 
 - Ambiguous-HOI (CVPR2020) [[Website]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
 
@@ -27,7 +27,7 @@ More...
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
 - PaStaNet: Toward Human Activity Knowledge Engine 
-(CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
+(CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf) [[Demo]](https://t.co/hXiAYPXEuL?amp=1)
 
 - Pairwise (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf)
 
@@ -80,7 +80,7 @@ More...
 
 - Action-Guided Attention Mining and Relation Reasoning Network for Human-Object Interaction Detection (IJCAI2020) [[Paper]](https://www.ijcai.org/Proceedings/2020/0154.pdf)
 
-- PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf)
+- PaStaNet (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf) [[Demo]](https://t.co/hXiAYPXEuL?amp=1)
 
 - DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
 
