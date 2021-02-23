@@ -60,6 +60,8 @@ More...
 
 - DecAug (AAAI2021) [[Paper]](https://arxiv.org/pdf/2010.01007.pdf)
 
+- OSGNet (IEEE Access) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)
+
 - PFNet (CVM) [[Paper]](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)
 
 - UniDet (ECCV2020) [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)
@@ -225,6 +227,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|20.93	|18.95|	21.32|	23.02|	20.96|	23.42|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
+|[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
 |[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|22.15 |17.12 |23.65|-|-|-|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|22.47|23.63|26.43|25.01|26.85|
@@ -306,6 +309,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
+|[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|53.43|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 54.69|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
