@@ -4,6 +4,9 @@ Some recent (2015-now) Human-Object Interaction Learing studies. If you find any
 A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transformer-in-Vision.
 
 ## Dataset
+
+- PaStaNet-HOI (TPAMI2021) [[Benchmark]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network/tree/master/PaStaNet-HOI_Benckmark)
+
 - HAKE (CVPR2020) [[YouTube]](https://t.co/hXiAYPXEuL?amp=1) [[bilibili]](https://www.bilibili.com/video/BV1s54y1Y76s) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf) [[HAKE-Action-Torch]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch) [[HAKE-Action-TF]](https://github.com/DirtyHarryLYL/HAKE-Action)
 
 - Ambiguous-HOI (CVPR2020) [[Website]](https://github.com/DirtyHarryLYL/DJ-RN) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
@@ -51,6 +54,12 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- AS-Net (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.05983.pdf), [[Code]](https://github.com/yoyomimi/AS-Net)
+
+- End-to-End Human Object Interaction Detection with HOI Transformer (CVPR2021), [[Paper]](https://arxiv.org/pdf/2103.04503.pdf), [[Code]](https://github.com/bbepoch/HoiTransformer)
+
+- QPIC (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.05399.pdf), [[Code]](https://github.com/hitachi-rd-cv/qpic)
 
 - TIN (TPAMI2021) [[Paper]](https://arxiv.org/pdf/2101.10292.pdf), [[Code]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)
 
@@ -248,6 +257,10 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
+|[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
+|[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |24.25 |30.25 |31.74 |27.07 |33.14|
+|[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
+|[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -278,7 +291,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 
 ### V-COCO: Scenario1
 
-#### 1) Detector: COCO pre-trained
+#### 1) Detector: COCO pre-trained or one-stage detector
 |Method| Pub | AP(role) |
 |:---:|:---:|:---:|
 |[Gupta et al.](https://arxiv.org/pdf/1505.04474.pdf)|arXiv| 31.8|
@@ -304,6 +317,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|52.6|
 |[Wang et.al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|52.7|
 |[PFNet](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)|CVM|52.8|
+|[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|52.9|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
@@ -311,10 +325,13 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|53.43|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
+|[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|53.9|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 54.69|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)|AAAI2021|56.1|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 56.62|
+|[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
+|[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
