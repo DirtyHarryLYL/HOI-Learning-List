@@ -47,6 +47,7 @@ More...
 More...
 
 #### Unseen or zero-shot learning (image-level recognition).
+
 - Compositional Learning for Human Object Interaction (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Keizo_Kato_Compositional_Learning_of_ECCV_2018_paper.pdf)
 
 - Zero-Shot Human-Object Interaction Recognition via Affordance Graphs (Sep. 2020) [[Paper]](https://arxiv.org/pdf/2009.01039.pdf)
@@ -54,6 +55,8 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
 
 - AS-Net (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.05983.pdf), [[Code]](https://github.com/yoyomimi/AS-Net)
 
@@ -153,6 +156,8 @@ More...
 
 #### Unseen or zero-shot learning (instance-level detection).
 
+- FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
+
 - Detecting Human-Object Interaction with Mixed Supervision (WACV 2021) [[Paper]](https://arxiv.org/pdf/2011.04971v1.pdf)
 
 - Zero-Shot Human-Object Interaction Recognition via Affordance Graphs (Sep. 2020) [[Paper]](https://arxiv.org/pdf/2009.01039.pdf)
@@ -194,7 +199,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |:---:|:---:|
 |iCAN|11.00|
 |iCAN+NIS|13.13|
-|[TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| 15.38|
+|[TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| **15.38**|
 
 
 ### HICO-DET:
@@ -237,9 +242,9 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
-|[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
-|[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|22.15 |17.12 |23.65|-|-|-|
-|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|22.47|23.63|26.43|25.01|26.85|
+|[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| **26.92**|
+|[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|22.15 |17.12 |**23.65**|-|-|-|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|**23.36**|**22.47**|23.63|**26.43**|**25.01**|26.85|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector
 Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppress many wrong pairings (non-interactive human-object pairs) and boost the performance.
@@ -258,9 +263,10 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
-|[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |24.25 |30.25 |31.74 |27.07 |33.14|
+|[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |**24.25** |30.25 |31.74 |**27.07** |33.14|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
-|[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
+|[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
+|[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|**29.90** |23.92 |**31.69** |**32.38** |26.06 |**34.27**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -268,7 +274,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 33.38|  21.43 |36.95|
 |[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 |34.26|22.90 |37.65|
 |[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 |34.35 | 27.57 |36.38|
-|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|43.98|40.27|45.09|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|43.98|**40.27**|45.09|
+|[FCL](https://github.com/zhihou7/FCL)|CVPR2021|**45.25**|36.27 |**47.94**|
 
 #### 4) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -286,7 +293,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[iCAN](https://github.com/vt-vl-lab/iCAN)| 8.14 |
 |[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| 8.22 |
 |[Analogy(reproduced)](https://github.com/jpeyre/analogy)| 9.72 |
-|[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| 10.37 |
+|[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| **10.37** |
 
 
 ### V-COCO: Scenario1
@@ -314,6 +321,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
+|[FCL](https://github.com/zhihou7/FCL)|CVPR2021|52.35|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|52.6|
 |[Wang et.al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|52.7|
 |[PFNet](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)|CVM|52.8|
@@ -331,7 +339,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)|AAAI2021|56.1|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 56.62|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
-|[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
+|[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| **58.8**|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
@@ -349,7 +357,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 [R\*CNN](https://arxiv.org/pdf/1505.01197.pdf) | 28.5 |
 [Girdhar et.al.](https://arxiv.org/pdf/1711.01467.pdf) |34.6|
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
-[Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9 | 
+[Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |**39.9** | 
 
 #### 2) Enhanced with HAKE:
 |Method| mAP |
