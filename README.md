@@ -56,6 +56,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+**HICO-DET Python API**: A general Python toolkit for the HICO-DET dataset, including APIs for data loading & processing, human-object pair IoU & NMS calculation, and standard evaluation. [[Code]](https://github.com/yeliudev/ConsNet) [[Documentation]](https://consnet.readthedocs.io/)
+
 - FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
 
 - AS-Net (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.05983.pdf), [[Code]](https://github.com/yoyomimi/AS-Net)
@@ -90,7 +92,7 @@ More...
 
 - ACP (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.08728.pdf) [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)
 
-- ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/YLiuEric/ConsNet)
+- ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/yeliudev/ConsNet)
 
 - Action-Guided Attention Mining and Relation Reasoning Network for Human-Object Interaction Detection (IJCAI2020) [[Paper]](https://www.ijcai.org/Proceedings/2020/0154.pdf)
 
@@ -159,6 +161,8 @@ More...
 - FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
 
 - Detecting Human-Object Interaction with Mixed Supervision (WACV 2021) [[Paper]](https://arxiv.org/pdf/2011.04971v1.pdf)
+
+- ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/yeliudev/ConsNet)
 
 - Zero-Shot Human-Object Interaction Recognition via Affordance Graphs (Sep. 2020) [[Paper]](https://arxiv.org/pdf/2009.01039.pdf)
 
@@ -242,9 +246,9 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
-|[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| **26.92**|
-|[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|22.15 |17.12 |**23.65**|-|-|-|
-|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|**23.36**|**22.47**|23.63|**26.43**|**25.01**|26.85|
+|[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
+|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|22.15|17.55|23.52|26.57|20.8|**28.3**|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|**23.36**|**22.47**|**23.63**|**26.43**|**25.01**|26.85|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector
 Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppress many wrong pairings (non-interactive human-object pairs) and boost the performance.
@@ -258,8 +262,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 23.48| 16.39| 25.59| 28.79| 22.75| 30.54|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  24.12 |15.91| 26.57| 29.65| 22.92| 31.65|
-|[ConsNet](https://github.com/YLiuEric/ConsNet)|ACMMM2020|24.39 |17.10 |26.56|-|-|-|
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
+|[ConsNet-F](https://github.com/yeliudev/ConsNet)|ACMMM2020|25.94|19.35|27.91|30.34|23.4|32.41|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
@@ -275,7 +279,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 |34.26|22.90 |37.65|
 |[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 |34.35 | 27.57 |36.38|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|43.98|**40.27**|45.09|
-|[FCL](https://github.com/zhihou7/FCL)|CVPR2021|**45.25**|36.27 |**47.94**|
+|[FCL](https://github.com/zhihou7/FCL)|CVPR2021|45.25|36.27 |47.94|
+|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|**57.3**|
 
 #### 4) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -285,6 +290,32 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 17.03 | 13.42| 18.11| 19.17| 15.51|20.26|
 |[Interactiveness + HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12 (**+5.09**)|20.19|22.69|24.06|22.19|24.62|
 |[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66 (**+5.63**)|21.17|23.09|24.53|23.00|24.99|
+
+#### 5) Zero-Shot HOI detection:
+
+##### Unseen action-object combination scenario (UC)
+
+| Method | Pub | Detector | Full(def) | Seen(def) | Unseen(def)|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf) | WACV2018 | COCO | 6.26 | - | 5.62 |
+| [Functional](https://arxiv.org/pdf/1904.03181.pdf) | AAAI2020 | HICO-DET | 12.45 ± 0.16 | 12.74 ± 0.34 | 11.31 ± 1.03 |
+| [VCL](https://github.com/zhihou7/VCL) | ECCV2020 | HICO-DET | 18.06 | 18.52 | 16.22 |
+| [FCL](https://github.com/zhihou7/FCL) | CVPR2021 | HICO-DET | 19.37 | 19.55 | **18.66** |
+| [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **19.81 ± 0.32** | **20.51 ± 0.62** | 16.99 ± 1.67 |
+
+##### Unseen object scenario (UO)
+
+| Method | Pub | Detector | Full(def) | Seen(def) | Unseen(def)|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [Functional](https://arxiv.org/pdf/1904.03181.pdf) | AAAI2020 | HICO-DET | 13.84 | 14.36 | 11.22 |
+| [FCL](https://github.com/zhihou7/FCL) | CVPR2021 | HICO-DET | 19.87 | 20.74 | 15.54 |
+| [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **20.71** | **20.99** | **19.27** |
+
+##### Unseen action scenario (UA)
+
+| Method | Pub | Detector | Full(def) | Seen(def) | Unseen(def)|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **19.04** | **20.02** | **14.12** |
 
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
 #### Detector: COCO pre-trained
