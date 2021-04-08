@@ -5,6 +5,8 @@ A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transf
 
 ## Dataset
 
+- HOI-COCO (CVPR2021) [[Website]](https://github.com/zhihou7/HOI-CL)
+
 - PaStaNet-HOI (TPAMI2021) [[Benchmark]](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network/tree/master/PaStaNet-HOI_Benckmark)
 
 - HAKE (CVPR2020) [[YouTube]](https://t.co/hXiAYPXEuL?amp=1) [[bilibili]](https://www.bilibili.com/video/BV1s54y1Y76s) [[Website]](http://hake-mvig.cn/home/) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf) [[HAKE-Action-Torch]](https://github.com/DirtyHarryLYL/HAKE-Action-Torch) [[HAKE-Action-TF]](https://github.com/DirtyHarryLYL/HAKE-Action)
@@ -56,6 +58,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- ATL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2104.02867.pdf), [[Code]](https://github.com/zhihou7/HOI-CL)
+
 - FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
 
 - AS-Net (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.05983.pdf), [[Code]](https://github.com/yoyomimi/AS-Net)
@@ -91,7 +95,6 @@ More...
 - ACP (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.08728.pdf) [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)
 
 - ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/yeliudev/ConsNet), **HICO-DET Python API**: A general Python toolkit for the HICO-DET dataset, including APIs for data loading & processing, human-object pair IoU & NMS calculation, and standard evaluation. [[Code]](https://github.com/yeliudev/ConsNet) [[Documentation]](https://consnet.readthedocs.io/)
-
 
 - Action-Guided Attention Mining and Relation Reasoning Network for Human-Object Interaction Detection (IJCAI2020) [[Paper]](https://www.ijcai.org/Proceedings/2020/0154.pdf)
 
@@ -156,6 +159,8 @@ More...
 More...
 
 #### Unseen or zero-shot learning (instance-level detection).
+
+- ATL (CVPR2021)  [[Paper]](https://arxiv.org/pdf/2104.02867.pdf), [[Code]](https://github.com/zhihou7/HOI-CL)
 
 - FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
 
@@ -238,6 +243,8 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[PFNet](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)|CVM|20.05 |16.66 |21.07| 24.01| 21.09| 24.89|
+|[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021 |20.08| 15.57| 21.43|-|-|-|
+|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|21.07 |16.79| 22.35|-|-|-|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|20.41 |17.34| 21.56| 22.04 |18.97| 23.12|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
@@ -266,6 +273,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
+|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|27.68 |20.31 |29.89 |30.05 |22.40 |32.34|
+|[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|28.53 |21.64| 30.59| 31.18| 24.15| 33.29|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |**24.25** |30.25 |31.74 |**27.07** |33.14|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
@@ -277,7 +286,9 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 33.38|  21.43 |36.95|
 |[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 |34.26|22.90 |37.65|
 |[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 |34.35 | 27.57 |36.38|
+|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|43.32 |33.84| 46.15|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|43.98|**40.27**|45.09|
+|[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|44.27| 35.52| 46.89|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|45.25|36.27 |47.94|
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|**57.3**|
 
@@ -299,6 +310,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf) | WACV2018 | COCO | 6.26 | - | 5.62 |
 | [Functional](https://arxiv.org/pdf/1904.03181.pdf) | AAAI2020 | HICO-DET | 12.45 ± 0.16 | 12.74 ± 0.34 | 11.31 ± 1.03 |
 | [VCL](https://github.com/zhihou7/VCL) | ECCV2020 | HICO-DET | 18.06 | 18.52 | 16.22 |
+| [ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021| HICO-DET |18.67|18.78|18.25|
 | [FCL](https://github.com/zhihou7/FCL) | CVPR2021 | HICO-DET | 19.37 | 19.55 | **18.66** |
 | [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **19.81 ± 0.32** | **20.51 ± 0.62** | 16.99 ± 1.67 |
 
@@ -378,6 +390,15 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[iCAN + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 49.2 (**+3.9**)|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 51.0 (**+3.2**)|
+
+### [HOI-COCO](https://github.com/zhihou7/HOI-CL): 
+based on V-COCO
+
+| Method | Pub | Full | Seen | Unseen|
+|:---:|:---:|:---:|:---:|:---:|
+|[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.53 |8.29| 35.36|
+|[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|23.40 |8.01 |35.34|
+
 
 ### HICO
 
