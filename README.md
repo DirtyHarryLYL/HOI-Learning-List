@@ -56,8 +56,6 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-**HICO-DET Python API**: A general Python toolkit for the HICO-DET dataset, including APIs for data loading & processing, human-object pair IoU & NMS calculation, and standard evaluation. [[Code]](https://github.com/yeliudev/ConsNet) [[Documentation]](https://consnet.readthedocs.io/)
-
 - FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
 
 - AS-Net (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.05983.pdf), [[Code]](https://github.com/yoyomimi/AS-Net)
@@ -92,7 +90,8 @@ More...
 
 - ACP (ECCV2020) [[Paper]](https://arxiv.org/pdf/2007.08728.pdf) [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)
 
-- ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/yeliudev/ConsNet)
+- ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/yeliudev/ConsNet), **HICO-DET Python API**: A general Python toolkit for the HICO-DET dataset, including APIs for data loading & processing, human-object pair IoU & NMS calculation, and standard evaluation. [[Code]](https://github.com/yeliudev/ConsNet) [[Documentation]](https://consnet.readthedocs.io/)
+
 
 - Action-Guided Attention Mining and Relation Reasoning Network for Human-Object Interaction Detection (IJCAI2020) [[Paper]](https://www.ijcai.org/Proceedings/2020/0154.pdf)
 
