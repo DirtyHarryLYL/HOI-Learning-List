@@ -58,6 +58,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- GGNet (CVPR2021) [[Paper]](https://arxiv.org/pdf/2104.05269.pdf), [[Code]](https://github.com/SherlockHolmes221/GGNet)
+
 - ATL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2104.02867.pdf), [[Code]](https://github.com/zhihou7/HOI-CL)
 
 - FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
@@ -278,7 +280,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |**24.25** |30.25 |31.74 |**27.07** |33.14|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
-|[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|**29.90** |23.92 |**31.69** |**32.38** |26.06 |**34.27**|
+|[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |**33.50**| 26.67 |**34.89**|
+|[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|**29.90** |23.92 |**31.69** |32.38 |26.06 |34.27|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -377,6 +380,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|53.9|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 54.69|
+|[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|54.7|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)|AAAI2021|56.1|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 56.62|
