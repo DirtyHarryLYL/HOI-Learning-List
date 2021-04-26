@@ -29,6 +29,11 @@ More...
 
 ## Method
 
+### HOI Image Generation
+- Exploiting Relationship for Complex-scene Image Generation (arXiv 2021.04), [[Paper]](https://arxiv.org/pdf/2104.00356.pdf)
+
+- Specifying Object Attributes and Relations in Interactive Scene Generation (arXiv 2019.11), [[Paper]](https://arxiv.org/pdf/1909.05379.pdf)
+
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
 - PaStaNet: Toward Human Activity Knowledge Engine 
