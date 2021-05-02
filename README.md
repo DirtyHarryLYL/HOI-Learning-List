@@ -30,9 +30,9 @@ More...
 ## Method
 
 ### HOI Image Generation
-- Exploiting Relationship for Complex-scene Image Generation (arXiv 2021.04), [[Paper]](https://arxiv.org/pdf/2104.00356.pdf)
+- Exploiting Relationship for Complex-scene Image Generation (arXiv 2021.04) [[Paper]](https://arxiv.org/pdf/2104.00356.pdf)
 
-- Specifying Object Attributes and Relations in Interactive Scene Generation (arXiv 2019.11), [[Paper]](https://arxiv.org/pdf/1909.05379.pdf)
+- Specifying Object Attributes and Relations in Interactive Scene Generation (arXiv 2019.11) [[Paper]](https://arxiv.org/pdf/1909.05379.pdf)
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
@@ -168,6 +168,7 @@ More...
 More...
 
 #### Unseen or zero-shot learning (instance-level detection).
+- DGIG-Net (TOC2021) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9352497)
 
 - ATL (CVPR2021)  [[Paper]](https://arxiv.org/pdf/2104.02867.pdf), [[Code]](https://github.com/zhihou7/HOI-CL)
 
