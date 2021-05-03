@@ -63,6 +63,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- RR-Net (arXiv 2021.5) [[Paper]](https://arxiv.org/pdf/2104.15015.pdf)
+
 - HOTR (CVPR2021) [[Paper]](https://arxiv.org/pdf/2104.13682.pdf)
 
 - GGNet (CVPR2021) [[Paper]](https://arxiv.org/pdf/2104.05269.pdf), [[Code]](https://github.com/SherlockHolmes221/GGNet)
@@ -272,12 +274,13 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[UniDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)|ECCV2020|17.58 |11.72 |19.33 |19.76 |14.68 |21.27|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf) | CVPR2020| 19.56 |12.79| 21.58 |22.05 |15.77 |23.92|
+|[RR-Net](https://arxiv.org/pdf/2104.15015.pdf)|arXiv|20.72 |13.21 |22.97| -|-|-|
 |[PPDM](https://arxiv.org/pdf/1912.12898v1.pdf) (paper) |CVPR2020|21.10 |14.46| 23.09| -|-|-|
 |[PPDM](https://github.com/YueLiao/PPDM) (github-hourglass104) |CVPR2020|21.73/21.94	|13.78/13.97	|24.10/24.32	|24.58/24.81|	16.65/17.09|	26.84/27.12|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 23.48| 16.39| 25.59| 28.79| 22.75| 30.54|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
-|[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv|  24.12 |15.91| 26.57| 29.65| 22.92| 31.65|
+|[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 24.12 |15.91| 26.57| 29.65| 22.92| 31.65|
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
 |[HOTR](https://arxiv.org/pdf/2104.13682.pdf)|CVPR2021|25.10| 17.34| 27.42| -|-|-|
 |[ConsNet-F](https://github.com/yeliudev/ConsNet)|ACMMM2020|25.94|19.35|27.91|30.34|23.4|32.41|
@@ -388,6 +391,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|53.43|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|53.9|
+|[RR-Net](https://arxiv.org/pdf/2104.15015.pdf)|arXiv|54.2|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 54.69|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|54.7|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
