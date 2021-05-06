@@ -63,6 +63,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- PST (arXiv 2021.5) [[Paper]](https://arxiv.org/pdf/2105.02170.pdf)
+
 - RR-Net (arXiv 2021.5) [[Paper]](https://arxiv.org/pdf/2104.15015.pdf)
 
 - HOTR (CVPR2021) [[Paper]](https://arxiv.org/pdf/2104.13682.pdf)
@@ -280,6 +282,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 23.48| 16.39| 25.59| 28.79| 22.75| 30.54|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
+|[PST](https://arxiv.org/pdf/2105.02170.pdf)|arXiv|23.93| 14.98| 26.60| 26.42| 17.61| 29.05|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 24.12 |15.91| 26.57| 29.65| 22.92| 31.65|
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
 |[HOTR](https://arxiv.org/pdf/2104.13682.pdf)|CVPR2021|25.10| 17.34| 27.42| -|-|-|
