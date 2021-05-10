@@ -63,7 +63,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- Human Object Interaction Detection using Two-Direction Spatial Enhancement and Exclusive Object Prior (PR) [[Paper]](https://arxiv.org/pdf/2105.03089.pdf)
+- Human Object Interaction Detection using Two-Direction Spatial Enhancement and Exclusive Object Prior (arXiv) [[Paper]](https://arxiv.org/pdf/2105.03089.pdf)
 
 - PST (arXiv 2021.5) [[Paper]](https://arxiv.org/pdf/2105.02170.pdf)
 
@@ -247,7 +247,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)| ICCV2019 | 17.46| 15.65| 18.00| 20.34| 17.47| 21.20|
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|17.51| 15.31 |18.53 |20.49| 17.53| 21.51|
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
-|[Liu et.al.](https://arxiv.org/pdf/2105.03089.pdf)|PR2021|17.55 |20.61|-|-|-|-|
+|[Liu et.al.](https://arxiv.org/pdf/2105.03089.pdf)|arXiv|17.55 |20.61|-|-|-|-|
 |[Wang et al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|17.57 |16.85| 17.78| 21.00| 20.74| 21.08|
 |[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|17.72 |12.93 |19.31|-|-|-|
 |[HOID](https://github.com/scwangdyd/zero_shot_hoi)|CVPR2020| 17.85 |12.85 |19.34|-|-|-|
@@ -384,7 +384,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
-|[Liu et.al.](https://arxiv.org/pdf/2105.03089.pdf)|PR2021|52.28|
+|[Liu et.al.](https://arxiv.org/pdf/2105.03089.pdf)|arXiv|52.28|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|52.35|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|52.6|
 |[Wang et.al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|52.7|
