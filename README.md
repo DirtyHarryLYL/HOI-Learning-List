@@ -27,6 +27,17 @@ A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transf
 
 More...
 
+### Video HOI Datasets
+
+- VidHOI [[Paper]](https://arxiv.org/pdf/2105.11731.pdf)
+
+- AVA [[Website]](http://research.google.com/ava/), HOIs (human-object, human-human) and pose (body motion) actions
+
+- Action Genome [[Website]](https://www.actiongenome.org/), action verbs and spatial relationships
+
+- CAD120 [[Paper]](https://arxiv.org/pdf/1210.1207.pdf), [[Website]](http://pr.cs.cornell.edu/humanactivities/)
+
+
 ## Method
 
 ### HOI Image Generation
@@ -201,6 +212,8 @@ More...
 More...
 
 ### Video HOI methods
+- VidHOI (May 2021), [[Paper]](https://arxiv.org/pdf/2105.11731.pdf)
+
 - LIGHTEN (ACMMM2020) [[Paper]](https://www.cse.iitb.ac.in/~rdabral/docs/acm_lighten.pdf) [[Code]](https://github.com/praneeth11009/LIGHTEN-Learning-Interactions-with-Graphs-and-Hierarchical-TEmporal-Networks-for-HOI)
 
 - Generating Videos of Zero-Shot Compositions of Actions and Objects (Jul 2020), HOI GAN, [[Paper]](https://arxiv.org/pdf/1912.02401.pdf)
