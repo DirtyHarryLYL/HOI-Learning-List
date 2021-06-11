@@ -329,7 +329,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|44.27| 35.52| 46.89|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|45.25|36.27 |47.94|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|51.53| **41.01**| 54.67|
-|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|53.04|38.79|**57.3**|
+|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|**57.3**|
 
 #### 4) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
