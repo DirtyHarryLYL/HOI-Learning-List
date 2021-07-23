@@ -76,6 +76,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- IPGN (TOP 2021.7) [[Paper]](https://ieeexplore.ieee.org/document/9489275)
+
 - SCG (arXiv 2021.5, SAG, v2) [[Paper]](https://arxiv.org/pdf/2012.06060.pdf), [[Code]](https://github.com/fredzzhang/spatially-conditioned-graphs)
 
 - Human Object Interaction Detection using Two-Direction Spatial Enhancement and Exclusive Object Prior (arXiv) [[Paper]](https://arxiv.org/pdf/2105.03089.pdf)
@@ -284,6 +286,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
 |[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|20.93	|18.95|	21.32|	23.02|	20.96|	23.42|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
+|[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|21.26|18.47|22.07|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
@@ -417,6 +420,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|53.43|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
+|[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|53.79|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|53.9|
 |[RR-Net](https://arxiv.org/pdf/2104.15015.pdf)|arXiv|54.2|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|54.2|
