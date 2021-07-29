@@ -49,6 +49,8 @@ More...
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
+- DEFR-CLIP (arXiv 2021.07) [[Paper]](https://arxiv.org/pdf/2107.13083.pdf)
+
 - PaStaNet: Toward Human Activity Knowledge Engine 
 (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) [[Data]](https://github.com/DirtyHarryLYL/HAKE) [[Paper]](https://arxiv.org/pdf/2004.00945.pdf) [[YouTube]](https://t.co/hXiAYPXEuL?amp=1) [[bilibili]](https://www.bilibili.com/video/BV1s54y1Y76s)
 
@@ -460,7 +462,9 @@ based on V-COCO
 [R\*CNN](https://arxiv.org/pdf/1505.01197.pdf) | 28.5 |
 [Girdhar et.al.](https://arxiv.org/pdf/1711.01467.pdf) |34.6|
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
-[Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |**39.9** | 
+[Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9| 
+[DEFR-base](https://arxiv.org/pdf/2107.13083.pdf)|44.1|
+[DEFR-CLIP](https://arxiv.org/pdf/2107.13083.pdf)|**60.5**|
 
 #### 2) Enhanced with HAKE:
 |Method| mAP |
