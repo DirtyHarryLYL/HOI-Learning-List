@@ -78,6 +78,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- GTNet (arXiv 2021.8) [[Paper]](https://arxiv.org/pdf/2108.00596.pdf), [[Code]](https://github.com/ASMIftekhar/GTNet)
+
 - HOI-MO-Net (IVC 2021) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0262885621001670?via%3Dihub#tbl0005)
 
 - IPGN (TOP 2021.7) [[Paper]](https://ieeexplore.ieee.org/document/9489275)
@@ -319,6 +321,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
 |[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|27.68 |20.31 |29.89 |30.05 |22.40 |32.34|
+|[GTNet](https://github.com/ASMIftekhar/GTNet)|arXiv|28.03 |22.73| 29.61| 29.98| 24.13| 31.73|
 |[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|28.53 |21.64| 30.59| 31.18| 24.15| 33.29|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |24.25 |30.25 |31.74 |**27.07** |33.14|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
@@ -337,6 +340,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|43.98|40.27|45.09|
 |[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|44.27| 35.52| 46.89|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|45.25|36.27 |47.94|
+|[GTNet](https://github.com/ASMIftekhar/GTNet)|arXiv|46.45 |35.10 |49.84|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|51.53| **41.01**| 54.67|
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|**57.3**|
 
@@ -434,6 +438,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[HOTR](https://github.com/kakaobrain/HOTR)|CVPR2021|55.2|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)|AAAI2021|56.1|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 56.62|
+|[GTNet](https://github.com/ASMIftekhar/GTNet)|arXiv|58.29|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| **58.8**|
 
