@@ -82,7 +82,7 @@ More...
 
 - HOI-MO-Net (IVC 2021) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0262885621001670?via%3Dihub#tbl0005)
 
-- IPGN (TOP 2021.7) [[Paper]](https://ieeexplore.ieee.org/document/9489275)
+- IPGN (TIP 2021.7) [[Paper]](https://ieeexplore.ieee.org/document/9489275)
 
 - SCG (arXiv 2021.5, SAG, v2) [[Paper]](https://arxiv.org/pdf/2012.06060.pdf), [[Code]](https://github.com/fredzzhang/spatially-conditioned-graphs)
 
