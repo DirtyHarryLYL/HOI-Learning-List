@@ -78,6 +78,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- CDN (arXiv 2021.8) [[Paper]](https://arxiv.org/pdf/2108.05077.pdf)
+
 - GTNet (arXiv 2021.8) [[Paper]](https://arxiv.org/pdf/2108.00596.pdf), [[Code]](https://github.com/UCSB-VRL/GTNet)
 
 - HOI-MO-Net (IVC 2021) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0262885621001670?via%3Dihub#tbl0005)
@@ -300,7 +302,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|22.15|17.55|23.52|26.57|20.8|**28.3**|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|**23.36**|**22.47**|**23.63**|**26.43**|**25.01**|26.85|
 
-#### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector
+#### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector (point-based, transformer-based)
 Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppress many wrong pairings (non-interactive human-object pairs) and boost the performance.
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -323,12 +325,13 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|27.68 |20.31 |29.89 |30.05 |22.40 |32.34|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|28.03 |22.73| 29.61| 29.98| 24.13| 31.73|
 |[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|28.53 |21.64| 30.59| 31.18| 24.15| 33.29|
-|[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |24.25 |30.25 |31.74 |**27.07** |33.14|
+|[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |24.25 |30.25 |31.74 |27.07|33.14|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
-|[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |**33.50**| 26.67 |**34.89**|
+|[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
-|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|**31.33**| **24.72**| **33.31**|-|-|-|
+|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|31.33| 24.72| 33.31|-|-|-|
+|[CDN](https://arxiv.org/pdf/2108.05077.pdf)|arXiv|**32.07**| **27.19**| **33.53**| **34.79**| **29.48**| **36.38**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -440,7 +443,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 56.62|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|58.29|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
-|[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| **58.8**|
+|[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
+|[CDN](https://arxiv.org/pdf/2108.05077.pdf)|arXiv|**63.91**|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
