@@ -432,7 +432,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
-|[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|arXiv|53.5|
+|[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|arXiv|53.3|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|53.43|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
 |[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|53.79|
