@@ -78,7 +78,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- SG2HOI (arXiv 2021.8) [[Paper]](https://arxiv.org/pdf/2108.08584.pdf)
+- SG2HOI (ICCV 2021) [[Paper]](https://arxiv.org/pdf/2108.08584.pdf)
 
 - CDN (arXiv 2021.8) [[Paper]](https://arxiv.org/pdf/2108.05077.pdf)
 
@@ -294,7 +294,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|20.41 |17.34| 21.56| 22.04 |18.97| 23.12|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
-|[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|arXiv|20.93 |18.24| 21.78| 24.83| 20.52| 25.32|
+|[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|ICCV2021|20.93 |18.24| 21.78| 24.83| 20.52| 25.32|
 |[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|20.93	|18.95|	21.32|	23.02|	20.96|	23.42|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|21.26|18.47|22.07|-|-|-|
@@ -432,7 +432,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
-|[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|arXiv|53.3|
+|[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|ICCV2021|53.3|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|53.43|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
 |[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|53.79|
