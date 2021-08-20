@@ -39,6 +39,8 @@ More...
 
 - CAD120 [[Paper]](https://arxiv.org/pdf/1210.1207.pdf), [[Website]](http://pr.cs.cornell.edu/humanactivities/)
 
+- Sth-else [[Paper]](https://arxiv.org/abs/1912.09930), [[Website]](https://github.com/joaanna/something_else)
+
 
 ## Method
 
@@ -228,6 +230,9 @@ More...
 More...
 
 ### Video HOI methods
+
+- STIGPN (Aug 2021), [[Paper]](https://arxiv.org/pdf/2108.08633.pdf), [[Code]](https://github.com/GuangmingZhu/STIGPN)
+
 - VidHOI (May 2021), [[Paper]](https://arxiv.org/pdf/2105.11731.pdf)
 
 - LIGHTEN (ACMMM2020) [[Paper]](https://www.cse.iitb.ac.in/~rdabral/docs/acm_lighten.pdf) [[Code]](https://github.com/praneeth11009/LIGHTEN-Learning-Interactions-with-Graphs-and-Hierarchical-TEmporal-Networks-for-HOI)
