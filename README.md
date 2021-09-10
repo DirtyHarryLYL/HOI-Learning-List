@@ -80,7 +80,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- ACP++ (arXiv 2021) [[Paper]](https://arxiv.org/pdf/2109.04047.pdf)
+- ACP++ (TIP 2021) [[Paper]](https://arxiv.org/pdf/2109.04047.pdf), [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)
 
 - SG2HOI (ICCV 2021) [[Paper]](https://arxiv.org/pdf/2108.08584.pdf)
 
