@@ -72,6 +72,8 @@ More...
 
 #### Unseen or zero-shot learning (image-level recognition).
 
+- ICompass (ICCV2021) [[Paper]](https://hbdat.github.io/pubs/iccv21_relation_direction_final.pdf), [[Code]](https://github.com/hbdat/iccv21_relational_direction)
+
 - Compositional Learning for Human Object Interaction (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Keizo_Kato_Compositional_Learning_of_ECCV_2018_paper.pdf)
 
 - Zero-Shot Human-Object Interaction Recognition via Affordance Graphs (Sep. 2020) [[Paper]](https://arxiv.org/pdf/2009.01039.pdf)
@@ -204,7 +206,10 @@ More...
 
 More...
 
-#### Unseen or zero-shot learning (instance-level detection).
+#### Unseen or zero/low-shot learning (instance-level detection).
+
+- - Discovering Human Interactions with Large-Vocabulary Objects via Query and Multi-Scale Detection (ICCV2021) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2021/ICCV2021_sucheng.pdf), [[Code]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
+
 - DGIG-Net (TOC2021) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9352497)
 
 - ATL (CVPR2021)  [[Paper]](https://arxiv.org/pdf/2104.02867.pdf), [[Code]](https://github.com/zhihou7/HOI-CL)
