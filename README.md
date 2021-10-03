@@ -82,6 +82,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- HRNet (TIP 2021) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)
+
 - ACP++ (TIP 2021) [[Paper]](https://arxiv.org/pdf/2109.04047.pdf), [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)
 
 - SG2HOI (ICCV 2021) [[Paper]](https://arxiv.org/pdf/2108.08584.pdf)
@@ -314,6 +316,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv| 21.85| 18.11 |22.97|-|-|-|
+|[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|21.93 |16.30| 23.62| 25.22| 18.75| 27.15|
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|22.15|17.55|23.52|26.57|20.8|**28.3**|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|**23.36**|**22.47**|**23.63**|**26.43**|**25.01**|26.85|
 
@@ -442,6 +445,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SIGN](https://ieeexplore.ieee.org/ielx7/9099125/9102711/09102755.pdf)|ICME2020|53.1|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
+|[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
 |[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|ICCV2021|53.3|
