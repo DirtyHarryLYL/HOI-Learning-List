@@ -210,7 +210,7 @@ More...
 
 #### Unseen or zero/low-shot learning (instance-level detection).
 
-- - Discovering Human Interactions with Large-Vocabulary Objects via Query and Multi-Scale Detection (ICCV2021) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2021/ICCV2021_sucheng.pdf), [[Code]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
+- Discovering Human Interactions with Large-Vocabulary Objects via Query and Multi-Scale Detection (ICCV2021) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2021/ICCV2021_sucheng.pdf), [[Code]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
 
 - DGIG-Net (TOC2021) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9352497)
 
