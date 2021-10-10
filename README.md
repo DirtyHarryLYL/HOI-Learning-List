@@ -51,6 +51,8 @@ More...
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
+- Interaction Compass (ICCV 2021) [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Huynh_Interaction_Compass_Multi-Label_Zero-Shot_Learning_of_Human-Object_Interactions_via_Spatial_ICCV_2021_paper.pdf)
+
 - DEFR-CLIP (arXiv 2021.07) [[Paper]](https://arxiv.org/pdf/2107.13083.pdf)
 
 - PaStaNet: Toward Human Activity Knowledge Engine 
@@ -240,6 +242,8 @@ More...
 
 ### Video HOI methods
 
+- Detecting Human-Object Relationships in Videos (ICCV2021) [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Ji_Detecting_Human-Object_Relationships_in_Videos_ICCV_2021_paper.pdf)
+
 - STIGPN (Aug 2021), [[Paper]](https://arxiv.org/pdf/2108.08633.pdf), [[Code]](https://github.com/GuangmingZhu/STIGPN)
 
 - VidHOI (May 2021), [[Paper]](https://arxiv.org/pdf/2105.11731.pdf)
@@ -348,7 +352,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
-|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|31.33| 24.72| 33.31|-|-|-|
+|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|31.33| 24.72| 33.31|34.37 |27.18 |36.52|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|arXiv|**32.07**| **27.19**| **33.53**| **34.79**| **29.48**| **36.38**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
