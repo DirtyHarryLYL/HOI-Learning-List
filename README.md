@@ -98,7 +98,7 @@ More...
 
 - IPGN (TIP 2021.7) [[Paper]](https://ieeexplore.ieee.org/document/9489275)
 
-- SCG (arXiv 2021.5, SAG, v2) [[Paper]](https://arxiv.org/pdf/2012.06060.pdf), [[Code]](https://github.com/fredzzhang/spatially-conditioned-graphs)
+- SCG (ICCV 2021, SAG, v2) [[Paper]](https://arxiv.org/pdf/2012.06060.pdf), [[Code]](https://github.com/fredzzhang/spatially-conditioned-graphs)
 
 - Human Object Interaction Detection using Two-Direction Spatial Enhancement and Exclusive Object Prior (arXiv) [[Paper]](https://arxiv.org/pdf/2105.03089.pdf)
 
@@ -319,7 +319,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
-|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv| 21.85| 18.11 |22.97|-|-|-|
+|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 21.85| 18.11 |22.97|-|-|-|
 |[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|21.93 |16.30| 23.62| 25.22| 18.75| 27.15|
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|22.15|17.55|23.52|26.57|20.8|**28.3**|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|**23.36**|**22.47**|**23.63**|**26.43**|**25.01**|26.85|
@@ -352,7 +352,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
-|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|31.33| 24.72| 33.31|34.37 |27.18 |36.52|
+|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|31.33| 24.72| 33.31|34.37 |27.18 |36.52|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|**32.07**| **27.19**| **33.53**| **34.79**| **29.48**| **36.38**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
@@ -366,7 +366,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|44.27| 35.52| 46.89|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|45.25|36.27 |47.94|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|46.45 |35.10 |49.84|
-|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|51.53| **41.01**| 54.67|
+|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|51.53| **41.01**| 54.67|
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|**57.3**|
 
 #### 4) Enhanced with HAKE:
@@ -458,7 +458,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|53.79|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|53.9|
 |[RR-Net](https://arxiv.org/pdf/2104.15015.pdf)|arXiv|54.2|
-|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|arXiv|54.2|
+|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|54.2|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 54.69|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|54.7|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
