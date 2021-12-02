@@ -210,7 +210,9 @@ More...
 
 More...
 
-#### Unseen or zero/low-shot learning (instance-level detection).
+#### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
+
+- Align-Former (BMVC 2021), [[Paper]](https://arxiv.org/pdf/2112.00492.pdf)
 
 - Discovering Human Interactions with Large-Vocabulary Objects via Query and Multi-Scale Detection (ICCV2021) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2021/ICCV2021_sucheng.pdf), [[Code]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
 
