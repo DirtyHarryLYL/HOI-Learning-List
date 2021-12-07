@@ -84,6 +84,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- UPT (arXiv 2021) [[Paper]](https://arxiv.org/pdf/2112.01838.pdf), [[Code]](https://github.com/fredzzhang/upt)
+
 - HRNet (TIP 2021) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)
 
 - ACP++ (TIP 2021) [[Paper]](https://arxiv.org/pdf/2109.04047.pdf), [[Code]](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)
@@ -355,7 +357,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|31.33| 24.72| 33.31|34.37 |27.18 |36.52|
-|[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|**32.07**| **27.19**| **33.53**| **34.79**| **29.48**| **36.38**|
+|[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
+|[UPT](https://github.com/fredzzhang/upt)|arXiv2021|**32.62**| **28.62**| **33.81**| **36.08**| **31.41**| **37.47**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -470,6 +473,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|58.29|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
+|[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|arXiv2021| 61.3|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|**63.91**|
 
 #### 2) Enhanced with HAKE:
