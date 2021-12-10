@@ -356,7 +356,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
-|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|31.33| 24.72| 33.31|34.37 |27.18 |36.52|
+|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 29.26 | 24.61 | 30.65 | 32.87 | 27.89 | 34.35 |
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|**32.62**| **28.62**| **33.81**| **36.08**| **31.41**| **37.47**|
 
