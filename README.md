@@ -51,6 +51,8 @@ More...
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
+- DEFR (arXiv 2021.12) [[Paper]](https://arxiv.org/pdf/2112.06392.pdf)
+
 - Interaction Compass (ICCV 2021) [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Huynh_Interaction_Compass_Multi-Label_Zero-Shot_Learning_of_Human-Object_Interactions_via_Spatial_ICCV_2021_paper.pdf)
 
 - DEFR-CLIP (arXiv 2021.07) [[Paper]](https://arxiv.org/pdf/2107.13083.pdf)
@@ -83,6 +85,8 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- DEFR (arXiv 2021.12) [[Paper]](https://arxiv.org/pdf/2112.06392.pdf)
 
 - UPT (arXiv 2021) [[Paper]](https://arxiv.org/pdf/2112.01838.pdf), [[Code]](https://github.com/fredzzhang/upt)
 
@@ -358,7 +362,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 29.26 | 24.61 | 30.65 | 32.87 | 27.89 | 34.35 |
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
-|[UPT](https://github.com/fredzzhang/upt)|arXiv2021|**32.62**| **28.62**| **33.81**| **36.08**| **31.41**| **37.47**|
+|[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
+|[UPT](https://github.com/fredzzhang/upt)|arXiv2021|**32.62**| 28.62| **33.81**| **36.08**| **31.41**| **37.47**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -503,7 +508,8 @@ based on V-COCO
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9| 
 [DEFR-base](https://arxiv.org/pdf/2107.13083.pdf)|44.1|
-[DEFR-CLIP](https://arxiv.org/pdf/2107.13083.pdf)|**60.5**|
+[DEFR-CLIP](https://arxiv.org/pdf/2107.13083.pdf)|60.5|
+|[DEFR/16 CLIP](https://arxiv.org/pdf/2112.06392.pdf)|**65.6**|
 
 #### 2) Enhanced with HAKE:
 |Method| mAP |
