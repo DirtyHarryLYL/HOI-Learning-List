@@ -86,6 +86,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- PhraseHOI (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2112.07383.pdf)
+
 - DEFR (arXiv 2021.12) [[Paper]](https://arxiv.org/pdf/2112.06392.pdf)
 
 - UPT (arXiv 2021) [[Paper]](https://arxiv.org/pdf/2112.01838.pdf), [[Code]](https://github.com/fredzzhang/upt)
@@ -361,6 +363,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 29.26 | 24.61 | 30.65 | 32.87 | 27.89 | 34.35 |
+|[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|30.03 |23.48 |31.99 |33.74 |27.35 |35.64|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|**32.62**| 28.62| **33.81**| **36.08**| **31.41**| **37.47**|
@@ -475,6 +478,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[HOTR](https://github.com/kakaobrain/HOTR)|CVPR2021|55.2|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)|AAAI2021|56.1|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 56.62|
+|[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|57.4|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|58.29|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
