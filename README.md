@@ -86,6 +86,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- QAHOI (arXiv 2021) [[Paper]](https://arxiv.org/pdf/2112.08647.pdf), [[Code]](https://github.com/cjw2021/QAHOI)
+
 - PhraseHOI (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2112.07383.pdf)
 
 - DEFR (arXiv 2021.12) [[Paper]](https://arxiv.org/pdf/2112.06392.pdf)
@@ -332,7 +334,8 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 21.85| 18.11 |22.97|-|-|-|
 |[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|21.93 |16.30| 23.62| 25.22| 18.75| 27.15|
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|22.15|17.55|23.52|26.57|20.8|**28.3**|
-|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|**23.36**|**22.47**|**23.63**|**26.43**|**25.01**|26.85|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|**22.47**|23.63|**26.43**|**25.01**|26.85|
+|[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|**24.35** |16.18| **26.80**|-|-|-|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector (point-based, transformer-based)
 Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppress many wrong pairings (non-interactive human-object pairs) and boost the performance.
@@ -352,6 +355,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[HOTR](https://github.com/kakaobrain/HOTR)|CVPR2021|25.10| 17.34| 27.42| -|-|-|
 |[ConsNet-F](https://github.com/yeliudev/ConsNet)|ACMMM2020|25.94|19.35|27.91|30.34|23.4|32.41|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
+|[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|26.18 |18.06| 28.61|-|-|-|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
 |[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|27.68 |20.31 |29.89 |30.05 |22.40 |32.34|
@@ -366,7 +370,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|30.03 |23.48 |31.99 |33.74 |27.35 |35.64|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
-|[UPT](https://github.com/fredzzhang/upt)|arXiv2021|**32.62**| 28.62| **33.81**| **36.08**| **31.41**| **37.47**|
+|[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
+|[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|**35.78** |29.80 |**37.56** |**37.59** |**31.66** |**39.36**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
