@@ -5,6 +5,8 @@ A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transf
 
 ## Dataset/Benchmark
 
+- DIABOLO [[Paper]](https://arxiv.org/pdf/2201.02396.pdf), [[Website]](https://kalisteo.cea.fr/)
+
 - Bongard-HOI [[Paper]](https://openreview.net/pdf?id=mHrF3-r8-8t)
 
 - HOI-COCO (CVPR2021) [[Website]](https://github.com/zhihou7/HOI-CL)
