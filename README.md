@@ -5,6 +5,8 @@ A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transf
 
 ## Dataset/Benchmark
 
+- New Metric: mPD, [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
+
 - DIABOLO [[Paper]](https://arxiv.org/pdf/2201.02396.pdf), [[Website]](https://kalisteo.cea.fr/)
 
 - Bongard-HOI [[Paper]](https://openreview.net/pdf?id=mHrF3-r8-8t)
@@ -87,6 +89,8 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- OC-Immunity (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
 
 - OCN (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.00259.pdf), [[Code]](https://github.com/JacobYuan7/OCN-HOI-Benchmark)
 
@@ -226,6 +230,8 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
+- OC-Immunity (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
+
 - Align-Former (BMVC 2021), [[Paper]](https://arxiv.org/pdf/2112.00492.pdf)
 
 - Discovering Human Interactions with Large-Vocabulary Objects via Query and Multi-Scale Detection (ICCV2021) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2021/ICCV2021_sucheng.pdf), [[Code]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
@@ -357,6 +363,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 24.12 |15.91| 26.57| 29.65| 22.92| 31.65|
 |[DRG](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570681.pdf)|ECCV2020|24.53 |19.47 |26.04 |27.98 |23.11 |29.43|
 |[HOTR](https://github.com/kakaobrain/HOTR)|CVPR2021|25.10| 17.34| 27.42| -|-|-|
+|[OC-Immunity](https://github.com/Foruck/OC-Immunity)|AAAI2022|25.44| 23.03| 26.16| 27.24| 24.32| 28.11|
 |[ConsNet-F](https://github.com/yeliudev/ConsNet)|ACMMM2020|25.94|19.35|27.91|30.34|23.4|32.41|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|26.18 |18.06| 28.61|-|-|-|
@@ -435,7 +442,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[iCAN](https://github.com/vt-vl-lab/iCAN)| 8.14 |
 |[Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| 8.22 |
 |[Analogy(reproduced)](https://github.com/jpeyre/analogy)| 9.72 |
-|[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| **10.37** |
+|[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| 10.37|
+|[OC-Immunity](https://github.com/Foruck/OC-Immunity)|**10.45**|
 
 
 ### V-COCO: Scenario1
