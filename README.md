@@ -90,6 +90,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- GPV-2 (arXiv 2022.2), [[Paper]](https://arxiv.org/pdf/2202.02317.pdf), [[Project]](https://prior.allenai.org/projects/gpv2)
+
 - OC-Immunity (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
 
 - OCN (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.00259.pdf), [[Code]](https://github.com/JacobYuan7/OCN-HOI-Benchmark)
