@@ -90,6 +90,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- RGBM (arXiv 2022.2), [[Paper]](https://arxiv.org/pdf/2202.11998.pdf)
+
 - GPV-2 (arXiv 2022.2), [[Paper]](https://arxiv.org/pdf/2202.02317.pdf), [[Project]](https://prior.allenai.org/projects/gpv2)
 
 - OC-Immunity (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
@@ -371,6 +373,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|26.18 |18.06| 28.61|-|-|-|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|26.29|22.61|27.39|28.24|24.47|29.37|
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
+|[RGBM](https://arxiv.org/pdf/2202.11998.pdf)|arXiv2022|27.39| 21.34 |29.20 |30.87 |24.20 |32.87|
 |[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|27.68 |20.31 |29.89 |30.05 |22.40 |32.34|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|28.03 |22.73| 29.61| 29.98| 24.13| 31.73|
 |[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|28.53 |21.64| 30.59| 31.18| 24.15| 33.29|
@@ -470,6 +473,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|49.1|
 |[IP-Net](https://arxiv.org/pdf/2003.14023.pdf)|CVPR2020|51.0|
 |[DRG](https://github.com/vt-vl-lab/DRG)|ECCV2020|51.0|
+|[RGBM](https://arxiv.org/pdf/2202.11998.pdf)|arXiv2022|51.7|
 |[VSGNet](https://arxiv.org/pdf/2003.05541.pdf)|CVPR2020|51.8|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|51.8|
 |[PMFNet](https://arxiv.org/pdf/1909.08453.pdf)|ICCV2019|52.0|
