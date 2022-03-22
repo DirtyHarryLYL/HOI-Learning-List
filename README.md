@@ -90,6 +90,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- Iwin (arXiv 2022.3), [[Paper]](https://arxiv.org/pdf/2203.10537.pdf)
+
 - RGBM (arXiv 2022.2), [[Paper]](https://arxiv.org/pdf/2202.11998.pdf)
 
 - GPV-2 (arXiv 2022.2), [[Paper]](https://arxiv.org/pdf/2202.02317.pdf), [[Project]](https://prior.allenai.org/projects/gpv2)
@@ -388,6 +390,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
+|[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|**35.78** |29.80 |**37.56** |**37.59** |**31.66** |**39.36**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
@@ -506,6 +509,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|58.29|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
+|[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|60.85|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|arXiv2021| 61.3|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|**63.91**|
 
