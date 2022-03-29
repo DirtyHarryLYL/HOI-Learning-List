@@ -90,6 +90,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- GEN-VLKT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2203.13954.pdf), [[Code]](https://github.com/YueLiao/gen-vlkt)
+
 - MSTR (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2203.14709.pdf)
 
 - Iwin (arXiv 2022.3), [[Paper]](https://arxiv.org/pdf/2203.10537.pdf)
@@ -237,6 +239,10 @@ More...
 More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
+
+- SCL (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2203.14272.pdf), [[Code]](https://github.com/zhihou7/HOI-CL)
+
+- GEN-VLKT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2203.13954.pdf), [[Code]](https://github.com/YueLiao/gen-vlkt)
 
 - OC-Immunity (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
 
@@ -394,7 +400,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
-|[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|**35.78** |29.80 |**37.56** |**37.59** |**31.66** |**39.36**|
+|[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| **38.22**| **34.36**| **39.37**|
+|[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|**35.78** |29.80 |**37.56** |37.59 |31.66 |39.36|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -515,6 +522,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|60.85|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|arXiv2021| 61.3|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
+|[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|**63.91**|
 
 #### 2) Enhanced with HAKE:
