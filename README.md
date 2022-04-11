@@ -242,6 +242,8 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
+- EoID (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2204.03541.pdf), [[Code]](https://github.com/mrwu-mac/EoID)
+
 - SCL (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2203.14272.pdf), [[Code]](https://github.com/zhihou7/HOI-CL)
 
 - GEN-VLKT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2203.13954.pdf), [[Code]](https://github.com/YueLiao/gen-vlkt)
