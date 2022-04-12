@@ -90,6 +90,10 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- CPC (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.04836.pdf), [[Code]](https://github.com/mlvlab/CPChoi)
+
+- CATN (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2204.04911.pdf)
+
 - SSRT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.00746.pdf)
 
 - GEN-VLKT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2203.13954.pdf), [[Code]](https://github.com/YueLiao/gen-vlkt)
@@ -395,12 +399,14 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
+|[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|29.63 |23.14 |31.57|-|-|-|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 29.26 | 24.61 | 30.65 | 32.87 | 27.89 | 34.35 |
 |[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|30.03 |23.48 |31.99 |33.74 |27.35 |35.64|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|31.17| 25.31| 32.92| 34.02| 28.83| 35.57|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|31.34 |24.31 |33.32|-|-|-|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| 65.3| 67.1|
+|[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
@@ -524,9 +530,11 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|58.29|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
+|[CATN (w/ fastText)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|60.1|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|60.85|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|arXiv2021| 61.3|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
+|[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|63.91|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|**65.0**|
