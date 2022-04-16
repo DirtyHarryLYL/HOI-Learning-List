@@ -5,6 +5,8 @@ A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transf
 
 ## Dataset/Benchmark
 
+- SWiG-HOI, [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Discovering_Human_Interactions_With_Large-Vocabulary_Objects_via_Query_and_Multi-Scale_ICCV_2021_paper.pdf), [[Website]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
+
 - New Metric: mPD, [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
 
 - DIABOLO [[Paper]](https://arxiv.org/pdf/2201.02396.pdf), [[Website]](https://kalisteo.cea.fr/)
@@ -246,13 +248,17 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
+- THID (CVPR 2022), [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2022/CVPR2022_4126.pdf), [[Code]](https://github.com/scwangdyd/promting_hoi)
+
 - EoID (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2204.03541.pdf), [[Code]](https://github.com/mrwu-mac/EoID)
 
 - SCL (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2203.14272.pdf), [[Code]](https://github.com/zhihou7/HOI-CL)
 
 - GEN-VLKT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2203.13954.pdf), [[Code]](https://github.com/YueLiao/gen-vlkt)
 
-- OC-Immunity (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
+- OC-Immunity (AAAI 2022), [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
+
+- CHOID (CVPR 2021), [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Discovering_Human_Interactions_With_Large-Vocabulary_Objects_via_Query_and_Multi-Scale_ICCV_2021_paper.pdf), [[Code]](https://github.com/scwangdyd/)
 
 - Align-Former (BMVC 2021), [[Paper]](https://arxiv.org/pdf/2112.00492.pdf)
 
@@ -464,6 +470,17 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **19.04** | **20.02** | **14.12** |
 
+##### Another setting
+| Method | Pub| Unseen| Seen | Full | 
+|:---:|:---:|:---:|:---:|:---:|
+|[Shen et. al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf)|WACV2018| 5.62| - |6.26|
+|[Functional](https://arxiv.org/pdf/1904.03181.pdf)|AAAI2020 |10.93 |12.60 |12.26|
+|[VCL](https://github.com/zhihou7/VCL)|ECCV2020 |10.06| 24.28| 21.43|
+|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021 |9.18 |**24.67** |21.57|
+|[FCL](https://github.com/zhihou7/FCL)| CVPR2021 |13.16 |24.23 |22.01|
+|[THID (w/ CLIP)](https://github.com/scwangdyd/promting_hoi)|CVPR2022 |**15.53** |24.32 |**22.96**|
+
+
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
 #### Detector: COCO pre-trained
 |Method| mAP |
@@ -473,6 +490,14 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Analogy(reproduced)](https://github.com/jpeyre/analogy)| 9.72 |
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| 10.37|
 |[OC-Immunity](https://github.com/Foruck/OC-Immunity)|**10.45**|
+
+### [SWiG-HOI](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
+| Method | Pub| Non-Rare| Unseen| Seen | Full | 
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|[JSR](https://prior.allenai.org/projects/gsr)| ECCV2020| 10.01| 6.10| 2.34| 6.08|
+|[CHOID](https://github.com/scwangdyd/)|ICCV2021|10.93 |6.63 |2.64 |6.64|
+|[QPIC](https://github.com/hitachi-rd-cv/qpic)| CVPR2021| 16.95| 10.84| 6.21| 11.12|
+|[THID (w/ CLIP)](https://github.com/scwangdyd/promting_hoi)|CVPR2022 |**17.67**| **12.82**| **10.04**| **13.26**|
 
 
 ### V-COCO: Scenario1
