@@ -92,6 +92,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- DT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.09290.pdf)
+
 - IF (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.07718.pdf), [[Code]](https://github.com/Foruck/Interactiveness-Field)
 
 - CPC (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.04836.pdf), [[Code]](https://github.com/mlvlab/CPChoi)
@@ -414,6 +416,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|31.17| 25.31| 32.92| 34.02| 28.83| 35.57|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|31.34 |24.31 |33.32|-|-|-|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| 65.3| 67.1|
+|[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|31.75| 27.45| 33.03| 34.50| 30.13| 35.81|
 |[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
@@ -566,7 +569,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
 |[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|63.91|
-|[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|**65.0**|
+|[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
+|[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|**66.2**|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
