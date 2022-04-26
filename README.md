@@ -57,6 +57,8 @@ More...
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
+- RelViT (ICLR'22) [[Paper]](https://arxiv.org/pdf/2204.11167.pdf)
+
 - DEFR (arXiv 2021.12) [[Paper]](https://arxiv.org/pdf/2112.06392.pdf)
 
 - Interaction Compass (ICCV 2021) [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Huynh_Interaction_Compass_Multi-Label_Zero-Shot_Learning_of_Human-Object_Interactions_via_Spatial_ICCV_2021_paper.pdf)
@@ -598,6 +600,7 @@ based on V-COCO
 [Girdhar et.al.](https://arxiv.org/pdf/1711.01467.pdf) |34.6|
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9| 
+|[RelViT](https://arxiv.org/pdf/2204.11167.pdf)|40.12|
 [DEFR-base](https://arxiv.org/pdf/2107.13083.pdf)|44.1|
 [DEFR-CLIP](https://arxiv.org/pdf/2107.13083.pdf)|60.5|
 |[DEFR/16 CLIP](https://arxiv.org/pdf/2112.06392.pdf)|**65.6**|
