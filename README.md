@@ -396,7 +396,9 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[PST](https://arxiv.org/pdf/2105.02170.pdf)|ICCV2021|23.93| 14.98| 26.60| 26.42| 17.61| 29.05|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 24.12 |15.91| 26.57| 29.65| 22.92| 31.65|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|24.58	|20.33|	25.86|	27.89|	23.64|	29.16|
+|[FCL](https://github.com/zhihou7/FCL)|CVPR2021|24.68| 20.03| 26.07| 26.80| 21.61| 28.35|
 |[HOTR](https://github.com/kakaobrain/HOTR)|CVPR2021|25.10| 17.34| 27.42| -|-|-|
+|[FCL+VCL](https://github.com/zhihou7/FCL)|CVPR2021|25.27| 20.57| 26.67| 27.71| 22.34| 28.93|
 |[OC-Immunity](https://github.com/Foruck/OC-Immunity)|AAAI2022|25.44| 23.03| 26.16| 27.24| 24.32| 28.11|
 |[ConsNet-F](https://github.com/yeliudev/ConsNet)|ACMMM2020|25.94|19.35|27.91|30.34|23.4|32.41|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
@@ -408,7 +410,6 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|28.53 |21.64| 30.59| 31.18| 24.15| 33.29|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |24.25 |30.25 |31.74 |27.07|33.14|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
-|[FCL](https://github.com/zhihou7/FCL)|CVPR2021|29.12 |23.67 |30.75 |31.31 |25.62 |33.02|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|29.63 |23.14 |31.57|-|-|-|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
