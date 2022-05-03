@@ -363,7 +363,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[VS-GATs](https://arxiv.org/pdf/2001.02302.pdf)|arXiv|19.66 |15.79 |20.81|-|-|-|
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[PFNet](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)|CVM|20.05 |16.66 |21.07| 24.01| 21.09| 24.89|
-|[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021 |20.08| 15.57| 21.43|-|-|-|
+|[ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL)|CVPR2021 |20.08| 15.57| 21.43|-|-|-|
 |[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|21.07 |16.79| 22.35|-|-|-|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|20.41 |17.34| 21.56| 22.04 |18.97| 23.12|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
@@ -393,8 +393,10 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf) |AAAI2020|21.96 |16.43|23.62| -|-|-|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 23.48| 16.39| 25.59| 28.79| 22.75| 30.54|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.63 |17.21 |25.55 |25.98 |19.12 |28.03|
+|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021| 23.67| 17.64| 25.47| 26.01| 19.60| 27.93|
 |[PST](https://arxiv.org/pdf/2105.02170.pdf)|ICCV2021|23.93| 14.98| 26.60| 26.42| 17.61| 29.05|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 24.12 |15.91| 26.57| 29.65| 22.92| 31.65|
+|[ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL)|CVPR2021|24.50 |18.53| 26.28| 27.23| 21.27| 29.00|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|24.58	|20.33|	25.86|	27.89|	23.64|	29.16|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|24.68| 20.03| 26.07| 26.80| 21.61| 28.35|
 |[HOTR](https://github.com/kakaobrain/HOTR)|CVPR2021|25.10| 17.34| 27.42| -|-|-|
@@ -405,9 +407,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|26.18 |18.06| 28.61|-|-|-|
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
 |[RGBM](https://arxiv.org/pdf/2202.11998.pdf)|arXiv2022|27.39| 21.34 |29.20 |30.87 |24.20 |32.87|
-|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|27.68 |20.31 |29.89 |30.05 |22.40 |32.34|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|28.03 |22.73| 29.61| 29.98| 24.13| 31.73|
-|[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|28.53 |21.64| 30.59| 31.18| 24.15| 33.29|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |24.25 |30.25 |31.74 |27.07|33.14|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
@@ -436,7 +436,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Analogy](https://www.di.ens.fr/willow/research/analogy/paper.pdf)| ICCV2019 |34.35 | 27.57 |36.38|
 |[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|43.32 |33.84| 46.15|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|43.98|40.27|45.09|
-|[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|44.27| 35.52| 46.89|
+|[ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL)|CVPR2021|44.27| 35.52| 46.89|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|45.25|36.27 |47.94|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|46.45 |35.10 |49.84|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|51.53| **41.01**| 54.67|
@@ -460,7 +460,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf) | WACV2018 | COCO | 6.26 | - | 5.62 |
 | [Functional](https://arxiv.org/pdf/1904.03181.pdf) | AAAI2020 | HICO-DET | 12.45 ± 0.16 | 12.74 ± 0.34 | 11.31 ± 1.03 |
 | [VCL](https://github.com/zhihou7/VCL) | ECCV2020 | HICO-DET | 18.06 | 18.52 | 16.22 |
-| [ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021| HICO-DET |18.67|18.78|18.25|
+| [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL)|CVPR2021| HICO-DET |18.67|18.78|18.25|
 | [FCL](https://github.com/zhihou7/FCL) | CVPR2021 | HICO-DET | 19.37 | 19.55 | **18.66** |
 | [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **19.81 ± 0.32** | **20.51 ± 0.62** | 16.99 ± 1.67 |
 
@@ -588,7 +588,7 @@ based on V-COCO
 | Method | Pub | Full | Seen | Unseen|
 |:---:|:---:|:---:|:---:|:---:|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020|23.53 |8.29| 35.36|
-|[ATL(w/ affordance)](https://github.com/zhihou7/HOI-CL)|CVPR2021|23.40 |8.01 |35.34|
+|[ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL)|CVPR2021|23.40 |8.01 |35.34|
 
 
 ### HICO
