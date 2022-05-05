@@ -455,14 +455,26 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 
 ##### Unseen action-object combination scenario (UC)
 
-| Method | Pub | Detector | Full(def) | Seen(def) | Unseen(def)|
+| Method | Pub | Detector |  Unseen(def)|Seen(def) |  Full(def) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| [Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf) | WACV2018 | COCO | 6.26 | - | 5.62 |
-| [Functional](https://arxiv.org/pdf/1904.03181.pdf) | AAAI2020 | HICO-DET | 12.45 ± 0.16 | 12.74 ± 0.34 | 11.31 ± 1.03 |
-| [VCL](https://github.com/zhihou7/VCL) | ECCV2020 | HICO-DET | 18.06 | 18.52 | 16.22 |
-| [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL)|CVPR2021| HICO-DET |18.67|18.78|18.25|
-| [FCL](https://github.com/zhihou7/FCL) | CVPR2021 | HICO-DET | 19.37 | 19.55 | **18.66** |
-| [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **19.81 ± 0.32** | **20.51 ± 0.62** | 16.99 ± 1.67 |
+| [Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf) | WACV2018 | COCO |  5.62 |  - | 6.26 |
+| [Functional](https://arxiv.org/pdf/1904.03181.pdf) | AAAI2020 | HICO-DET | 11.31 ± 1.03 | 12.74 ± 0.34 |  12.45 ± 0.16 | 
+| [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO |  16.99 ± 1.67 | 20.51 ± 0.62 | 19.81 ± 0.32 | 
+||
+| [VCL](https://github.com/zhihou7/VCL) (NF-UC)| ECCV2020 | HICO-DET | 16.22 | 18.52 |  18.06 | 
+| [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((NF-UC))|CVPR2021| HICO-DET | 18.25|18.78| 18.67|
+| [FCL](https://github.com/zhihou7/FCL) (NF-UC)| CVPR2021 | HICO-DET | 18.66 | 19.55 |  19.37 | 
+| [SCL](https://arxiv.org/pdf/2203.14272) | arxiv |  HICO-DET | 21.73 |  25.00 |  **24.34** |
+| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf)(NF-UC)| CVPR2022 | HICO-DET | **25.05** | **23.38** | 23.71 |
+||
+| [VCL](https://github.com/zhihou7/VCL) (RF-UC)| ECCV2020 | HICO-DET | 10.06 | 24.28 | 21.43 |
+| [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((RF-UC))|CVPR2021| HICO-DET |9.18|24.67|21.57|
+| [FCL](https://github.com/zhihou7/FCL) (RF-UC)| CVPR2021 | HICO-DET | 13.16 | 24.23 | 22.01 |
+| [SCL](https://arxiv.org/pdf/2203.14272)(RF-UC) | arxiv | HICO-DET | 19.07 |  30.39 | 28.08 |
+| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf)(RF-UC)| CVPR2022 | HICO-DET | **21.36**| **32.91** | **30.56** |
+
+- \* indicates large Visual-Language model pretraining, \eg, CLIP. 
+- For the details of the setting, please refer to corresponding publications. This is not officially published and might miss some publications. Please find the corresponding publications.
 
 ##### Unseen object scenario (UO)
 
