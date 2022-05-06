@@ -132,7 +132,7 @@ More...
 
 - SG2HOI (ICCV 2021) [[Paper]](https://arxiv.org/pdf/2108.08584.pdf)
 
-- CDN (NeurIPS 2021) [[Paper]](https://arxiv.org/pdf/2108.05077.pdf)
+- CDN (NeurIPS 2021) [[Paper]](https://arxiv.org/pdf/2108.05077.pdf), [[Code]](https://github.com/YueLiao/CDN)
 
 - GTNet (arXiv 2021.8) [[Paper]](https://arxiv.org/pdf/2108.00596.pdf), [[Code]](https://github.com/UCSB-VRL/GTNet)
 
@@ -420,7 +420,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| 65.3| 67.1|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|31.75| 27.45| 33.03| 34.50| 30.13| 35.81|
 |[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
-|[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
+|[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
@@ -582,7 +582,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|63.0|
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
-|[CDN](https://arxiv.org/pdf/2108.05077.pdf)|NeurIPS2021|63.91|
+|[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|**66.2**|
 
