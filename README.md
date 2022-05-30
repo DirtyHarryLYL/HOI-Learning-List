@@ -57,7 +57,7 @@ More...
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
-- RelViT (ICLR'22) [[Paper]](https://arxiv.org/pdf/2204.11167.pdf)
+- RelViT (ICLR'22) [[Paper]](https://arxiv.org/pdf/2204.11167.pdf), [[Code]](https://github.com/NVlabs/RelViT)
 
 - DEFR (arXiv 2021.12) [[Paper]](https://arxiv.org/pdf/2112.06392.pdf)
 
