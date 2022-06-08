@@ -298,7 +298,9 @@ More...
 
 ### Video HOI methods
 
-- V-HOI (Jun 2022), [[Paper]](https://arxiv.org/pdf/2206.01908.pdf)
+- SPDTP (arXiv, Jun 2022), [[Paper]](https://arxiv.org/pdf/2206.03061.pdf)
+
+- V-HOI (arXiv, Jun 2022), [[Paper]](https://arxiv.org/pdf/2206.01908.pdf)
 
 - Detecting Human-Object Relationships in Videos (ICCV2021) [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Ji_Detecting_Human-Object_Relationships_in_Videos_ICCV_2021_paper.pdf)
 
