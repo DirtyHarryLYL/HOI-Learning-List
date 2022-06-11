@@ -94,6 +94,10 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- DOQ (CVPR 2022), [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Qu_Distillation_Using_Oracle_Queries_for_Transformer-Based_Human-Object_Interaction_Detection_CVPR_2022_paper.pdf), [[Code]](https://github.com/SherlockHolmes221/DOQ)
+
+- STIP (CVPR 2022), [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Exploring_Structure-Aware_Transformer_Over_Interaction_Proposals_for_Human-Object_Interaction_Detection_CVPR_2022_paper.pdf)
+
 - DT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.09290.pdf)
 
 - IF (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.07718.pdf), [[Code]](https://github.com/Foruck/Interactiveness-Field)
@@ -381,9 +385,11 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 21.85| 18.11 |22.97|-|-|-|
 |[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|21.93 |16.30| 23.62| 25.22| 18.75| 27.15|
-|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|22.15|17.55|23.52|26.57|20.8|**28.3**|
-|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|**22.47**|23.63|**26.43**|**25.01**|26.85|
-|[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|**24.35** |16.18| **26.80**|-|-|-|
+|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|22.15|17.55|23.52|26.57|20.8|28.3|
+|[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|22.47|23.63|26.43|25.01|26.85|
+|[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|24.35 |16.18| 26.80|-|-|-|
+|[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|25.97 |26.09| 25.93|-|-|-|
+|[STIP](https://github.com/zyong812/STIP)|CVPR2022|**28.81**| **27.55**| **29.18**| **32.28**| **31.07**| **32.64**|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector (point-based, transformer-based)
 Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppress many wrong pairings (non-interactive human-object pairs) and boost the performance.
@@ -425,9 +431,11 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|31.75| 27.45| 33.03| 34.50| 30.13| 35.81|
 |[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
+|[STIP](https://github.com/zyong812/STIP)|CVPR2022|32.22| 28.15| 33.43| 35.29| 31.43| 36.45|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
+|[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| **38.22**| **34.36**| **39.37**|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|**35.78** |29.80 |**37.56** |37.59 |31.66 |39.36|
@@ -585,9 +593,11 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|63.0|
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
+|[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|63.5|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
+|[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|**66.2**|
 
 #### 2) Enhanced with HAKE:
