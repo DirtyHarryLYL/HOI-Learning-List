@@ -94,6 +94,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- SDT (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.01869.pdf)
+
 - DOQ (CVPR 2022), [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Qu_Distillation_Using_Oracle_Queries_for_Transformer-Based_Human-Object_Interaction_Detection_CVPR_2022_paper.pdf), [[Code]](https://github.com/SherlockHolmes221/DOQ)
 
 - STIP (CVPR 2022), [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Exploring_Structure-Aware_Transformer_Over_Interaction_Proposals_for_Human-Object_Interaction_Detection_CVPR_2022_paper.pdf)
@@ -435,6 +437,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
+|[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| **38.22**| **34.36**| **39.37**|
@@ -590,6 +593,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[CATN (w/ fastText)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|60.1|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|60.85|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|arXiv2021| 61.3|
+|[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|63.0|
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
