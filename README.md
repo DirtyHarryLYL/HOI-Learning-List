@@ -94,6 +94,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- ODM (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.02400.pdf)
+
 - SDT (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.01869.pdf)
 
 - DOQ (CVPR 2022), [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Qu_Distillation_Using_Oracle_Queries_for_Transformer-Based_Human-Object_Interaction_Detection_CVPR_2022_paper.pdf), [[Code]](https://github.com/SherlockHolmes221/DOQ)
@@ -384,6 +386,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|21.26|18.47|22.07|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
+|[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|arXiv|21.50| 17.59| 22.67|-|-|-|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 21.85| 18.11 |22.97|-|-|-|
 |[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|21.93 |16.30| 23.62| 25.22| 18.75| 27.15|
@@ -430,6 +433,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|31.17| 25.31| 32.92| 34.02| 28.83| 35.57|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|31.34 |24.31 |33.32|-|-|-|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| 65.3| 67.1|
+|[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|arXiv|31.65 |24.95| 33.65|-|-|-|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|31.75| 27.45| 33.03| 34.50| 30.13| 35.81|
 |[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
