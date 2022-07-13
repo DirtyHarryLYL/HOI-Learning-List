@@ -94,6 +94,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- SGCN4HOI (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.05733.pdf)
+
 - HQM (ECCV 2022), [[Paper]](https://arxiv.org/pdf/2207.05293.pdf), [[Code]](https://github.com/MuchHair/HQM)
 
 - ODM (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.02400.pdf)
@@ -578,6 +580,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|53.1|
+|[SGCN4HOI](https://arxiv.org/pdf/2207.05733.pdf)|arXiv2022|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
 |[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|ICCV2021|53.3|
