@@ -94,6 +94,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- HQM (ECCV 2022), [[Paper]](https://arxiv.org/pdf/2207.05293.pdf), [[Code]](https://github.com/MuchHair/HQM)
+
 - ODM (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.02400.pdf)
 
 - SDT (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.01869.pdf)
@@ -439,6 +441,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|32.22| 28.15| 33.43| 35.29| 31.43| 36.45|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
+|[CDN-s+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|32.47| 28.15| 33.76|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
@@ -603,6 +606,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|63.5|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
+|[QPIC+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|63.6|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
