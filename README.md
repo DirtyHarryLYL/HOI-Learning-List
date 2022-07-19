@@ -94,6 +94,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- K-BAN (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.07979.pdf)
+
 - SGCN4HOI (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.05733.pdf)
 
 - HQM (ECCV 2022), [[Paper]](https://arxiv.org/pdf/2207.05293.pdf), [[Code]](https://github.com/MuchHair/HQM)
@@ -380,16 +382,17 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[VSGNet](https://github.com/ASMIftekhar/VSGNet)|CVPR2020|19.80 |16.05| 20.91|-|-|-|
 |[PFNet](https://link.springer.com/content/pdf/10.1007/s41095-020-0188-2.pdf)|CVM|20.05 |16.66 |21.07| 24.01| 21.09| 24.89|
 |[ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL)|CVPR2021 |20.08| 15.57| 21.43|-|-|-|
-|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|21.07 |16.79| 22.35|-|-|-|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|20.41 |17.34| 21.56| 22.04 |18.97| 23.12|
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
 |[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|ICCV2021|20.93 |18.24| 21.78| 24.83| 20.52| 25.32|
 |[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|20.93	|18.95|	21.32|	23.02|	20.96|	23.42|
+|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|21.07 |16.79| 22.35|-|-|-|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|21.26|18.47|22.07|-|-|-|
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
+|[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|21.48 |16.85| 22.86| 24.29| 19.09| 25.85|
 |[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|arXiv|21.50| 17.59| 22.67|-|-|-|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 21.85| 18.11 |22.97|-|-|-|
@@ -427,6 +430,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
 |[RGBM](https://arxiv.org/pdf/2202.11998.pdf)|arXiv2022|27.39| 21.34 |29.20 |30.87 |24.20 |32.87|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|28.03 |22.73| 29.61| 29.98| 24.13| 31.73|
+|[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|28.83| 20.29| 31.31| 31.05| 21.41| 33.93|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|28.87 |24.25 |30.25 |31.74 |27.07|33.14|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 29.07 |21.85 |31.23 |31.68 |24.14 |33.93|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|29.17 |22.13 |30.84 |33.50| 26.67 |34.89|
@@ -464,7 +468,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|45.25|36.27 |47.94|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|46.45 |35.10 |49.84|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|51.53| **41.01**| 54.67|
-|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|**57.3**|
+|[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|52.99 |34.91| **58.40**|
+|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|57.3|
 
 #### 4) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
@@ -586,6 +591,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|ICCV2021|53.3|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|53.43|
 |[SABRA-Res50](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 53.57|
+|[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|53.70|
 |[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|53.79|
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|53.9|
 |[RR-Net](https://arxiv.org/pdf/2104.15015.pdf)|arXiv|54.2|
