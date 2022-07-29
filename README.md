@@ -94,6 +94,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- PartMap (ECCV2022), [[Paper]](https://arxiv.org/pdf/2207.14192v1.pdf), [[Code]](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)
+
 - K-BAN (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.07979.pdf)
 
 - SGCN4HOI (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.05733.pdf)
@@ -446,14 +448,15 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|32.22| 28.15| 33.43| 35.29| 31.43| 36.45|
-|[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |**33.45**| 32.02|-|-|-|
+|[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |33.45| 32.02|-|-|-|
 |[CDN-s+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|32.47| 28.15| 33.76|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
-|[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| **38.22**| **34.36**| **39.37**|
+|[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| **38.22**| 34.36| **39.37**|
+|[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |**33.71**| 35.58| 37.56| **35.87**| 38.06|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|**35.78** |29.80 |**37.56** |37.59 |31.66 |39.36|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
@@ -471,7 +474,16 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|52.99 |34.91| **58.40**|
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|57.3|
 
-#### 4) Enhanced with HAKE:
+#### 4) [Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network/tree/TIN-PAMI) detection (interactive or not + pair box detection):
+|Method| Pub | HICO-DET | V-COCO |
+|:---:|:---:|:---:|:---:|
+|[TIN++](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network/tree/TIN-PAMI)|TPAMI2022| 14.35| 29.36|
+|[PPDM](https://github.com/YueLiao/PPDM)|CVPR2020|27.34 |-|
+|[QPIC](https://github.com/hitachi-rd-cv/qpic)| CVPR2021| 32.96 |38.33|
+|[CDN](https://github.com/YueLiao/CDN)| NeurIPS2021| 33.55 |40.13|
+|[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|**38.74** |**43.61**|
+
+#### 5) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 14.84	|10.45	|16.15|	16.26	|11.33|	17.73|
@@ -480,7 +492,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Interactiveness + HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.12 (**+5.09**)|20.19|22.69|24.06|22.19|24.62|
 |[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action)| CVPR2020 | 22.66 (**+5.63**)|21.17|23.09|24.53|23.00|24.99|
 
-#### 5) Zero-Shot HOI detection:
+#### 6) Zero-Shot HOI detection:
 
 ##### Unseen action-object combination scenario (UC)
 
@@ -612,6 +624,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|63.0|
+|[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|63.0|
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|63.5|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
