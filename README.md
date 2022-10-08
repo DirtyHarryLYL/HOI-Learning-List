@@ -449,7 +449,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| 65.3| 67.1|
 |[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|arXiv|31.65 |24.95| 33.65|-|-|-|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|31.75| 27.45| 33.03| 34.50| 30.13| 35.81|
-|[ParSe(COCO)](https://github.com/JacobYuan7/RLIP)|arXiv2022|31.79| 26.36 |33.41|-|-|-|
+|[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|31.79| 26.36 |33.41|-|-|-|
 |[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|32.22| 28.15| 33.43| 35.29| 31.43| 36.45|
@@ -457,7 +457,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[CDN-s+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|32.47| 28.15| 33.76|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
-|[RLIP-ParSe (VG+COCO)](https://github.com/JacobYuan7/RLIP)|arXiv2022|32.84|26.85 |34.63|-|-|-|
+|[RLIP-ParSe (VG+COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|32.84|26.85 |34.63|-|-|-|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
@@ -511,16 +511,16 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [VCL](https://github.com/zhihou7/VCL) (NF-UC)| ECCV2020 | HICO-DET | 16.22 | 18.52 |  18.06 | 
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((NF-UC))|CVPR2021| HICO-DET | 18.25|18.78| 18.67|
 | [FCL](https://github.com/zhihou7/FCL) (NF-UC)| CVPR2021 | HICO-DET | 18.66 | 19.55 |  19.37 | 
-| [RLIP-ParSe](https://github.com/JacobYuan7/RLIP)(RF-UC)|arXiv2022|COCO, VG|20.27| **27.67**| **26.19**|
+| [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|20.27| **27.67**| **26.19**|
 | [SCL](https://arxiv.org/pdf/2203.14272) | arxiv |  HICO-DET | 21.73 |  25.00 |  24.34 |
-| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf)(NF-UC)| CVPR2022 | HICO-DET | **25.05** | 23.38 | 23.71 |
+| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (NF-UC)| CVPR2022 | HICO-DET | **25.05** | 23.38 | 23.71 |
 ||
 | [VCL](https://github.com/zhihou7/VCL) (RF-UC)| ECCV2020 | HICO-DET | 10.06 | 24.28 | 21.43 |
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((RF-UC))|CVPR2021| HICO-DET |9.18|24.67|21.57|
 | [FCL](https://github.com/zhihou7/FCL) (RF-UC)| CVPR2021 | HICO-DET | 13.16 | 24.23 | 22.01 |
-| [SCL](https://arxiv.org/pdf/2203.14272)(RF-UC) | arxiv | HICO-DET | 19.07 |  30.39 | 28.08 |
-| [RLIP-ParSe](https://github.com/JacobYuan7/RLIP)(RF-UC)|arXiv2022|COCO, VG|19.19 |**33.35**| 30.52|
-| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf)(RF-UC)| CVPR2022 | HICO-DET | **21.36**| 32.91 | **30.56** |
+| [SCL](https://arxiv.org/pdf/2203.14272) (RF-UC) | arxiv | HICO-DET | 19.07 |  30.39 | 28.08 |
+| [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|19.19 |**33.35**| 30.52|
+| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (RF-UC)| CVPR2022 | HICO-DET | **21.36**| 32.91 | **30.56** |
 
 - \* indicates large Visual-Language model pretraining, \eg, CLIP. 
 - For the details of the setting, please refer to corresponding publications. This is not officially published and might miss some publications. Please find the corresponding publications.
@@ -658,8 +658,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
 |[QPIC+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|63.6|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
-|[RLIP-ParSe(COCO+VG)](https://github.com/JacobYuan7/RLIP)|arXiv2022|64.2|
-|[ParSe(COCO)](https://github.com/JacobYuan7/RLIP)|arXiv2022|64.8|
+|[RLIP-ParSe (COCO+VG)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.2|
+|[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.8|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|**66.2**|
