@@ -94,7 +94,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- RLIP (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2209.01814.pdf), [[Code]](https://github.com/JacobYuan7/RLIP)
+- RLIP (NeurIPS 2022), [[Paper]](https://arxiv.org/pdf/2209.01814.pdf), [[Code]](https://github.com/JacobYuan7/RLIP)
 
 - PartMap (ECCV2022), [[Paper]](https://arxiv.org/pdf/2207.14192v1.pdf), [[Code]](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)
 
@@ -271,6 +271,8 @@ More...
 More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
+
+- RLIP (NeurIPS 2022), [[Paper]](https://arxiv.org/pdf/2209.01814.pdf), [[Code]](https://github.com/JacobYuan7/RLIP)
 
 - THID (CVPR 2022), [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2022/CVPR2022_4126.pdf), [[Code]](https://github.com/scwangdyd/promting_hoi)
 
@@ -455,7 +457,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[CDN-s+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|32.47| 28.15| 33.76|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
-|[RLIP-ParSe(VG+COCO)](https://github.com/JacobYuan7/RLIP)|arXiv2022|32.84|26.85 |34.63|-|-|-|
+|[RLIP-ParSe (VG+COCO)](https://github.com/JacobYuan7/RLIP)|arXiv2022|32.84|26.85 |34.63|-|-|-|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
@@ -523,6 +525,14 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 - \* indicates large Visual-Language model pretraining, \eg, CLIP. 
 - For the details of the setting, please refer to corresponding publications. This is not officially published and might miss some publications. Please find the corresponding publications.
 
+##### Zero-shot* HOI detection without fine-tuning (NF)
+| Method | Pub | Backbone | Dataset | Detector | Full | Rare | Non-Rare |
+| ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| [MDETR-ParSe](https://arxiv.org/abs/2104.12763) | ICCV2021 | ResNet-101 | COCO + VG + Flickr30k | DETR | 0 | 0 | 0 |
+| [RLIP-ParSeD](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DDETR | 13.92 | 11.20 | 14.73 |
+| [RLIP-ParSe](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DETR | 15.40 | 15.08 | 15.50 |
+- \* indicates a formulation that assesses the generalization of a pre-training model to unseen distributions, proposed in [RLIP](https://arxiv.org/pdf/2209.01814.pdf). *zero-shot* follows the terminology from CLIP.
+
 ##### Unseen object scenario (UO)
 
 | Method | Pub | Detector | Full(def) | Seen(def) | Unseen(def)|
@@ -538,7 +548,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **19.04** | **20.02** | **14.12** |
 
 ##### Another setting
-| Method | Pub| Unseen| Seen | Full | 
+| Method | Pub | Unseen| Seen | Full | 
 |:---:|:---:|:---:|:---:|:---:|
 |[Shen et. al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf)|WACV2018| 5.62| - |6.26|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf)|AAAI2020 |10.93 |12.60 |12.26|
@@ -547,6 +557,18 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[FCL](https://github.com/zhihou7/FCL)| CVPR2021 |13.16 |24.23 |22.01|
 |[THID (w/ CLIP)](https://github.com/scwangdyd/promting_hoi)|CVPR2022 |**15.53** |24.32 |**22.96**|
 
+#### 7) Few-Shot HOI detection:
+##### 1% HICO-Det Data used in fine-tuning
+| Method | Pub | Backbone | Dataset | Detector | Data |Full | Rare | Non-Rare |
+| ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| [RLIP-ParSeD](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DDETR | 1% | 18.30 | 16.22 | 18.92 |
+| [RLIP-ParSe](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DETR | 1% | 18.46 | 17.47 | 18.76 |
+
+##### 10% HICO-Det Data used in fine-tuning
+| Method | Pub | Backbone | Dataset | Detector | Data |Full | Rare | Non-Rare |
+| ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| [RLIP-ParSeD](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DDETR | 10% | 22.09 | 15.89 | 23.94 |
+| [RLIP-ParSe](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DETR | 10% | 22.59 | 20.16 | 23.32 |
 
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
 #### Detector: COCO pre-trained
