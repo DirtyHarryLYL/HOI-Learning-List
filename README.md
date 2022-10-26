@@ -462,7 +462,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| **38.22**| 34.36| **39.37**|
-|[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |**33.71**| 35.58| 37.56| **35.87**| 38.06|
+|[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |**33.71**| 35.58| 37.56| **35.87**| 38.06|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|**35.78** |29.80 |**37.56** |37.59 |31.66 |39.36|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
@@ -487,7 +487,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[PPDM](https://github.com/YueLiao/PPDM)|CVPR2020|27.34 |-|
 |[QPIC](https://github.com/hitachi-rd-cv/qpic)| CVPR2021| 32.96 |38.33|
 |[CDN](https://github.com/YueLiao/CDN)| NeurIPS2021| 33.55 |40.13|
-|[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|**38.74** |**43.61**|
+|[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|**38.74** |**43.61**|
 
 #### 5) Enhanced with HAKE:
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
