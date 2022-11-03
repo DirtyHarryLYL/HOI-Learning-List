@@ -96,6 +96,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- MHOI (TCSVT 2022), [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451), 
+
 - RLIP (NeurIPS 2022), [[Paper]](https://arxiv.org/pdf/2209.01814.pdf), [[Code]](https://github.com/JacobYuan7/RLIP)
 
 - PartMap (ECCV2022), [[Paper]](https://arxiv.org/pdf/2207.14192v1.pdf), [[Code]](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)
@@ -445,10 +447,11 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|29.63 |23.14 |31.57|-|-|-|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|29.90 |23.92 |31.69 |32.38 |26.06 |34.27|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 29.26 | 24.61 | 30.65 | 32.87 | 27.89 | 34.35 |
+|[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|29.67 |24.37 |31.25 |31.87 |27.28 |33.24|
 |[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|30.03 |23.48 |31.99 |33.74 |27.35 |35.64|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|31.17| 25.31| 32.92| 34.02| 28.83| 35.57|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|31.34 |24.31 |33.32|-|-|-|
-|[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| 65.3| 67.1|
+|[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| -|-|-|
 |[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|arXiv|31.65 |24.95| 33.65|-|-|-|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|31.75| 27.45| 33.03| 34.50| 30.13| 35.81|
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|31.79| 26.36 |33.41|-|-|-|
@@ -661,8 +664,10 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QPIC+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|63.6|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
 |[RLIP-ParSe (COCO+VG)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.2|
+|[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|64.5|
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.8|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
+|[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|65.3|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|**66.2**|
 
