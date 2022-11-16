@@ -37,7 +37,9 @@ More...
 
 ### Video HOI Datasets
 
-- VidHOI [[Paper]](https://arxiv.org/pdf/2105.11731.pdf)
+- MPHOI-72 RGB-D, [[Paper]](https://arxiv.org/pdf/2207.09425.pdf), [[Project]](https://github.com/tanqiu98/2G-GCN)
+
+- VidHOI [[Paper]](https://arxiv.org/pdf/2105.11731.pdf), [[Project]](https://github.com/coldmanck/VidHOI)
 
 - AVA [[Website]](http://research.google.com/ava/), HOIs (human-object, human-human) and pose (body motion) actions
 
@@ -47,6 +49,9 @@ More...
 
 - Sth-else [[Paper]](https://arxiv.org/abs/1912.09930), [[Website]](https://github.com/joaanna/something_else)
 
+### 3D HOI Datasets
+
+- BEHAVE, [[Paper]](https://arxiv.org/pdf/2204.06950.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/behave/)
 
 ## Method
 
@@ -341,6 +346,12 @@ More...
 - GPNN (ECCV2018) [[Code]](https://github.com/SiyuanQi/gpnn) [[Paper]](https://arxiv.org/pdf/1808.07962.pdf)
 
 More...
+
+### 3D HOI Reconstruction
+
+- CHORE (ECCV2022) [[Project]](https://virtualhumans.mpi-inf.mpg.de/chore/), [[Paper]](https://arxiv.org/pdf/2204.02445.pdf)
+
+- DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN), [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
 
 ## Result
 
