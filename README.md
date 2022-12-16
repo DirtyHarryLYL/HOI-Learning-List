@@ -347,7 +347,11 @@ More...
 
 More...
 
-### 3D HOI Reconstruction
+### 3D HOI Reconstruction/Generation
+
+- NeuralDome (arXiv2022) [[Paper]](https://arxiv.org/pdf/2212.07626.pdf)
+
+- IMoS (EUROGRAPHICS2023) [[Paper]](https://arxiv.org/pdf/2212.07555.pdf)
 
 - CHORE (ECCV2022) [[Project]](https://virtualhumans.mpi-inf.mpg.de/chore/), [[Paper]](https://arxiv.org/pdf/2204.02445.pdf)
 
