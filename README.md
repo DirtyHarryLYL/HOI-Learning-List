@@ -101,7 +101,9 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- MHOI (TCSVT 2022), [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451), 
+- PQNet (MMAsia '22), [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3551626.3564944)
+
+- MHOI (TCSVT 2022), [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)
 
 - RLIP (NeurIPS 2022), [[Paper]](https://arxiv.org/pdf/2209.01814.pdf), [[Code]](https://github.com/JacobYuan7/RLIP)
 
@@ -474,6 +476,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|32.22| 28.15| 33.43| 35.29| 31.43| 36.45|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |33.45| 32.02|-|-|-|
+|[PQNet-L](https://dl.acm.org/doi/pdf/10.1145/3551626.3564944)|mmasia2022|32.45 |27.80 |33.84 |35.28 |30.72 |36.64|
 |[CDN-s+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|32.47| 28.15| 33.76|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
