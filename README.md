@@ -351,13 +351,25 @@ More...
 
 ### 3D HOI Reconstruction/Generation
 
+- CHAIRS (arXiv2022) [[Paper]](https://arxiv.org/pdf/2212.10621.pdf), [[Project]](https://jnnan.github.io/project/chairs/)
+
 - NeuralDome (arXiv2022) [[Paper]](https://arxiv.org/pdf/2212.07626.pdf)
+
+- ARCTIC (arXiv2022) [[Paper]](https://arxiv.org/pdf/2204.13662.pdf), [[Project]](https://arctic.is.tue.mpg.de/) 
 
 - IMoS (EUROGRAPHICS2023) [[Paper]](https://arxiv.org/pdf/2212.07555.pdf)
 
+- BEHAVE (CVPR2022) [[Paper]](https://virtualhumans.mpi-inf.mpg.de/papers/bhatnagar22behave/behave.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/behave/)
+
 - CHORE (ECCV2022) [[Project]](https://virtualhumans.mpi-inf.mpg.de/chore/), [[Paper]](https://arxiv.org/pdf/2204.02445.pdf)
 
-- DJ-RN (CVPR2020) [[Code]](https://github.com/DirtyHarryLYL/DJ-RN), [[Paper]](https://arxiv.org/pdf/2004.08154.pdf)
+- D3D-HOI (arXiv2021) [[Paper]](https://arxiv.org/pdf/2108.08420.pdf), [[Project]](https://github.com/facebookresearch/d3d-hoi)
+
+- DJ-RN (CVPR2020) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf), [[Code]](https://github.com/DirtyHarryLYL/DJ-RN)
+
+- GRAB (ECCV2020) [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf), [[Project]](https://grab.is.tue.mpg.de/)
+
+- PROX (ICCV2019) [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Hassan_Resolving_3D_Human_Pose_Ambiguities_With_3D_Scene_Constraints_ICCV_2019_paper.pdf), [[Project]](https://prox.is.tue.mpg.de/)
 
 ## Result
 
