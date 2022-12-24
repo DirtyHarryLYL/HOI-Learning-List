@@ -3,7 +3,7 @@ Some recent (2015-now) Human-Object Interaction Learing studies. If you find any
 
 A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transformer-in-Vision.
 
-## Dataset/Benchmark
+## Image Dataset/Benchmark
 
 - Bongard-HOI [[Paper]](https://arxiv.org/pdf/2205.13803.pdf), [[Code]](https://github.com/NVlabs/Bongard-HOI)
 
@@ -52,6 +52,10 @@ More...
 ### 3D HOI Datasets
 
 - BEHAVE, [[Paper]](https://arxiv.org/pdf/2204.06950.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/behave/)
+
+## Suevry
+
+- Human object interaction detection: Design and survey (Image and Vision Computing 2022), [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885622002463)
 
 ## Method
 
