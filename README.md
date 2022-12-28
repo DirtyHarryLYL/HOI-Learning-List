@@ -355,6 +355,8 @@ More...
 
 ### 3D HOI Reconstruction/Generation
 
+- HUMANISE (arXiv2022) [[Paper]](https://silvester.wang/HUMANISE/paper.pdf), [[Project]](https://silvester.wang/HUMANISE/)
+
 - CHAIRS (arXiv2022) [[Paper]](https://arxiv.org/pdf/2212.10621.pdf), [[Project]](https://jnnan.github.io/project/chairs/)
 
 - NeuralDome (arXiv2022) [[Paper]](https://arxiv.org/pdf/2212.07626.pdf)
