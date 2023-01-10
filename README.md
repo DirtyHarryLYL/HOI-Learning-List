@@ -105,7 +105,9 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- PQNet (MMAsia '22), [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3551626.3564944)
+- PR-Net (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2301.03510.pdf)
+
+- PQNet (MMAsia 2022), [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3551626.3564944)
 
 - MHOI (TCSVT 2022), [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)
 
@@ -499,6 +501,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
 |[RLIP-ParSe (VG+COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|32.84|26.85 |34.63|-|-|-|
+|[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|32.86 |28.03| 34.30|-|-|-|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
@@ -692,6 +695,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|arXiv2021| 61.3|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
+|[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|62.9|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|63.0|
 |[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|63.0|
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
