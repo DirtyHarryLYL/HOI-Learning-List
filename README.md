@@ -105,6 +105,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- FGAHOI (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2301.04019.pdf), [[Code]](https://github.com/xiaomabufei/FGAHOI)
+
 - PR-Net (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2301.03510.pdf)
 
 - PQNet (MMAsia 2022), [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3551626.3564944)
@@ -505,9 +507,10 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
-|[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| **38.22**| 34.36| **39.37**|
+|[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |**33.71**| 35.58| 37.56| **35.87**| 38.06|
-|[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|**35.78** |29.80 |**37.56** |37.59 |31.66 |39.36|
+|[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
+|[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|**37.18** |30.71| **39.11**| **38.93**| 31.93| **41.02**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -691,6 +694,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
 |[CATN (w/ fastText)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|60.1|
+|[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|60.5|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|60.85|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|arXiv2021| 61.3|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
