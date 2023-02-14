@@ -119,11 +119,11 @@ More...
 
 - K-BAN (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.07979.pdf)
 
-- SGCN4HOI (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.05733.pdf)
+- SGCN4HOI (IEEE SMC 2022), [[Paper]](https://arxiv.org/pdf/2207.05733.pdf)
 
 - HQM (ECCV 2022), [[Paper]](https://arxiv.org/pdf/2207.05293.pdf), [[Code]](https://github.com/MuchHair/HQM)
 
-- ODM (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.02400.pdf)
+- ODM (ECCV 2022), [[Paper]](https://arxiv.org/pdf/2207.02400.pdf)
 
 - SDT (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2207.01869.pdf)
 
@@ -137,7 +137,7 @@ More...
 
 - CPC (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.04836.pdf), [[Code]](https://github.com/mlvlab/CPChoi)
 
-- CATN (arXiv 2022), [[Paper]](https://arxiv.org/pdf/2204.04911.pdf)
+- CATN (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.04911.pdf)
 
 - SSRT (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2204.00746.pdf)
 
@@ -145,11 +145,11 @@ More...
 
 - MSTR (CVPR 2022), [[Paper]](https://arxiv.org/pdf/2203.14709.pdf)
 
-- Iwin (arXiv 2022.3), [[Paper]](https://arxiv.org/pdf/2203.10537.pdf)
+- Iwin (ECCV 2022), [[Paper]](https://arxiv.org/pdf/2203.10537.pdf)
 
 - RGBM (arXiv 2022.2), [[Paper]](https://arxiv.org/pdf/2202.11998.pdf)
 
-- GPV-2 (arXiv 2022.2), [[Paper]](https://arxiv.org/pdf/2202.02317.pdf), [[Project]](https://prior.allenai.org/projects/gpv2)
+- GPV-2 (ECCV 2022), [[Paper]](https://arxiv.org/pdf/2202.02317.pdf), [[Project]](https://prior.allenai.org/projects/gpv2)
 
 - OC-Immunity (AAAI 2022) [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
 
@@ -161,7 +161,7 @@ More...
 
 - DEFR (arXiv 2021.12) [[Paper]](https://arxiv.org/pdf/2112.06392.pdf)
 
-- UPT (arXiv 2021) [[Paper]](https://arxiv.org/pdf/2112.01838.pdf), [[Code]](https://github.com/fredzzhang/upt)
+- UPT (CVPR 2022) [[Paper]](https://arxiv.org/pdf/2112.01838.pdf), [[Code]](https://github.com/fredzzhang/upt)
 
 - HRNet (TIP 2021) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)
 
@@ -442,7 +442,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)| CVPR2020 | 21.34|18.53|22.18|23.69|20.64|24.60|
 |[OSGNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9360596)|IEEE Access|21.40 |18.12| 22.38|-|-|-|
 |[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|21.48 |16.85| 22.86| 24.29| 19.09| 25.85|
-|[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|arXiv|21.50| 17.59| 22.67|-|-|-|
+|[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|ECCV2022|21.50| 17.59| 22.67|-|-|-|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)| AAAI2021|21.78| 16.38| 23.39| 25.52| 20.84| 26.92|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 21.85| 18.11 |22.97|-|-|-|
 |[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|21.93 |16.30| 23.62| 25.22| 18.75| 27.15|
@@ -491,17 +491,17 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|31.17| 25.31| 32.92| 34.02| 28.83| 35.57|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|31.34 |24.31 |33.32|-|-|-|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| -|-|-|
-|[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|arXiv|31.65 |24.95| 33.65|-|-|-|
+|[SCG+ODM](https://arxiv.org/pdf/2207.02400.pdf)|ECCV2022|31.65 |24.95| 33.65|-|-|-|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|31.75| 27.45| 33.03| 34.50| 30.13| 35.81|
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|31.79| 26.36 |33.41|-|-|-|
-|[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
+|[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|CVPR2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|32.22| 28.15| 33.43| 35.29| 31.43| 36.45|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |33.45| 32.02|-|-|-|
 |[PQNet-L](https://dl.acm.org/doi/pdf/10.1145/3551626.3564944)|mmasia2022|32.45 |27.80 |33.84 |35.28 |30.72 |36.64|
 |[CDN-s+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|32.47| 28.15| 33.76|-|-|-|
-|[UPT](https://github.com/fredzzhang/upt)|arXiv2021|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
-|[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
+|[UPT](https://github.com/fredzzhang/upt)|CVPR2022|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
+|[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|ECCV2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
 |[RLIP-ParSe (VG+COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|32.84|26.85 |34.63|-|-|-|
 |[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|32.86 |28.03| 34.30|-|-|-|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
@@ -672,7 +672,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|52.98 (53.23)|
 |[FCMNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590239.pdf)|ECCV2020|53.1|
 |[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|53.1|
-|[SGCN4HOI](https://arxiv.org/pdf/2207.05733.pdf)|arXiv2022|53.1|
+|[SGCN4HOI](https://arxiv.org/pdf/2207.05733.pdf)|IEEESMC2022|53.1|
 |[ConsNet](https://arxiv.org/pdf/2008.06254.pdf)|ACMMM2020|53.2|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|53.3|
 |[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|ICCV2021|53.3|
@@ -693,10 +693,10 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|58.29|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
-|[CATN (w/ fastText)](https://arxiv.org/pdf/2204.04911.pdf)|arXiv2022|60.1|
+|[CATN (w/ fastText)](https://arxiv.org/pdf/2204.04911.pdf)|CVPR2022|60.1|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|60.5|
-|[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|arXiv2022|60.85|
-|[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|arXiv2021| 61.3|
+|[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|ECCV2022|60.85|
+|[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|CVPR2022| 61.3|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
 |[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|62.9|
