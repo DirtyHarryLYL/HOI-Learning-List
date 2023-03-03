@@ -105,6 +105,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- Weakly-HOI-CLIP (ICLR 2023), [[Paper]](https://arxiv.org/pdf/2303.01313.pdf), [[Code]](https://github.com/bobwan1995/Weakly-HOI)
+
 - FGAHOI (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2301.04019.pdf), [[Code]](https://github.com/xiaomabufei/FGAHOI)
 
 - PR-Net (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2301.03510.pdf)
@@ -617,6 +619,14 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [RLIP-ParSeD](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DDETR | 10% | 22.09 | 15.89 | 23.94 |
 | [RLIP-ParSe](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DETR | 10% | 22.59 | 20.16 | 23.32 |
 
+#### 8) Weakly-supervised HOI detection:
+| Method | Pub | Backbone | Dataset | Detector |Full | Rare | Non-Rare |
+| ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| [Explanation-HOI](https://github.com/baldassarreFe/ws-vrd)| ECCV2020 | ResNeXt101 | COCO | FRCNN | 10.63 |8.71 |11.20|
+| [MX-HOI](https://openaccess.thecvf.com/content/WACV2021/papers/Kumaraswamy_Detecting_Human-Object_Interaction_With_Mixed_Supervision_WACV_2021_paper.pdf)| WACV2021 | ResNet-101 | COCO | FRCNN | 16.14 |12.06 |17.50|
+| [PPR-FCN (from Weakly-HOI-CLIP)](https://arxiv.org/pdf/1708.01956.pdf)| ICCV2017 | ResNet-50, CLIP | COCO | FRCNN | 17.55 |15.69 | 18.41|
+| [Weakly-HOI-CLIP](https://arxiv.org/pdf/2303.01313.pdf) | ICLR2023 | ResNet-101, CLIP | COCO | FRCNN | **25.70** |**24.52**| **26.05**|
+
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
 #### Detector: COCO pre-trained
 |Method| mAP |
@@ -722,6 +732,11 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[iCAN + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 49.2 (**+3.9**)|
 |[Interactiveness](https://arxiv.org/pdf/1811.08264.pdf)| CVPR2019 | 47.8| 
 |[Interactiveness + HAKE-Large](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action) (transfer learning)| CVPR2020 | 51.0 (**+3.2**)|
+
+#### 3) Weakly-supervised HOI detection:
+| Method | Pub | Backbone | Dataset | Detector | AP(role)-S1 |AP(role)-S2 |
+| ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: |
+| [Weakly-HOI-CLIP](https://arxiv.org/pdf/2303.01313.pdf) | ICLR2023 | ResNet-101, CLIP | COCO | FRCNN | **44.74**|**49.97**|
 
 ### [HOI-COCO](https://github.com/zhihou7/HOI-CL): 
 based on V-COCO
