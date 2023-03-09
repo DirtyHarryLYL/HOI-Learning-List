@@ -105,6 +105,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- SKGHOI (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.04253.pdf)
+
 - Weakly-HOI-CLIP (ICLR 2023), [[Paper]](https://arxiv.org/pdf/2303.01313.pdf), [[Code]](https://github.com/bobwan1995/Weakly-HOI)
 
 - FGAHOI (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2301.04019.pdf), [[Code]](https://github.com/xiaomabufei/FGAHOI)
@@ -449,6 +451,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 21.85| 18.11 |22.97|-|-|-|
 |[HRNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9552553)|TIP2021|21.93 |16.30| 23.62| 25.22| 18.75| 27.15|
 |[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|22.15|17.55|23.52|26.57|20.8|28.3|
+|[SKGHOI](https://arxiv.org/pdf/2303.04253.pdf)|arXiv2023|22.61 |15.87| 24.62|-|-|-|
 |[IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))|NeurIPS2020|23.36|22.47|23.63|26.43|25.01|26.85|
 |[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|24.35 |16.18| 26.80|-|-|-|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|25.97 |26.09| 25.93|-|-|-|
@@ -479,6 +482,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 26.09 |16.29| 29.02| 31.08| 23.44| 33.37|
 |[QAHOI-Res50](https://github.com/cjw2021/QAHOI)|arXiv2021|26.18 |18.06| 28.61|-|-|-|
 |[Zou et al.](https://github.com/bbepoch/HoiTransformer)|CVPR2021|26.61 |19.15| 28.84| 29.13| 20.98| 31.57|
+|[SKGHOI](https://arxiv.org/pdf/2303.04253.pdf)|arXiv2023|26.95 |21.28 |28.56| -|-|-|
 |[RGBM](https://arxiv.org/pdf/2202.11998.pdf)|arXiv2022|27.39| 21.34 |29.20 |30.87 |24.20 |32.87|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|28.03 |22.73| 29.61| 29.98| 24.13| 31.73|
 |[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|28.83| 20.29| 31.31| 31.05| 21.41| 33.93|
