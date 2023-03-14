@@ -295,6 +295,8 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
+- Unal et.al. (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.05546.pdf)
+
 - RLIP (NeurIPS 2022), [[Paper]](https://arxiv.org/pdf/2209.01814.pdf), [[Code]](https://github.com/JacobYuan7/RLIP)
 
 - THID (CVPR 2022), [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2022/CVPR2022_4126.pdf), [[Code]](https://github.com/scwangdyd/promting_hoi)
@@ -629,6 +631,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [Explanation-HOI](https://github.com/baldassarreFe/ws-vrd)| ECCV2020 | ResNeXt101 | COCO | FRCNN | 10.63 |8.71 |11.20|
 | [MX-HOI](https://openaccess.thecvf.com/content/WACV2021/papers/Kumaraswamy_Detecting_Human-Object_Interaction_With_Mixed_Supervision_WACV_2021_paper.pdf)| WACV2021 | ResNet-101 | COCO | FRCNN | 16.14 |12.06 |17.50|
 | [PPR-FCN (from Weakly-HOI-CLIP)](https://arxiv.org/pdf/1708.01956.pdf)| ICCV2017 | ResNet-50, CLIP | COCO | FRCNN | 17.55 |15.69 | 18.41|
+| [Align-Former](https://www.bmvc2021-virtualconference.com/assets/papers/0054.pdf)| BMVC2021 | ResNet-101 | - | - | 20.85 |18.23 |21.64|
 | [Weakly-HOI-CLIP](https://arxiv.org/pdf/2303.01313.pdf) | ICLR2023 | ResNet-101, CLIP | COCO | FRCNN | **25.70** |**24.52**| **26.05**|
 
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
