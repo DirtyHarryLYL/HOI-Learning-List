@@ -105,6 +105,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- UniVRD (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.08998.pdf)
+
 - SKGHOI (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.04253.pdf)
 
 - Weakly-HOI-CLIP (ICLR 2023), [[Paper]](https://arxiv.org/pdf/2303.01313.pdf), [[Code]](https://github.com/bobwan1995/Weakly-HOI)
@@ -518,7 +520,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |**33.71**| 35.58| 37.56| **35.87**| 38.06|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
-|[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|**37.18** |30.71| **39.11**| **38.93**| 31.93| **41.02**|
+|[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| **38.93**| 31.93| **41.02**|
+|[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|**38.61**| 33.39| **40.16**|-|-|-|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -662,6 +665,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[InteractNet](https://arxiv.org/pdf/1704.07333.pdf)|CVPR2018|40.0|
 |[Turbo](https://arxiv.org/pdf/1903.06355.pdf)|AAAI2019|42.0|
 |[GPNN](https://arxiv.org/pdf/1808.07962.pdf)|ECCV2018|44.0|
+|[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|45.19|
 |[iCAN](https://arxiv.org/pdf/1808.10437.pdf)| BMVC2018 | 45.3| 
 |[Xu et. al](https://www-users.cs.umn.edu/~qzhao/publications/pdf/xu2019cvpr.pdf)| CVPR2019| 45.9|
 |[Wang et. al.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Deep_Contextual_Attention_for_Human-Object_Interaction_Detection_ICCV_2019_paper.pdf)| ICCV2019|47.3|
