@@ -105,6 +105,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- HOICLIP (CVPR 2023), [[Paper]](https://arxiv.org/pdf/2303.15786.pdf), [[Code]](https://github.com/Artanic30/HOICLIP)
+
 - CQL (CVPR 2023), [[Paper]](https://arxiv.org/pdf/2303.14005.pdf), [[Code]](https://github.com/charles-xie/CQL)
 
 - UniVRD (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.08998.pdf)
@@ -519,6 +521,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
+|[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |**33.71**| 35.58| 37.56| **35.87**| 38.06|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
@@ -572,16 +575,18 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [VCL](https://github.com/zhihou7/VCL) (NF-UC)| ECCV2020 | HICO-DET | 16.22 | 18.52 |  18.06 | 
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((NF-UC))|CVPR2021| HICO-DET | 18.25|18.78| 18.67|
 | [FCL](https://github.com/zhihou7/FCL) (NF-UC)| CVPR2021 | HICO-DET | 18.66 | 19.55 |  19.37 | 
-| [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|20.27| **27.67**| **26.19**|
+| [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|20.27| 27.67| 26.19|
 | [SCL](https://arxiv.org/pdf/2203.14272) | arxiv |  HICO-DET | 21.73 |  25.00 |  24.34 |
-| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (NF-UC)| CVPR2022 | HICO-DET | **25.05** | 23.38 | 23.71 |
+| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (NF-UC)| CVPR2022 | HICO-DET | 25.05 | 23.38 | 23.71 |
+| [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (NF-UC)| CVPR2023|HICO-DET|**26.39** |**28.10**| **27.75**|
 ||
 | [VCL](https://github.com/zhihou7/VCL) (RF-UC)| ECCV2020 | HICO-DET | 10.06 | 24.28 | 21.43 |
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((RF-UC))|CVPR2021| HICO-DET |9.18|24.67|21.57|
 | [FCL](https://github.com/zhihou7/FCL) (RF-UC)| CVPR2021 | HICO-DET | 13.16 | 24.23 | 22.01 |
 | [SCL](https://arxiv.org/pdf/2203.14272) (RF-UC) | arxiv | HICO-DET | 19.07 |  30.39 | 28.08 |
-| [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|19.19 |**33.35**| 30.52|
-| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (RF-UC)| CVPR2022 | HICO-DET | **21.36**| 32.91 | **30.56** |
+| [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|19.19 |33.35| 30.52|
+| [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (RF-UC)| CVPR2022 | HICO-DET | 21.36| 32.91 | 30.56 |
+| [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (RF-UC)| CVPR2023|HICO-DET| **25.53** |**34.85**| **32.99**|
 
 - \* indicates large Visual-Language model pretraining, \eg, CLIP. 
 - For the details of the setting, please refer to corresponding publications. This is not officially published and might miss some publications. Please find the corresponding publications.
@@ -728,6 +733,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|63.0|
 |[QPIC-CPC](https://arxiv.org/pdf/2204.04836.pdf)|CVPR2022|63.1|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|63.5|
+|[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|63.5|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
 |[QPIC+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|63.6|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
