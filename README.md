@@ -528,7 +528,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |**33.71**| 35.58| 37.56| **35.87**| 38.06|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
-|[GEN-VLKT-L + Ours](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|36.03| 33.16| 36.89| 38.82| 35.51| 39.81|
+|[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|36.03| 33.16| 36.89| 38.82| 35.51| 39.81|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| **38.93**| 31.93| **41.02**|
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|**38.61**| 33.39| **40.16**|-|-|-|
 
@@ -747,7 +747,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|65.3|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
-|[GEN-VLKT-L + Ours](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
+|[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|**68.8**|
 
 #### 2) Enhanced with HAKE:
