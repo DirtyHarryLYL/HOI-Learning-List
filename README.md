@@ -546,9 +546,11 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL)|CVPR2021|44.27| 35.52| 46.89|
 |[FCL](https://github.com/zhihou7/FCL)|CVPR2021|45.25|36.27 |47.94|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|46.45 |35.10 |49.84|
-|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|51.53| **41.01**| 54.67|
-|[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|52.99 |34.91| **58.40**|
-|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|**53.04**|38.79|57.3|
+|[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|51.53| 41.01| 54.67|
+|[K-BAN](https://arxiv.org/pdf/2207.07979.pdf)|arXiv2022|52.99 |34.91| 58.40|
+|[ConsNet](https://github.com/yeliudev/ConsNet)|ACMMM2020|53.04|38.79|57.3|
+|[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|**62.09** |**59.26** |**62.93**|
+
 
 #### 4) [Interactiveness](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network/tree/TIN-PAMI) detection (interactive or not + pair box detection):
 |Method| Pub | HICO-DET | V-COCO |
