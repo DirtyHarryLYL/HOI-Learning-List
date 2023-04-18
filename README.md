@@ -105,6 +105,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- ViPLO (CVPR 2023), [[Paper]](https://arxiv.org/pdf/2304.08114.pdf), [[Code]](https://github.com/Jeeseung-Park/ViPLO)
+
 - MUREN (CVPR 2023), [[Paper]](https://arxiv.org/pdf/2304.04997.pdf), [[Project]](http://cvlab.postech.ac.kr/research/MUREN/)
 
 - HOICLIP (CVPR 2023), [[Paper]](https://arxiv.org/pdf/2303.15786.pdf), [[Code]](https://github.com/Artanic30/HOICLIP)
@@ -526,10 +528,11 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
-|[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |**33.71**| 35.58| 37.56| **35.87**| 38.06|
+|[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |33.71| 35.58| 37.56| 35.87| 38.06|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|36.03| 33.16| 36.89| 38.82| 35.51| 39.81|
-|[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| **38.93**| 31.93| **41.02**|
+|[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| 38.93| 31.93| 41.02|
+|[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |**35.45**| 37.75| **40.61**| **38.82**| **41.15**| 
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|**38.61**| 33.39| **40.16**|-|-|-|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
@@ -731,6 +734,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|CVPR2022| 61.3|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
+|[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|62.2|
 |[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|62.9|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|63.0|
 |[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|63.0|
