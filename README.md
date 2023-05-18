@@ -307,8 +307,6 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
-- HICO-DET-SG, V-COCO-SG (new splits of HICO-DET and V-COCO) [[Paper]]([HICO-DET-SG and V-COCO-SG](https://arxiv.org/pdf/2305.09948.pdf)), [[Code]](https://github.com/FujitsuResearch/hoi_sg)
-
 - Unal et.al. (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.05546.pdf)
 
 - RLIP (NeurIPS 2022), [[Paper]](https://arxiv.org/pdf/2209.01814.pdf), [[Code]](https://github.com/JacobYuan7/RLIP)
