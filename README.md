@@ -5,6 +5,8 @@ A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transf
 
 ## Image Dataset/Benchmark
 
+- HICO-DET-SG, V-COCO-SG (new splits of HICO-DET and V-COCO) [[Paper]](HICO-DET-SG and V-COCO-SG), [[Code]](https://github.com/FujitsuResearch/hoi_sg) 
+
 - Bongard-HOI [[Paper]](https://arxiv.org/pdf/2205.13803.pdf), [[Code]](https://github.com/NVlabs/Bongard-HOI)
 
 - SWiG-HOI, [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Discovering_Human_Interactions_With_Large-Vocabulary_Objects_via_Query_and_Multi-Scale_ICCV_2021_paper.pdf), [[Website]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
@@ -304,6 +306,8 @@ More...
 More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
+
+- HICO-DET-SG, V-COCO-SG (new splits of HICO-DET and V-COCO) [[Paper]](HICO-DET-SG and V-COCO-SG), [[Code]](https://github.com/FujitsuResearch/hoi_sg)
 
 - Unal et.al. (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.05546.pdf)
 
