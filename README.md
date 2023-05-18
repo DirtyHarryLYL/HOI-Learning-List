@@ -5,7 +5,7 @@ A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transf
 
 ## Image Dataset/Benchmark
 
-- HICO-DET-SG, V-COCO-SG (new splits of HICO-DET and V-COCO) [[Paper]](HICO-DET-SG and V-COCO-SG), [[Code]](https://github.com/FujitsuResearch/hoi_sg) 
+- HICO-DET-SG, V-COCO-SG (new splits of HICO-DET and V-COCO) [[Paper]](https://arxiv.org/pdf/2305.09948.pdf), [[Code]](https://github.com/FujitsuResearch/hoi_sg) 
 
 - Bongard-HOI [[Paper]](https://arxiv.org/pdf/2205.13803.pdf), [[Code]](https://github.com/NVlabs/Bongard-HOI)
 
@@ -307,7 +307,7 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
-- HICO-DET-SG, V-COCO-SG (new splits of HICO-DET and V-COCO) [[Paper]](HICO-DET-SG and V-COCO-SG), [[Code]](https://github.com/FujitsuResearch/hoi_sg)
+- HICO-DET-SG, V-COCO-SG (new splits of HICO-DET and V-COCO) [[Paper]]([HICO-DET-SG and V-COCO-SG](https://arxiv.org/pdf/2305.09948.pdf)), [[Code]](https://github.com/FujitsuResearch/hoi_sg)
 
 - Unal et.al. (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.05546.pdf)
 
