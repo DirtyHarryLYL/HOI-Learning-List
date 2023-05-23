@@ -109,6 +109,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- OpenCat (CVPR 2023), [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)
+
 - DiffHOI (arXiv 2023.5), [[Paper]](https://arxiv.org/pdf/2305.12252.pdf)
 
 - ViPLO (CVPR 2023), [[Paper]](https://arxiv.org/pdf/2304.08114.pdf), [[Code]](https://github.com/Jeeseung-Park/ViPLO)
@@ -525,6 +527,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[PQNet-L](https://dl.acm.org/doi/pdf/10.1145/3551626.3564944)|mmasia2022|32.45 |27.80 |33.84 |35.28 |30.72 |36.64|
 |[CDN-s+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|32.47| 28.15| 33.76|-|-|-|
 |[UPT](https://github.com/fredzzhang/upt)|CVPR2022|32.62| 28.62| 33.81| 36.08| 31.41| 37.47|
+|[OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)|CVPR2023|32.68 |28.42| 33.75|-|-|-|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|ECCV2022|32.79 |27.84| 35.40| 35.84| 28.74| 36.09|
 |[RLIP-ParSe (VG+COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|32.84|26.85 |34.63|-|-|-|
 |[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|32.86 |28.03| 34.30|-|-|-|
@@ -592,6 +595,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [FCL](https://github.com/zhihou7/FCL) (NF-UC)| CVPR2021 | HICO-DET | 18.66 | 19.55 |  19.37 | 
 | [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|20.27| 27.67| 26.19|
 | [SCL](https://arxiv.org/pdf/2203.14272) | arxiv |  HICO-DET | 21.73 |  25.00 |  24.34 |
+| [OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)(NF-UC)| CVPR2023 | HICO-DET |23.25 |28.04 |27.08|
 | [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (NF-UC)| CVPR2022 | HICO-DET | 25.05 | 23.38 | 23.71 |
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (NF-UC)| CVPR2023|HICO-DET|26.39 |28.10| 27.75|
 | [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (NF-UC)|arXiv2023| HICO-DET + syn data| **29.45** | **31.68** |**31.24**|
@@ -602,6 +606,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [SCL](https://arxiv.org/pdf/2203.14272) (RF-UC) | arxiv | HICO-DET | 19.07 |  30.39 | 28.08 |
 | [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|19.19 |33.35| 30.52|
 | [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (RF-UC)| CVPR2022 | HICO-DET | 21.36| 32.91 | 30.56 |
+| [OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)(RF-UC)| CVPR2023 | HICO-DET |21.46 |33.86| 31.38|
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (RF-UC)| CVPR2023|HICO-DET| 25.53 |34.85| 32.99|
 | [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (RF-UC)|arXiv2023| HICO-DET + syn data| **28.76** | **38.01** |**36.16**|
 
@@ -660,7 +665,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [MX-HOI](https://openaccess.thecvf.com/content/WACV2021/papers/Kumaraswamy_Detecting_Human-Object_Interaction_With_Mixed_Supervision_WACV_2021_paper.pdf)| WACV2021 | ResNet-101 | COCO | FRCNN | 16.14 |12.06 |17.50|
 | [PPR-FCN (from Weakly-HOI-CLIP)](https://arxiv.org/pdf/1708.01956.pdf)| ICCV2017 | ResNet-50, CLIP | COCO | FRCNN | 17.55 |15.69 | 18.41|
 | [Align-Former](https://www.bmvc2021-virtualconference.com/assets/papers/0054.pdf)| BMVC2021 | ResNet-101 | - | - | 20.85 |18.23 |21.64|
-| [Weakly-HOI-CLIP](https://arxiv.org/pdf/2303.01313.pdf) | ICLR2023 | ResNet-101, CLIP | COCO | FRCNN | **25.70** |**24.52**| **26.05**|
+| [Weakly-HOI-CLIP](https://arxiv.org/pdf/2303.01313.pdf) | ICLR2023 | ResNet-101, CLIP | COCO | FRCNN | 25.70 |**24.52**| 26.05|
+| [OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)|CVPR 2023|DETR|-|-|**25.82** |24.35 |**26.19**|
 
 ### [Ambiguous-HOI](https://github.com/DirtyHarryLYL/DJ-RN)
 #### Detector: COCO pre-trained
@@ -744,6 +750,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|ECCV2022|60.85|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|CVPR2022| 61.3|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
+|[OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)|CVPR2023|61.9|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|62.2|
 |[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|62.9|
