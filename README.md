@@ -5,6 +5,8 @@ A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transf
 
 ## Image Dataset/Benchmark
 
+- SynHOI (arXiv 2023.5), synthetic HOI data [[Paper]](https://arxiv.org/pdf/2305.12252.pdf)
+
 - HICO-DET-SG, V-COCO-SG (new splits of HICO-DET and V-COCO) [[Paper]](https://arxiv.org/pdf/2305.09948.pdf), [[Code]](https://github.com/FujitsuResearch/hoi_sg) 
 
 - Bongard-HOI [[Paper]](https://arxiv.org/pdf/2205.13803.pdf), [[Code]](https://github.com/NVlabs/Bongard-HOI)
@@ -106,6 +108,8 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- SynHOI (arXiv 2023.5), [[Paper]](https://arxiv.org/pdf/2305.12252.pdf)
 
 - ViPLO (CVPR 2023), [[Paper]](https://arxiv.org/pdf/2304.08114.pdf), [[Code]](https://github.com/Jeeseung-Park/ViPLO)
 
@@ -534,8 +538,9 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|36.03| 33.16| 36.89| 38.82| 35.51| 39.81|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| 38.93| 31.93| 41.02|
-|[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |**35.45**| 37.75| **40.61**| **38.82**| **41.15**| 
-|[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|**38.61**| 33.39| **40.16**|-|-|-|
+|[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |35.45| 37.75| 40.61| 38.82| 41.15| 
+|[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
+|[SynHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|**41.50**| **39.96**| **41.96**| **43.62**| **41.41**| **44.28**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -588,7 +593,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|20.27| 27.67| 26.19|
 | [SCL](https://arxiv.org/pdf/2203.14272) | arxiv |  HICO-DET | 21.73 |  25.00 |  24.34 |
 | [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (NF-UC)| CVPR2022 | HICO-DET | 25.05 | 23.38 | 23.71 |
-| [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (NF-UC)| CVPR2023|HICO-DET|**26.39** |**28.10**| **27.75**|
+| [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (NF-UC)| CVPR2023|HICO-DET|26.39 |28.10| 27.75|
+| [SynHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (NF-UC)|arXiv2023| HICO-DET + syn data| **29.45** | **31.68** |**31.24**|
 ||
 | [VCL](https://github.com/zhihou7/VCL) (RF-UC)| ECCV2020 | HICO-DET | 10.06 | 24.28 | 21.43 |
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((RF-UC))|CVPR2021| HICO-DET |9.18|24.67|21.57|
@@ -596,7 +602,8 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [SCL](https://arxiv.org/pdf/2203.14272) (RF-UC) | arxiv | HICO-DET | 19.07 |  30.39 | 28.08 |
 | [RLIP-ParSe](https://github.com/JacobYuan7/RLIP) (RF-UC)|NeurIPS2022|COCO, VG|19.19 |33.35| 30.52|
 | [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (RF-UC)| CVPR2022 | HICO-DET | 21.36| 32.91 | 30.56 |
-| [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (RF-UC)| CVPR2023|HICO-DET| **25.53** |**34.85**| **32.99**|
+| [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (RF-UC)| CVPR2023|HICO-DET| 25.53 |34.85| 32.99|
+| [SynHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (RF-UC)|arXiv2023| HICO-DET + syn data| **28.76** | **38.01** |**36.16**|
 
 - \* indicates large Visual-Language model pretraining, \eg, CLIP. 
 - For the details of the setting, please refer to corresponding publications. This is not officially published and might miss some publications. Please find the corresponding publications.
@@ -753,6 +760,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.8|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|65.3|
+|[SynHOI](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|65.7|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
