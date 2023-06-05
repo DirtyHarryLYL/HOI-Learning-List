@@ -64,6 +64,7 @@ More...
 ## Method
 
 ### HOI Image Generation
+
 - Exploiting Relationship for Complex-scene Image Generation (arXiv 2021.04) [[Paper]](https://arxiv.org/pdf/2104.00356.pdf)
 
 - Specifying Object Attributes and Relations in Interactive Scene Generation (arXiv 2019.11) [[Paper]](https://arxiv.org/pdf/1909.05379.pdf)
@@ -108,6 +109,8 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- SQA (ICASSP 2023), [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10096029), [[Code]](https://github.com/nmbzdwss/SQA)
 
 - OpenCat (CVPR 2023), [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)
 
@@ -521,6 +524,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|31.75| 27.45| 33.03| 34.50| 30.13| 35.81|
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|31.79| 26.36 |33.41|-|-|-|
 |[CATN (w/ Bert)](https://arxiv.org/pdf/2204.04911.pdf)|CVPR2022|31.86| 25.15| 33.84| 34.44| 27.69| 36.45|
+|[SQA](https://github.com/nmbzdwss/SQA)|ICASSP2023|31.99 |29.88| 32.62| 35.12| 32.74| 35.84|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|32.07| 27.19| 33.53| 34.79| 29.48| 36.38|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|32.22| 28.15| 33.43| 35.29| 31.43| 36.45|
 |[DEFR](https://arxiv.org/pdf/2112.06392.pdf)|arXiv2021| 32.35 |33.45| 32.02|-|-|-|
@@ -767,6 +771,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.8|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|65.3|
+|[SQA](https://github.com/nmbzdwss/SQA)|ICASSP2023|65.4|
 |[DiffHOI](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|65.7|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
