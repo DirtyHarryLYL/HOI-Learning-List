@@ -110,6 +110,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- HOKEM (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2306.14260.pdf)
+
 - SQA (ICASSP 2023), [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10096029), [[Code]](https://github.com/nmbzdwss/SQA)
 
 - OpenCat (CVPR 2023), [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)
@@ -739,6 +741,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[AS-Net](https://github.com/yoyomimi/AS-Net)|CVPR2021|53.9|
 |[RR-Net](https://arxiv.org/pdf/2104.15015.pdf)|arXiv|54.2|
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021|54.2|
+|[HOKEM](https://arxiv.org/pdf/2306.14260.pdf)|arXiv2023|54.6|
 |[SABRA-Res50FPN](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 54.69|
 |[GGNet](https://github.com/SherlockHolmes221/GGNet)|CVPR2021|54.7|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
