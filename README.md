@@ -1,5 +1,5 @@
 # HOI-Learning-List
-Some recent (2015-now) Human-Object Interaction Learing studies. If you find any errors or problems, please feel free to comment.
+Some recent (2015-now) Human-Object Interaction Learning studies. If you find any errors or problems, please don't hesitate to comment.
 
 A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transformer-in-Vision.
 
@@ -45,7 +45,7 @@ More...
 
 - VidHOI [[Paper]](https://arxiv.org/pdf/2105.11731.pdf), [[Project]](https://github.com/coldmanck/VidHOI)
 
-- AVA [[Website]](http://research.google.com/ava/), HOIs (human-object, human-human) and pose (body motion) actions
+- AVA [[Website]](http://research.google.com/ava/), HOIs (human-object, human-human), and pose (body motion) actions
 
 - Action Genome [[Website]](https://www.actiongenome.org/), action verbs and spatial relationships
 
@@ -109,6 +109,8 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- Shikra (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2306.15195.pdf), [[Code]](https://github.com/shikras/shikra)
 
 - HOKEM (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2306.14260.pdf)
 
