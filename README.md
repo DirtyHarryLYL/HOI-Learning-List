@@ -485,7 +485,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|**28.81**| **27.55**| **29.18**| **32.28**| **31.07**| **32.64**|
 
 #### 2) Detector: pre-trained on COCO, fine-tuned on HICO-DET train set (with GT human-object pair boxes) or one-stage detector (point-based, transformer-based)
-Finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppress many wrong pairings (non-interactive human-object pairs) and boost the performance.
+The finetuned detector would learn to **only detect the interactive humans and objects** (with interactiveness), thus suppressing many wrong pairings (non-interactive human-object pairs) and boosting the performance.
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)| Full(ko) | Rare(ko) | None-Rare(ko) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[UniDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600494.pdf)|ECCV2020|17.58 |11.72 |19.33 |19.76 |14.68 |21.27|
@@ -597,6 +597,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf) | WACV2018 | COCO |  5.62 |  - | 6.26 |
 | [Functional](https://arxiv.org/pdf/1904.03181.pdf) | AAAI2020 | HICO-DET | 11.31 ± 1.03 | 12.74 ± 0.34 |  12.45 ± 0.16 | 
 | [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO |  16.99 ± 1.67 | 20.51 ± 0.62 | 19.81 ± 0.32 | 
+| [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385)|AAAI2023|-|23.01±1.54|30.39±0.40|28.91±0.27|
 ||
 | [VCL](https://github.com/zhihou7/VCL) (NF-UC)| ECCV2020 | HICO-DET | 16.22 | 18.52 |  18.06 | 
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((NF-UC))|CVPR2021| HICO-DET | 18.25|18.78| 18.67|
@@ -605,6 +606,7 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 | [SCL](https://arxiv.org/pdf/2203.14272) | arxiv |  HICO-DET | 21.73 |  25.00 |  24.34 |
 | [OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)(NF-UC)| CVPR2023 | HICO-DET |23.25 |28.04 |27.08|
 | [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (NF-UC)| CVPR2022 | HICO-DET | 25.05 | 23.38 | 23.71 |
+| [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385) (NF-UC)|AAAI2023|HICO-DET|26.77|26.66|26.69|
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (NF-UC)| CVPR2023|HICO-DET|26.39 |28.10| 27.75|
 | [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (NF-UC)|arXiv2023| HICO-DET + syn data| **29.45** | **31.68** |**31.24**|
 ||
@@ -624,7 +626,6 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 ##### Zero-shot* HOI detection without fine-tuning (NF)
 | Method | Pub | Backbone | Dataset | Detector | Full | Rare | Non-Rare |
 | ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| [MDETR-ParSe](https://arxiv.org/abs/2104.12763) | ICCV2021 | ResNet-101 | COCO + VG + Flickr30k | DETR | 0 | 0 | 0 |
 | [RLIP-ParSeD](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DDETR | 13.92 | 11.20 | 14.73 |
 | [RLIP-ParSe](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DETR | 15.40 | 15.08 | 15.50 |
 - \* indicates a formulation that assesses the generalization of a pre-training model to unseen distributions, proposed in [RLIP](https://arxiv.org/pdf/2209.01814.pdf). *zero-shot* follows the terminology from CLIP.
@@ -641,7 +642,15 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 
 | Method | Pub | Detector | Full(def) | Seen(def) | Unseen(def)|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | **19.04** | **20.02** | **14.12** |
+| [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | 19.04 | 20.02 | 14.12 |
+| [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385)|AAAI2023|-|**29.22**| **30.46**| **23.04**|
+
+##### Unseen action scenario (UV), results from EoID
+
+| Method | Pub | Detector |  Unseen(def)|Seen(def) |  Full(def) |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|[GEN-VLKT](https://arxiv.org/pdf/2203.13954.pdf)|CVPR2022| - |  20.96 |30.23 |28.74 |
+| [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385)|AAAI2023|-|   **22.71** |**30.73** |**29.61**|
 
 ##### Another setting
 | Method | Pub | Unseen| Seen | Full | 
@@ -649,9 +658,11 @@ Finetuned detector would learn to **only detect the interactive humans and objec
 |[Shen et. al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf)|WACV2018| 5.62| - |6.26|
 |[Functional](https://arxiv.org/pdf/1904.03181.pdf)|AAAI2020 |10.93 |12.60 |12.26|
 |[VCL](https://github.com/zhihou7/VCL)|ECCV2020 |10.06| 24.28| 21.43|
-|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021 |9.18 |**24.67** |21.57|
+|[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021 |9.18 |24.67 |21.57|
 |[FCL](https://github.com/zhihou7/FCL)| CVPR2021 |13.16 |24.23 |22.01|
-|[THID (w/ CLIP)](https://github.com/scwangdyd/promting_hoi)|CVPR2022 |**15.53** |24.32 |**22.96**|
+|[THID (w/ CLIP)](https://github.com/scwangdyd/promting_hoi)|CVPR2022 |15.53 |24.32 |22.96|
+|[EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385)|AAAI2023|**22.04**|31.39|29.52|
+|[GEN-VLKT](https://arxiv.org/pdf/2203.13954.pdf)|CVPR2022|21.36|**32.91**|**30.56**|
 
 #### 7) Few-Shot HOI detection:
 ##### 1% HICO-Det Data used in fine-tuning
