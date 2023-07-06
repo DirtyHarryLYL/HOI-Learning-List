@@ -110,6 +110,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- SOV-STG (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2307.02291.pdf), [[Code]](https://github.com/cjw2021/SOV-STG)
+
 - Shikra (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2306.15195.pdf), [[Code]](https://github.com/shikras/shikra)
 
 - HOKEM (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2306.14260.pdf)
@@ -551,7 +553,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| 38.93| 31.93| 41.02|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |35.45| 37.75| 40.61| 38.82| 41.15| 
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
-|[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|**41.50**| **39.96**| **41.96**| **43.62**| **41.41**| **44.28**|
+|[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
+|[SOV-STG](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|**43.35**| **42.25**| **43.69**| **45.53**| **43.62**| **46.11**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -781,6 +784,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|63.5|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|63.58|
 |[QPIC+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|63.6|
+|[SOV-STG](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|63.9|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
 |[RLIP-ParSe (COCO+VG)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.2|
 |[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|64.5|
