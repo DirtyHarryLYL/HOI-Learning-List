@@ -547,6 +547,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
+|[SOV-STG (res101)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|35.01 |30.63 |36.32 |37.60 |32.77 |39.05|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |33.71| 35.58| 37.56| 35.87| 38.06|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|36.03| 33.16| 36.89| 38.82| 35.51| 39.81|
@@ -554,7 +555,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |35.45| 37.75| 40.61| 38.82| 41.15| 
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
-|[SOV-STG](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|**43.35**| **42.25**| **43.69**| **45.53**| **43.62**| **46.11**|
+|[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|**43.35**| **42.25**| **43.69**| **45.53**| **43.62**| **46.11**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
