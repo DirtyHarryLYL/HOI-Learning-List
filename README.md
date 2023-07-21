@@ -110,6 +110,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- PSN (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2307.10499.pdf)
+
 - SOV-STG (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2307.02291.pdf), [[Code]](https://github.com/cjw2021/SOV-STG)
 
 - Shikra (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2306.15195.pdf), [[Code]](https://github.com/shikras/shikra)
@@ -545,6 +547,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
+|[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|34.02 |29.44| 35.39|-|-|-|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[SOV-STG (res101)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|35.01 |30.63 |36.32 |37.60 |32.77 |39.05|
@@ -794,6 +797,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|65.3|
 |[SQA](https://github.com/nmbzdwss/SQA)|ICASSP2023|65.4|
 |[DiffHOI](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|65.7|
+|[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|65.9|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
