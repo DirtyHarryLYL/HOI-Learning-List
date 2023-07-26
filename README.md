@@ -110,6 +110,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- RmLR (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2307.13529.pdf)
+
 - PSN (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2307.10499.pdf)
 
 - SOV-STG (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2307.02291.pdf), [[Code]](https://github.com/cjw2021/SOV-STG)
@@ -556,6 +558,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|36.03| 33.16| 36.89| 38.82| 35.51| 39.81|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| 38.93| 31.93| 41.02|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |35.45| 37.75| 40.61| 38.82| 41.15| 
+|[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|37.41 |28.81| 39.97| 38.69| 31.27| 40.91|
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
 |[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|**43.35**| **42.25**| **43.69**| **45.53**| **43.62**| **46.11**|
@@ -790,6 +793,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[QPIC+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|63.6|
 |[SOV-STG](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|63.9|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
+|[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|64.17|
 |[RLIP-ParSe (COCO+VG)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.2|
 |[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|64.5|
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.8|
