@@ -110,6 +110,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- VIL (ACM MM 2023), [[Paper]](https://arxiv.org/pdf/2308.02606.pdf)
+
 - RmLR (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2307.13529.pdf)
 
 - PSN (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2307.10499.pdf)
@@ -550,6 +552,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|34.02 |29.44| 35.39|-|-|-|
+|[VIL+GEN-VLKT](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|34.21| 30.58| 35.30| 37.67| 34.88| 38.50|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[SOV-STG (res101)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|35.01 |30.63 |36.32 |37.60 |32.77 |39.05|
@@ -805,6 +808,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
+|[VIL+DisTR](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|67.6|
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|**68.8**|
 
 #### 2) Enhanced with HAKE:
