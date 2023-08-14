@@ -566,7 +566,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|37.41 |28.81| 39.97| 38.69| 31.27| 40.91|
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
-|[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|**43.35**| **42.25**| **43.69**| **45.53**| **43.62**| **46.11**|
+|[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|43.35| 42.25| 43.69| 45.53| 43.62| 46.11|
+|[PViC w/ h-detr (swin-l)](https://arxiv.org/abs/2308.06202)|ICCV2023|**44.32**|**44.61**|**44.24**|**47.81**|**48.38**|**47.64**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
