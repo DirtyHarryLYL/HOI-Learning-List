@@ -556,7 +556,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|34.02 |29.44| 35.39|-|-|-|
 |[VIL+GEN-VLKT](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|34.21| 30.58| 35.30| 37.67| 34.88| 38.50|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
-|[PViC w/ DETR](https://github.com/fredzzhang/pvic)|ICCV2023| 34.69 |32.14| 35.45| 38.14| 35.38| 38.97|
+|[PViC w/ detr](https://github.com/fredzzhang/pvic)|ICCV2023| 34.69 |32.14| 35.45| 38.14| 35.38| 38.97|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[SOV-STG (res101)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|35.01 |30.63 |36.32 |37.60 |32.77 |39.05|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |33.71| 35.58| 37.56| 35.87| 38.06|
@@ -568,7 +568,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
 |[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|43.35| 42.25| 43.69|45.53|43.62| 46.11|
-|[PViC w/ H-DETR](https://github.com/fredzzhang/pvic)|ICCV2023|**44.32**| **44.61**| **44.24**| **47.81**| **48.38**| **47.64**|
+|[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|**44.32**| **44.61**| **44.24**| **47.81**| **48.38**| **47.64**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -790,7 +790,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)|CVPR2023|61.9|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|62.2|
-|[PViC w/ DETR](https://github.com/fredzzhang/pvic)|ICCV2023|62.8|
+|[PViC w/ detr](https://github.com/fredzzhang/pvic)|ICCV2023|62.8|
 |[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|62.9|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|63.0|
 |[ParMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|63.0|
@@ -801,7 +801,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[QPIC+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|63.6|
 |[SOV-STG](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|63.9|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
-|[PViC w/ H-DETR](https://github.com/fredzzhang/pvic)|ICCV2023|64.1|
+|[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|64.1|
 |[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|64.17|
 |[RLIP-ParSe (COCO+VG)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.2|
 |[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|64.5|
