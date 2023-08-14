@@ -57,7 +57,7 @@ More...
 
 - BEHAVE, [[Paper]](https://arxiv.org/pdf/2204.06950.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/behave/)
 
-## Suevry
+## Survey
 
 - Human object interaction detection: Design and survey (Image and Vision Computing 2022), [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885622002463)
 
@@ -109,6 +109,8 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- PViC (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.06202.pdf), [[Code]](https://github.com/fredzzhang/pvic)
 
 - VIL (ACM MM 2023), [[Paper]](https://arxiv.org/pdf/2308.02606.pdf)
 
