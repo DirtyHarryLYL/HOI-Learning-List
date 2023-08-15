@@ -110,6 +110,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- Compositional Learning in Transformer-Based Human-Object Interaction Detection (ICME 2023), [[Paper]](https://arxiv.org/pdf/2308.05961.pdf)
+
 - PViC (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.06202.pdf), [[Code]](https://github.com/fredzzhang/pvic)
 
 - VIL (ACM MM 2023), [[Paper]](https://arxiv.org/pdf/2308.02606.pdf)
