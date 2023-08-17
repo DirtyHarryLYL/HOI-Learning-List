@@ -110,6 +110,10 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- AGER (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.08370.pdf), [[Code]](https://github.com/six6607/AGER)
+
+- Diagnosing Human-object Interaction Detectors (arXIv 2023), [[Paper]](https://arxiv.org/pdf/2308.08529.pdf), [[Code]](https://github.com/neu-vi/Diag-HOI)
+
 - Compo (ICME 2023), [[Paper]](https://arxiv.org/pdf/2308.05961.pdf)
 
 - PViC (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.06202.pdf), [[Code]](https://github.com/fredzzhang/pvic)
@@ -564,6 +568,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |33.71| 35.58| 37.56| 35.87| 38.06|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|36.03| 33.16| 36.89| 38.82| 35.51| 39.81|
+|[AGER](https://github.com/six6607/AGER)|ICCV2023|36.75 |33.53| 37.71| 39.84| 35.58| 40.23|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| 38.93| 31.93| 41.02|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |35.45| 37.75| 40.61| 38.82| 41.15| 
 |[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|37.41 |28.81| 39.97| 38.69| 31.27| 40.91|
@@ -811,6 +816,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|65.3|
 |[SQA](https://github.com/nmbzdwss/SQA)|ICASSP2023|65.4|
+|[AGER](https://github.com/six6607/AGER)|ICCV2023|65.68|
 |[DiffHOI](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|65.7|
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|65.9|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
