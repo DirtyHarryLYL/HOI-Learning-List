@@ -110,6 +110,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- RLIPv2 (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.09351.pdf), [[Code]](https://github.com/JacobYuan7/RLIPv2)
+
 - AGER (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.08370.pdf), [[Code]](https://github.com/six6607/AGER)
 
 - Diagnosing Human-object Interaction Detectors (arXIv 2023), [[Paper]](https://arxiv.org/pdf/2308.08529.pdf), [[Code]](https://github.com/neu-vi/Diag-HOI)
@@ -335,6 +337,8 @@ More...
 More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
+
+- RLIPv2 (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.09351.pdf), [[Code]](https://github.com/JacobYuan7/RLIPv2)
 
 - Unal et.al. (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.05546.pdf)
 
@@ -574,8 +578,9 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|37.41 |28.81| 39.97| 38.69| 31.27| 40.91|
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
+|[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|43.23 | **45.64** | **45.09**|-|-|-|
 |[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|43.35| 42.25| 43.69|45.53|43.62| 46.11|
-|[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|**44.32**| **44.61**| **44.24**| **47.81**| **48.38**| **47.64**|
+|[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|**44.32**| 44.61| 44.24| **47.81**| **48.38**| **47.64**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -632,7 +637,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (NF-UC)| CVPR2022 | HICO-DET | 25.05 | 23.38 | 23.71 |
 | [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385) (NF-UC)|AAAI2023|HICO-DET|26.77|26.66|26.69|
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (NF-UC)| CVPR2023|HICO-DET|26.39 |28.10| 27.75|
-| [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (NF-UC)|arXiv2023| HICO-DET + syn data| **29.45** | **31.68** |**31.24**|
+| [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (NF-UC)|arXiv2023| HICO-DET + syn data| **29.45** | 31.68 |31.24|
+| [RLIPv2-ParSeDA]| ICCV2023| VG, COCO, O365 | 22.65 | **40.51** | **36.94**|
 ||
 | [VCL](https://github.com/zhihou7/VCL) (RF-UC)| ECCV2020 | HICO-DET | 10.06 | 24.28 | 21.43 |
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((RF-UC))|CVPR2021| HICO-DET |9.18|24.67|21.57|
@@ -642,7 +648,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [GEN-VLKT*](https://arxiv.org/pdf/2203.13954.pdf) (RF-UC)| CVPR2022 | HICO-DET | 21.36| 32.91 | 30.56 |
 | [OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)(RF-UC)| CVPR2023 | HICO-DET |21.46 |33.86| 31.38|
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (RF-UC)| CVPR2023|HICO-DET| 25.53 |34.85| 32.99|
-| [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (RF-UC)|arXiv2023| HICO-DET + syn data| **28.76** | **38.01** |**36.16**|
+| [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (RF-UC)|arXiv2023| HICO-DET + syn data| 28.76 | 38.01 |36.16|
+| [RLIPv2-ParSeDA]| ICCV2023| VG, COCO, O365 | **31.23** | **45.01** | **42.26**|
 
 - \* indicates large Visual-Language model pretraining, \eg, CLIP. 
 - For the details of the setting, please refer to corresponding publications. This is not officially published and might miss some publications. Please find the corresponding publications.
@@ -652,6 +659,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | [RLIP-ParSeD](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DDETR | 13.92 | 11.20 | 14.73 |
 | [RLIP-ParSe](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DETR | 15.40 | 15.08 | 15.50 |
+| [RLIPv2-ParSeDA](https://github.com/JacobYuan7/RLIPv2)| ICCV2023 | Swin-L | VG+COCO+O365| DDETR | **23.29** | **27.97** | **21.90** |
 - \* indicates a formulation that assesses the generalization of a pre-training model to unseen distributions, proposed in [RLIP](https://arxiv.org/pdf/2209.01814.pdf). *zero-shot* follows the terminology from CLIP.
 
 ##### Unseen object scenario (UO)
@@ -694,12 +702,14 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | [RLIP-ParSeD](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DDETR | 1% | 18.30 | 16.22 | 18.92 |
 | [RLIP-ParSe](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DETR | 1% | 18.46 | 17.47 | 18.76 |
+| [RLIPv2-ParSeDA](https://github.com/JacobYuan7/RLIPv2)| ICCV2023 | Swin-L | VG+COCO+O365| DDETR | 1% | **32.22** | **31.89** | **32.32** |
 
 ##### 10% HICO-Det Data used in fine-tuning
 | Method | Pub | Backbone | Dataset | Detector | Data |Full | Rare | Non-Rare |
 | ---------- | :-----------:  | :-----------:  | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | [RLIP-ParSeD](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DDETR | 10% | 22.09 | 15.89 | 23.94 |
 | [RLIP-ParSe](https://arxiv.org/pdf/2209.01814.pdf) | NeurIPS2022 | ResNet-50 | COCO + VG | DETR | 10% | 22.59 | 20.16 | 23.32 |
+| [RLIPv2-ParSeDA](https://github.com/JacobYuan7/RLIPv2)| ICCV2023 | Swin-L | VG+COCO+O365| DDETR | 10% | **37.46** | **34.75** | **38.27** |
 
 #### 8) Weakly-supervised HOI detection:
 | Method | Pub | Backbone | Dataset | Detector |Full | Rare | Non-Rare |
@@ -823,7 +833,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
 |[VIL+DisTR](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|67.6|
-|[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|**68.8**|
+|[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|68.8|
+|[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|**72.1**|
 
 #### 2) Enhanced with HAKE:
 |Method| Pub | AP(role) |
