@@ -412,6 +412,8 @@ More...
 
 ### 3D HOI Reconstruction/Generation
 
+- InterDiff (ICCV2023) [[Paper]](https://arxiv.org/pdf/2308.16905.pdf), [[Project]](https://sirui-xu.github.io/InterDiff/)
+
 - HUMANISE (arXiv2022) [[Paper]](https://silvester.wang/HUMANISE/paper.pdf), [[Project]](https://silvester.wang/HUMANISE/)
 
 - CHAIRS (arXiv2022) [[Paper]](https://arxiv.org/pdf/2212.10621.pdf), [[Project]](https://jnnan.github.io/project/chairs/)
