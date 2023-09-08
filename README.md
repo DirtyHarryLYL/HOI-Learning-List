@@ -110,6 +110,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- ADA-CM (ICCV 2023), [[Paper]](https://www.researchgate.net/publication/373753900_Efficient_Adaptive_Human-Object_Interaction_Detection_with_Concept-guided_Memory/references), [[Code]](https://github.com/ltttpku/ADA-CM)
+
 - HODN (TMM 2023), [[Paper]](https://arxiv.org/pdf/2308.10158.pdf)
 
 - RLIPv2 (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.09351.pdf), [[Code]](https://github.com/JacobYuan7/RLIPv2)
@@ -581,6 +583,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| 38.93| 31.93| 41.02|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |35.45| 37.75| 40.61| 38.82| 41.15| 
 |[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|37.41 |28.81| 39.97| 38.69| 31.27| 40.91|
+|[ADA-CM](https://github.com/ltttpku/ADA-CM)|ICCV2023|38.40	|37.52|	38.66|-|-|-|
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|43.23 | **45.64** | **45.09**|-|-|-|
@@ -803,6 +806,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|57.4|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|58.29|
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
+|[ADA-CM](https://github.com/ltttpku/ADA-CM)|ICCV2023|58.57|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
 |[CATN (w/ fastText)](https://arxiv.org/pdf/2204.04911.pdf)|CVPR2022|60.1|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|60.5|
