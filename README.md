@@ -110,7 +110,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- ADA-CM (ICCV 2023), [[Paper]](https://www.researchgate.net/publication/373753900_Efficient_Adaptive_Human-Object_Interaction_Detection_with_Concept-guided_Memory/references), [[Code]](https://github.com/ltttpku/ADA-CM)
+- ADA-CM (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2309.03696.pdf), [[Code]](https://github.com/ltttpku/ADA-CM)
 
 - HODN (TMM 2023), [[Paper]](https://arxiv.org/pdf/2308.10158.pdf)
 
