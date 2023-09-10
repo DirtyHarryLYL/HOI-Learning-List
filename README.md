@@ -342,6 +342,8 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
+- CDT (TNNLS 2023), [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152)
+
 - RLIPv2 (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.09351.pdf), [[Code]](https://github.com/JacobYuan7/RLIPv2)
 
 - Unal et.al. (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2303.05546.pdf)
@@ -547,6 +549,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SCG](https://github.com/fredzzhang/spatially-conditioned-graphs)|ICCV2021| 29.26 | 24.61 | 30.65 | 32.87 | 27.89 | 34.35 |
 |[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|29.67 |24.37 |31.25 |31.87 |27.28 |33.24|
 |[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|30.03 |23.48 |31.99 |33.74 |27.35 |35.64|
+|[CDT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152) | TNNLS 2023|30.48|25.48|32.37|-|-|-|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|31.17| 25.31| 32.92| 34.02| 28.83| 35.57|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|31.34 |24.31 |33.32|-|-|-|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| -|-|-|
@@ -634,6 +637,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [Shen et al.](http://vision.stanford.edu/pdf/shen2018wacv.pdf) | WACV2018 | COCO |  5.62 |  - | 6.26 |
 | [Functional](https://arxiv.org/pdf/1904.03181.pdf) | AAAI2020 | HICO-DET | 11.31 ± 1.03 | 12.74 ± 0.34 |  12.45 ± 0.16 | 
 | [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO |  16.99 ± 1.67 | 20.51 ± 0.62 | 19.81 ± 0.32 | 
+| [CDT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152) | TNNLS 2023| - | 18.06 | 23.34 | 20.72 |
 | [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385)|AAAI2023|-|23.01±1.54|30.39±0.40|28.91±0.27|
 ||
 | [VCL](https://github.com/zhihou7/VCL) (NF-UC)| ECCV2020 | HICO-DET | 16.22 | 18.52 |  18.06 | 
@@ -683,6 +687,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | Method | Pub | Detector | Full(def) | Seen(def) | Unseen(def)|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO | 19.04 | 20.02 | 14.12 |
+| [CDT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152) | TNNLS 2023|- | 19.68 | 21.45 | 15.17|
 | [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385)|AAAI2023|-|**29.22**| **30.46**| **23.04**|
 
 ##### Unseen action scenario (UV), results from EoID
@@ -812,6 +817,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|60.5|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|ECCV2022|60.85|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|CVPR2022| 61.3|
+|[CDT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152) | TNNLS 2023|61.43|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
 |[OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)|CVPR2023|61.9|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
