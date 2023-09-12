@@ -342,6 +342,8 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
+- Lu et. al. (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2309.05069.pdf), [[Code]](https://github.com/bobwan1995/Zeroshot-HOI-with-CLIP)
+
 - CDT (TNNLS 2023), [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152)
 
 - RLIPv2 (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2308.09351.pdf), [[Code]](https://github.com/JacobYuan7/RLIPv2)
