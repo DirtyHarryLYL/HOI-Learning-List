@@ -100,6 +100,8 @@ More...
 
 #### Unseen or zero-shot learning (image-level recognition).
 
+- HTS (ICIP 2023) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10222927)
+
 - ICompass (ICCV2021) [[Paper]](https://hbdat.github.io/pubs/iccv21_relation_direction_final.pdf), [[Code]](https://github.com/hbdat/iccv21_relational_direction)
 
 - Compositional Learning for Human Object Interaction (ECCV2018) [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Keizo_Kato_Compositional_Learning_of_ECCV_2018_paper.pdf)
@@ -889,6 +891,7 @@ based on V-COCO
 [DEFR-base](https://arxiv.org/pdf/2107.13083.pdf)|44.1|
 [OpenTAP](https://vkhoi.github.io/TAP)|51.7|
 [DEFR-CLIP](https://arxiv.org/pdf/2107.13083.pdf)|60.5|
+|[HTS](https://ieeexplore.ieee.org/abstract/document/10222927)|60.5|
 |[DEFR/16 CLIP](https://arxiv.org/pdf/2112.06392.pdf)|**65.6**|
 
 #### 2) Enhanced with HAKE:
