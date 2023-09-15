@@ -112,6 +112,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- ScratchHOI (ICIP 2023), [[Paper]](https://ieeexplore.ieee.org/abstract/document/10222323)
+
 - ADA-CM (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2309.03696.pdf), [[Code]](https://github.com/ltttpku/ADA-CM)
 
 - HODN (TMM 2023), [[Paper]](https://arxiv.org/pdf/2308.10158.pdf)
