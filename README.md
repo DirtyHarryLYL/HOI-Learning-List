@@ -366,11 +366,9 @@ More...
 
 - OC-Immunity (AAAI 2022), [[Paper]](https://arxiv.org/pdf/2202.09492.pdf), [[Code]](https://github.com/Foruck/OC-Immunity)
 
-- CHOID (CVPR 2021), [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Discovering_Human_Interactions_With_Large-Vocabulary_Objects_via_Query_and_Multi-Scale_ICCV_2021_paper.pdf), [[Code]](https://github.com/scwangdyd/)
-
 - Align-Former (BMVC 2021), [[Paper]](https://arxiv.org/pdf/2112.00492.pdf)
 
-- Discovering Human Interactions with Large-Vocabulary Objects via Query and Multi-Scale Detection (ICCV2021) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2021/ICCV2021_sucheng.pdf), [[Code]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
+- CHOID (ICCV2021) [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2021/ICCV2021_sucheng.pdf), [[Code]](https://github.com/scwangdyd/large_vocabulary_hoi_detection)
 
 - DGIG-Net (TOC2021) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9352497)
 
