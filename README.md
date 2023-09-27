@@ -112,6 +112,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- ICDT (ICANN 2023), [[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-44223-0_35.pdf), [[Code]](https://github.com/bingnanG/ICDT)
+
 - ScratchHOI (ICIP 2023), [[Paper]](https://ieeexplore.ieee.org/abstract/document/10222323)
 
 - ADA-CM (ICCV 2023), [[Paper]](https://arxiv.org/pdf/2309.03696.pdf), [[Code]](https://github.com/ltttpku/ADA-CM)
@@ -577,6 +579,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[HODN](https://arxiv.org/pdf/2308.10158.pdf)|TMM2023| 33.14 |28.54| 34.52| 35.86| 31.18| 37.26|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
+|[ICDT](https://github.com/bingnanG/ICDT)|ICANN2023|34.01 |27.60 |35.92 |36.29 |29.88 |38.21|
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|34.02 |29.44| 35.39|-|-|-|
 |[VIL+GEN-VLKT](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|34.21| 30.58| 35.30| 37.67| 34.88| 38.50|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
@@ -817,6 +820,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[QPIC-Res101](https://github.com/hitachi-rd-cv/qpic)|CVPR2021|58.3|
 |[ADA-CM](https://github.com/ltttpku/ADA-CM)|ICCV2023|58.57|
 |[QPIC-Res50](https://github.com/hitachi-rd-cv/qpic)|CVPR2021| 58.8|
+|[ICDT](https://github.com/bingnanG/ICDT)|ICANN2023|59.4|
 |[CATN (w/ fastText)](https://arxiv.org/pdf/2204.04911.pdf)|CVPR2022|60.1|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|60.5|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|ECCV2022|60.85|
