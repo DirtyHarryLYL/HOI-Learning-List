@@ -112,6 +112,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- PDN (PR 2023), [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320323007185?via%3Dihub)
+
 - ICDT (ICANN 2023), [[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-44223-0_35.pdf), [[Code]](https://github.com/bingnanG/ICDT)
 
 - ScratchHOI (ICIP 2023), [[Paper]](https://ieeexplore.ieee.org/abstract/document/10222323)
@@ -577,6 +579,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|32.87 |28.67| 34.12| 35.52| 30.88| 36.91|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|32.97| 28.49| 34.31| 36.32| 31.90| 37.64|
 |[HODN](https://arxiv.org/pdf/2308.10158.pdf)|TMM2023| 33.14 |28.54| 34.52| 35.86| 31.18| 37.26|
+|[PDN](https://www.sciencedirect.com/science/article/pii/S0031320323007185?via%3Dihub)|PR2023|33.18	|27.95|	34.75|	35.86|	30.57|	37.43|
 |[DOQ](https://github.com/SherlockHolmes221/DOQ)|CVPR2022|33.28 |29.19| 34.50|-|-|-|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
 |[ICDT](https://github.com/bingnanG/ICDT)|ICANN2023|34.01 |27.60 |35.92 |36.29 |29.88 |38.21|
@@ -845,6 +848,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|64.17|
 |[RLIP-ParSe (COCO+VG)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.2|
 |[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|64.5|
+|[PDN](https://www.sciencedirect.com/science/article/pii/S0031320323007185?via%3Dihub)|PR2023|64.7|
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.8|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|65.3|
