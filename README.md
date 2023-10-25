@@ -71,6 +71,8 @@ More...
 
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
+- RAM++ (arXiv'23) [[Paper]](https://arxiv.org/pdf/2310.15200.pdf), [[Code]](https://github.com/xinyu1205/recognize-anything)
+
 - OpenTAP (ECCV'22) [[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-19806-9_12.pdf), [[Code]](https://vkhoi.github.io/TAP)
 
 - RelViT (ICLR'22) [[Paper]](https://arxiv.org/pdf/2204.11167.pdf), [[Code]](https://github.com/NVlabs/RelViT)
@@ -894,6 +896,7 @@ based on V-COCO
 [R\*CNN](https://arxiv.org/pdf/1505.01197.pdf) | 28.5 |
 [Girdhar et.al.](https://arxiv.org/pdf/1711.01467.pdf) |34.6|
 [Mallya et.al.](https://arxiv.org/pdf/1604.04808.pdf) |36.1|
+[RAM++ LLM](https://github.com/xinyu1205/recognize-anything) | 37.6|
 [Pairwise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf) |39.9| 
 |[RelViT](https://arxiv.org/pdf/2204.11167.pdf)|40.12|
 [DEFR-base](https://arxiv.org/pdf/2107.13083.pdf)|44.1|
