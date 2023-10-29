@@ -114,6 +114,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- Mult-Step (ACMMM 2023), [[Paper]](https://dl.acm.org/doi/10.1145/3581783.3612581)
+
 - PDN (PR 2023), [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320323007185?via%3Dihub)
 
 - ICDT (ICANN 2023), [[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-44223-0_35.pdf), [[Code]](https://github.com/bingnanG/ICDT)
@@ -587,6 +589,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[ICDT](https://github.com/bingnanG/ICDT)|ICANN2023|34.01 |27.60 |35.92 |36.29 |29.88 |38.21|
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|34.02 |29.44| 35.39|-|-|-|
 |[VIL+GEN-VLKT](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|34.21| 30.58| 35.30| 37.67| 34.88| 38.50|
+|[Multi-Step](https://dl.acm.org/doi/10.1145/3581783.3612581)|ACMMM2023|34.42 |30.03| 35.73| 37.71| 33.74| 38.89|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[PViC w/ detr](https://github.com/fredzzhang/pvic)|ICCV2023| 34.69 |32.14| 35.45| 38.14| 35.38| 38.97|
 |[GEN-VLKT (w/ CLIP)](https://github.com/YueLiao/gen-vlkt)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
@@ -835,6 +838,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)|CVPR2023|61.9|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|62.2|
+|[Multi-Step](https://dl.acm.org/doi/10.1145/3581783.3612581)|ACMMM2023|62.4|
 |[PViC w/ detr](https://github.com/fredzzhang/pvic)|ICCV2023|62.8|
 |[PR-Net](https://arxiv.org/pdf/2301.03510.pdf)|arXiv2023|62.9|
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|63.0|
