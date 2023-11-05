@@ -114,6 +114,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- SQAB (Displays 2023), [[Paper]](https://www.sciencedirect.com/science/article/pii/S0141938223002044?via%3Dihub#tbl1)
+
 - Mult-Step (ACMMM 2023), [[Paper]](https://dl.acm.org/doi/10.1145/3581783.3612581)
 
 - PDN (PR 2023), [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320323007185?via%3Dihub)
@@ -562,6 +564,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|29.67 |24.37 |31.25 |31.87 |27.28 |33.24|
 |[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|30.03 |23.48 |31.99 |33.74 |27.35 |35.64|
 |[CDT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152) | TNNLS 2023|30.48|25.48|32.37|-|-|-|
+|[SQAB](https://www.sciencedirect.com/science/article/pii/S0141938223002044?via%3Dihub#tbl1)|Displays2023|30.82	|24.92|	32.58|	33.58|	27.19|	35.49|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|31.17| 25.31| 32.92| 34.02| 28.83| 35.57|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|31.34 |24.31 |33.32|-|-|-|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|31.43| 25.80| 33.11| -|-|-|
@@ -857,6 +860,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[PDN](https://www.sciencedirect.com/science/article/pii/S0031320323007185?via%3Dihub)|PR2023|64.7|
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.8|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
+|[SQAB](https://www.sciencedirect.com/science/article/pii/S0141938223002044?via%3Dihub#tbl1)|Displays2023|65.0|
 |[OCN](https://github.com/JacobYuan7/OCN-HOI-Benchmark)|AAAI2022|65.3|
 |[SQA](https://github.com/nmbzdwss/SQA)|ICASSP2023|65.4|
 |[AGER](https://github.com/six6607/AGER)|ICCV2023|65.68|
