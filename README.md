@@ -114,6 +114,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- HCVC (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2311.16475.pdf)
+
 - GFIN (NN 2023), [[Paper]](https://www.sciencedirect.com/science/article/pii/S0893608023006251?via%3Dihub#fig1)
 
 - LOGICHOI (NeurIPS 2023), [[Paper]](https://openreview.net/pdf?id=QjI36zxjbW), [[Code]](https://github.com/weijianan1/LogicHOI)
@@ -622,6 +624,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| 38.93| 31.93| 41.02|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |35.45| 37.75| 40.61| 38.82| 41.15| 
 |[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|37.41 |28.81| 39.97| 38.69| 31.27| 40.91|
+|[HCVC](https://arxiv.org/pdf/2311.16475.pdf)|arXiv2023|37.54 |37.01| 37.78| 39.98| 39.01| 40.32|
 |[ADA-CM](https://github.com/ltttpku/ADA-CM)|ICCV2023|38.40	|37.52|	38.66|-|-|-|
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|40.95 |40.27 |41.32| 43.26| 43.12| 43.25|
@@ -912,6 +915,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[HODN](https://arxiv.org/pdf/2308.10158.pdf)|TMM2023| 67.0|
 |[VIL+DisTR](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|67.6|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|68.05|
+|[HCVC](https://arxiv.org/pdf/2311.16475.pdf)|arXiv2023|68.4|
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|68.8|
 |[GFIN](https://www.sciencedirect.com/science/article/pii/S0893608023006251?via%3Dihub#fig1)|NN2023|70.1|
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|**72.1**|
