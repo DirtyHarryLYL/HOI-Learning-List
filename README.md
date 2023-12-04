@@ -69,10 +69,6 @@ More...
 
 - Specifying Object Attributes and Relations in Interactive Scene Generation (arXiv 2019.11) [[Paper]](https://arxiv.org/pdf/1909.05379.pdf)
 
-### 3D HOI Generation/Discrimination
-
-- StackFLOW (IJCAI'23) [[Paper]](https://www.ijcai.org/proceedings/2023/0100.pdf), [[Code]](https://github.com/huochf/StackFLOW)
-
 ### HOI Recognition: Image-based, to recognize all the HOIs in one image.
 
 - RAM++ (arXiv'23) [[Paper]](https://arxiv.org/pdf/2310.15200.pdf), [[Code]](https://github.com/xinyu1205/recognize-anything)
@@ -449,6 +445,8 @@ More...
 More...
 
 ### 3D HOI Reconstruction/Generation
+
+- StackFLOW (IJCAI'23) [[Paper]](https://www.ijcai.org/proceedings/2023/0100.pdf), [[Code]](https://github.com/huochf/StackFLOW)
 
 - InterDiff (ICCV2023) [[Paper]](https://arxiv.org/pdf/2308.16905.pdf), [[Project]](https://sirui-xu.github.io/InterDiff/)
 
