@@ -114,7 +114,7 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
-- SCA (NeurIPS 2023), [[Paper]](https://arxiv.org/pdf/2312.01713.pdf)
+- SCA (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2312.01713.pdf)
 
 - HCVC (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2311.16475.pdf)
 
@@ -616,7 +616,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[Multi-Step](https://dl.acm.org/doi/10.1145/3581783.3612581)|ACMMM2023|34.42 |30.03| 35.73| 37.71| 33.74| 38.89|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[PViC w/ detr](https://github.com/fredzzhang/pvic)|ICCV2023| 34.69 |32.14| 35.45| 38.14| 35.38| 38.97|
-|[GEN-VLKT+SCA](https://arxiv.org/pdf/2312.01713.pdf)|NeurIPS|34.79 |31.80| 35.68|-|-|-|
+|[GEN-VLKT+SCA](https://arxiv.org/pdf/2312.01713.pdf)|arXiv2023|34.79 |31.80| 35.68|-|-|-|
 |[ (w/ CLIP)](https://github.com/YueLiao/)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[SOV-STG (res101)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|35.01 |30.63 |36.32 |37.60 |32.77 |39.05|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |33.71| 35.58| 37.56| 35.87| 38.06|
@@ -908,7 +908,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[RLIP-ParSe (COCO+VG)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.2|
 |[LOGICHOI](https://github.com/weijianan1/LogicHOI)|NeurIPS2023|64.4|
 |[MHOI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9927451)|TCSVT2022|64.5|
-|[GEN-VLKT+SCA](https://arxiv.org/pdf/2312.01713.pdf)|NeurIPS|64.5|
+|[GEN-VLKT+SCA](https://arxiv.org/pdf/2312.01713.pdf)|arXiv2023|64.5|
 |[PDN](https://www.sciencedirect.com/science/article/pii/S0031320323007185?via%3Dihub)|PR2023|64.7|
 |[ParSe (COCO)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.8|
 |[SSRT](https://arxiv.org/pdf/2204.00746.pdf)|CVPR2022|65.0|
