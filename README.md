@@ -462,6 +462,8 @@ More...
 
 ### 3D HOI Reconstruction/Generation/Understanding
 
+- physfullbody-grasp (3DV 2024) [[Paper]](https://arxiv.org/pdf/2309.07907.pdf), [[Project]](https://eth-ait.github.io/phys-fullbody-grasp/)
+
 - MIME (CVPR 2023) [[Paper]](https://arxiv.org/pdf/2212.04360.pdf), [[Project]](https://mime.is.tue.mpg.de/)
 
 - TOHO (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2303.13129.pdf)
@@ -473,8 +475,6 @@ More...
 - OMOMO (TOG 2023) [[Paper]](https://arxiv.org/pdf/2309.16237.pdf)
 
 - HOPS (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2205.02830.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/hops/)
-
-- physfullbody-grasp (3DV 2024) [[Paper]](https://arxiv.org/pdf/2309.07907.pdf), [[Project]](https://eth-ait.github.io/phys-fullbody-grasp/)
 
 - UniHSI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2309.07918.pdf), [[Project]](https://xizaoqu.github.io/unihsi/)
 
