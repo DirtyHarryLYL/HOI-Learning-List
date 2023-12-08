@@ -55,7 +55,21 @@ More...
 
 ### 3D HOI Datasets
 
+- COINS, [[Paper]](https://drive.google.com/file/d/1LpJe1RiDsB49tQwUFWMUorjBTQfvXzvW/view?usp=sharing), [[Project]](https://zkf1997.github.io/COINS/index.html)
+
+- COUCH, [[Paper]](https://arxiv.org/pdf/2205.00541.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/couch/)
+
+- HULC, [[Paper]](https://vcai.mpi-inf.mpg.de/projects/HULC/data/paper_light.pdf), [[Project]](https://vcai.mpi-inf.mpg.de/projects/HULC/)
+
+- CHAIRS, [[Paper]](https://arxiv.org/pdf/2212.10621.pdf), [[Project]](https://jnnan.github.io/project/chairs/)
+
+- GRAB, [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf), [[Project]](https://grab.is.tue.mpg.de/)
+
+- HUMANISE, [[Paper]](https://silvester.wang/HUMANISE/paper.pdf), [[Project]](https://silvester.wang/HUMANISE/)
+
 - BEHAVE, [[Paper]](https://arxiv.org/pdf/2204.06950.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/behave/)
+
+- GraviCap, [[Paper]](https://arxiv.org/pdf/2108.08844.pdf), [[Project]](https://4dqv.mpi-inf.mpg.de/GraviCap/)
 
 ## Suevry
 
@@ -446,33 +460,97 @@ More...
 
 More...
 
-### 3D HOI Reconstruction/Generation
+### 3D HOI Reconstruction/Generation/Understanding
 
-- StackFLOW (IJCAI'23) [[Paper]](https://www.ijcai.org/proceedings/2023/0100.pdf), [[Code]](https://github.com/huochf/StackFLOW)
+- MIME (CVPR 2023) [[Paper]](https://arxiv.org/pdf/2212.04360.pdf), [[Project]](https://mime.is.tue.mpg.de/)
+
+- TOHO (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2303.13129.pdf)
+
+- GenZI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2311.17737.pdf), [[Project]](https://craigleili.github.io/projects/genzi/)
+
+- CG-HOI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2311.16097.pdf), [[Project]](https://www.christian-diller.de/projects/cg-hoi/)
+
+- OMOMO (TOG 2023) [[Paper]](https://arxiv.org/pdf/2309.16237.pdf)
+
+- HOPS (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2205.02830.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/hops/)
+
+- physfullbody-grasp (3DV 2024) [[Paper]](https://arxiv.org/pdf/2309.07907.pdf), [[Project]](https://eth-ait.github.io/phys-fullbody-grasp/)
+
+- UniHSI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2309.07918.pdf), [[Project]](https://xizaoqu.github.io/unihsi/)
+
+- NIFTY (arXiv 2023) [[Paper]](https://nileshkulkarni.github.io/nifty/assets/paper.pdf), [[Project]](https://nileshkulkarni.github.io/nifty/)
+
+- IMoS (EUROGRAPHICS 2023) [[Paper]](https://arxiv.org/pdf/2212.07555.pdf), [[Project]](https://vcai.mpi-inf.mpg.de/projects/IMoS/)
+
+- SceneDiffuser (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2301.06015.pdf), [[Project]](https://scenediffuser.github.io/)
+
+- Locomotion-Action-Manipulation (ICCV 2023) [[Paper]](https://arxiv.org/pdf/2301.02667.pdf), [[Porject]](https://jiyewise.github.io/projects/LAMA/)
+
+- ROAM (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2308.12969.pdf), [[Project]](https://vcai.mpi-inf.mpg.de/projects/ROAM/)
+
+- Object pop-up (CVPR 2023) [[Paper]](https://arxiv.org/pdf/2306.00777.pdf), [[Code]](https://github.com/ptrvilya/object-popup)
+
+- StackFLOW (IJCAI 2023) [[Paper]](https://www.ijcai.org/proceedings/2023/0100.pdf), [[Code]](https://github.com/huochf/StackFLOW)
 
 - InterDiff (ICCV2023) [[Paper]](https://arxiv.org/pdf/2308.16905.pdf), [[Project]](https://sirui-xu.github.io/InterDiff/)
 
-- HUMANISE (arXiv2022) [[Paper]](https://silvester.wang/HUMANISE/paper.pdf), [[Project]](https://silvester.wang/HUMANISE/)
+- Wang et. al. (arXiv 2022) [[Paper]](https://arxiv.org/pdf/2209.02485.pdf)
 
-- CHAIRS (arXiv2022) [[Paper]](https://arxiv.org/pdf/2212.10621.pdf), [[Project]](https://jnnan.github.io/project/chairs/)
+- Haresh et. al. (3DV 2022) [[Paper]](https://arxiv.org/pdf/2209.05612.pdf), [[Project]](https://3dlg-hcvc.github.io/3dhoi/)
 
-- NeuralDome (arXiv2022) [[Paper]](https://arxiv.org/pdf/2212.07626.pdf)
+- COUCH (arXiv 2022) [[Paper]](https://arxiv.org/pdf/2205.00541.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/couch/)
 
-- ARCTIC (arXiv2022) [[Paper]](https://arxiv.org/pdf/2204.13662.pdf), [[Project]](https://arctic.is.tue.mpg.de/) 
+- HULC (ECCV 2022) [[Paper]](https://vcai.mpi-inf.mpg.de/projects/HULC/data/paper_light.pdf), [[Project]](https://vcai.mpi-inf.mpg.de/projects/HULC/)
 
-- IMoS (EUROGRAPHICS2023) [[Paper]](https://arxiv.org/pdf/2212.07555.pdf)
+- AROS (arXiv 2022) [[Paper]](https://arxiv.org/pdf/2210.11725.pdf)
 
-- BEHAVE (CVPR2022) [[Paper]](https://virtualhumans.mpi-inf.mpg.de/papers/bhatnagar22behave/behave.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/behave/)
+- MoCapDeform (arXiv 2022) [[Paper]](https://arxiv.org/pdf/2208.08439.pdf)
 
-- CHORE (ECCV2022) [[Project]](https://virtualhumans.mpi-inf.mpg.de/chore/), [[Paper]](https://arxiv.org/pdf/2204.02445.pdf)
+- SUMMON (SIGGRAPH Asia 2022) [[Paper]](https://arxiv.org/pdf/2301.01424.pdf), [[Project]](https://lijiaman.github.io/projects/summon/)
 
-- D3D-HOI (arXiv2021) [[Paper]](https://arxiv.org/pdf/2108.08420.pdf), [[Project]](https://github.com/facebookresearch/d3d-hoi)
+- HUMANISE (arXiv 2022) [[Paper]](https://silvester.wang/HUMANISE/paper.pdf), [[Project]](https://silvester.wang/HUMANISE/)
 
-- DJ-RN (CVPR2020) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf), [[Code]](https://github.com/DirtyHarryLYL/DJ-RN)
+- CHAIRS (arXiv 2022) [[Paper]](https://arxiv.org/pdf/2212.10621.pdf), [[Project]](https://jnnan.github.io/project/chairs/)
 
-- GRAB (ECCV2020) [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf), [[Project]](https://grab.is.tue.mpg.de/)
+- NeuralDome (arXiv 2022) [[Paper]](https://arxiv.org/pdf/2212.07626.pdf)
 
-- PROX (ICCV2019) [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Hassan_Resolving_3D_Human_Pose_Ambiguities_With_3D_Scene_Constraints_ICCV_2019_paper.pdf), [[Project]](https://prox.is.tue.mpg.de/)
+- ARCTIC (arXiv 2022) [[Paper]](https://arxiv.org/pdf/2204.13662.pdf), [[Project]](https://arctic.is.tue.mpg.de/) 
+
+- IMoS (EUROGRAPHICS 2023) [[Paper]](https://arxiv.org/pdf/2212.07555.pdf)
+
+- COINS (ECCV 2022) [[Paper]](https://drive.google.com/file/d/1LpJe1RiDsB49tQwUFWMUorjBTQfvXzvW/view?usp=sharing), [[Project]](https://zkf1997.github.io/COINS/index.html)
+
+- Pose2Room (ECCV 2022) [[Paper]](https://arxiv.org/pdf/2112.03030.pdf), [[Project]](https://yinyunie.github.io/pose2room-page/)
+
+- RICH (CVPR 2022) [[Paper]](https://arxiv.org/pdf/2206.09553.pdf), [[Project]](https://rich.is.tue.mpg.de/)
+
+- MOVER (CVPR 2022) [[Paper]](https://arxiv.org/pdf/2203.03609.pdf), [[Project]](https://mover.is.tue.mpg.de/)
+
+- SAGA (ECCV 2022) [[Paper]](https://arxiv.org/abs/2112.10103), [[Project]](https://jiahaoplus.github.io/SAGA/saga.html)
+
+- GOAL (CVPR 2022) [[Paper]](https://arxiv.org/pdf/2112.11454.pdf), [[Project]](https://goal.is.tuebingen.mpg.de/)
+
+- BEHAVE (CVPR 2022) [[Paper]](https://virtualhumans.mpi-inf.mpg.de/papers/bhatnagar22behave/behave.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/behave/)
+
+- CHORE (ECCV 2022) [[Project]](https://virtualhumans.mpi-inf.mpg.de/chore/), [[Paper]](https://arxiv.org/pdf/2204.02445.pdf)
+
+- POSA (CVPR 2021) [[Paper]](https://arxiv.org/pdf/2012.11581.pdf), [[Project]](https://posa.is.tue.mpg.de/)
+
+- GraviCap (ICCV 2021) [[Paper]](https://arxiv.org/pdf/2108.08844.pdf), [[Project]](https://4dqv.mpi-inf.mpg.de/GraviCap/)
+
+- D3D-HOI (arXiv 2021) [[Paper]](https://arxiv.org/pdf/2108.08420.pdf), [[Project]](https://github.com/facebookresearch/d3d-hoi)
+
+- PSI (CVPR 2020) [[Paper]](https://ps.is.mpg.de/uploads_file/attachment/attachment/575/1912.02923.pdf), [[Code]](https://github.com/yz-cnsdqz/PSI-release)
+
+- DJ-RN (CVPR 2020) [[Paper]](https://arxiv.org/pdf/2004.08154.pdf), [[Code]](https://github.com/DirtyHarryLYL/DJ-RN)
+
+- PLACE (3DV 2020) [[Paper]](https://arxiv.org/pdf/2008.05570.pdf), [[Project]](https://sanweiliti.github.io/PLACE/PLACE.html)
+
+- GRAB (ECCV 2020) [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490562.pdf), [[Project]](https://grab.is.tue.mpg.de/)
+
+- Holistic++ (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1909.01507.pdf), [[Code]]()
+
+- PROX (ICCV 2019) [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Hassan_Resolving_3D_Human_Pose_Ambiguities_With_3D_Scene_Constraints_ICCV_2019_paper.pdf), [[Project]](https://prox.is.tue.mpg.de/)
 
 ## Result
 
