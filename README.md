@@ -55,6 +55,8 @@ More...
 
 ### 3D HOI Datasets
 
+- BallPlay, [[Paper]](https://arxiv.org/pdf/2312.04393.pdf), [[Project]](https://wyhuai.github.io/physhoi-page/)
+
 - COINS, [[Paper]](https://drive.google.com/file/d/1LpJe1RiDsB49tQwUFWMUorjBTQfvXzvW/view?usp=sharing), [[Project]](https://zkf1997.github.io/COINS/index.html)
 
 - COUCH, [[Paper]](https://arxiv.org/pdf/2205.00541.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/couch/)
@@ -461,6 +463,10 @@ More...
 More...
 
 ### 3D HOI Reconstruction/Generation/Understanding
+
+- MOB (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.02700.pdf), [[Project]](https://foruck.github.io/occu-page/)
+
+- BallPlay (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.04393.pdf), [[Project]](https://wyhuai.github.io/physhoi-page/)
 
 - physfullbody-grasp (3DV 2024) [[Paper]](https://arxiv.org/pdf/2309.07907.pdf), [[Project]](https://eth-ait.github.io/phys-fullbody-grasp/)
 
