@@ -466,7 +466,7 @@ More...
 
 - MOB (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.02700.pdf), [[Project]](https://foruck.github.io/occu-page/)
 
-- BallPlay (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.04393.pdf), [[Project]](https://wyhuai.github.io/physhoi-page/)
+- PhysHOI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.04393.pdf), [[Project]](https://wyhuai.github.io/physhoi-page/)
 
 - physfullbody-grasp (3DV 2024) [[Paper]](https://arxiv.org/pdf/2309.07907.pdf), [[Project]](https://eth-ait.github.io/phys-fullbody-grasp/)
 
