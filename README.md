@@ -464,6 +464,8 @@ More...
 
 ### 3D HOI Reconstruction/Generation/Understanding
 
+- CHOIS (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.03913.pdf), [[Project]](https://lijiaman.github.io/projects/chois/)
+
 - MOB (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.02700.pdf), [[Project]](https://foruck.github.io/occu-page/)
 
 - PhysHOI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.04393.pdf), [[Project]](https://wyhuai.github.io/physhoi-page/)
