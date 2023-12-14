@@ -464,6 +464,10 @@ More...
 
 ### 3D HOI Reconstruction/Generation/Understanding
 
+- HDM (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.07063.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/)
+
+- HOI-Diff (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.06553.pdf), [[Project]](https://neu-vi.github.io/HOI-Diff/)
+
 - CHOIS (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.03913.pdf), [[Project]](https://lijiaman.github.io/projects/chois/)
 
 - MOB (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.02700.pdf), [[Project]](https://foruck.github.io/occu-page/)
