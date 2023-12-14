@@ -73,7 +73,7 @@ More...
 
 - GraviCap, [[Paper]](https://arxiv.org/pdf/2108.08844.pdf), [[Project]](https://4dqv.mpi-inf.mpg.de/GraviCap/)
 
-## Suevry
+## Survey
 
 - Human object interaction detection: Design and survey (Image and Vision Computing 2022), [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885622002463)
 
