@@ -464,6 +464,8 @@ More...
 
 ### 3D HOI Reconstruction/Generation/Understanding
 
+- Ins-HOI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.09641.pdf), [[Project]](https://jiajunzhang16.github.io/ins-hoi/)
+
 - HDM (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.07063.pdf), [[Project]](https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/)
 
 - HOI-Diff (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.06553.pdf), [[Project]](https://neu-vi.github.io/HOI-Diff/)
