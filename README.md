@@ -130,6 +130,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- UnionDet (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2312.12664.pdf)
+
 - SCA (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2312.01713.pdf)
 
 - HCVC (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2311.16475.pdf)
@@ -604,6 +606,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[Interactiveness-optimized](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)| CVPR2019 | 17.54	|13.80	|18.65|	19.75|	15.70|	20.96|
 |[Liu et.al.](https://arxiv.org/pdf/2105.03089.pdf)|arXiv|17.55 |20.61|-|-|-|-|
 |[Wang et al.](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620239.pdf)|ECCV2020|17.57 |16.85| 17.78| 21.00| 20.74| 21.08|
+|[UnionDet](https://arxiv.org/pdf/2312.12664.pdf)|arXiv2023|17.58| 11.72 |19.33| 19.76| 14.68| 21.27|
 |[In-GraphNet](https://arxiv.org/pdf/2007.06925.pdf)|IJCAI-PRICAI 2020|17.72 |12.93 |19.31|-|-|-|
 |[HOID](https://github.com/scwangdyd/zero_shot_hoi)|CVPR2020| 17.85 |12.85 |19.34|-|-|-|
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020| 17.95 |16.62 |18.35|22.28 |20.73 |22.74|
@@ -620,7 +623,7 @@ It has a more severe long-tailed data distribution thus is more difficult.
 |[ACP](https://github.com/Dong-JinKim/ActionCooccurrencePriors/)|ECCV2020|20.59 |15.92| 21.98|-|-|-|
 |[PD-Net](https://github.com/MuchHair/PD-Net)|ECCV2020|20.81 |15.90| 22.28| 24.78| 18.88| 26.54|
 |[SG2HOI](https://arxiv.org/pdf/2108.08584.pdf)|ICCV2021|20.93 |18.24| 21.78| 24.83| 20.52| 25.32|
-|[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|20.93	|18.95|	21.32|	23.02|	20.96|	23.42|
+|[TIN-PAMI](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)|TAPMI2021|20.93|18.95|	21.32|	23.02|	20.96|	23.42|
 |[ATL](https://github.com/zhihou7/HOI-CL)|CVPR2021|21.07 |16.79| 22.35|-|-|-|
 |[PMN](https://github.com/birlrobotics/PMN)|arXiv|21.21 |17.60| 22.29|-|-|-|
 |[IPGN](https://ieeexplore.ieee.org/document/9489275)|TIP2021|21.26|18.47|22.07|-|-|-|
@@ -966,6 +969,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[MLCNet](https://dl.acm.org/doi/pdf/10.1145/3372278.3390671)| ICMR2020|55.2|
 |[HOTR](https://github.com/kakaobrain/HOTR)|CVPR2021|55.2|
 |[DIRV](https://arxiv.org/pdf/2010.01005.pdf)|AAAI2021|56.1|
+|[UnionDet](https://arxiv.org/pdf/2312.12664.pdf)|arXiv2023|56.2|
 |[SABRA-Res152](https://arxiv.org/pdf/2012.12510.pdf)| arXiv| 56.62|
 |[PhraseHOI](https://arxiv.org/pdf/2112.07383.pdf)|AAAI2022|57.4|
 |[GTNet](https://github.com/UCSB-VRL/GTNet)|arXiv|58.29|
