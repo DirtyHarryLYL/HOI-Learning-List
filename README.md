@@ -130,6 +130,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- SBM (PRCV2023), [[Paper]](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_5)
+
 - UnionDet (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2312.12664.pdf)
 
 - SCA (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2312.01713.pdf)
@@ -712,6 +714,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[PViC w/ detr](https://github.com/fredzzhang/pvic)|ICCV2023| 34.69 |32.14| 35.45| 38.14| 35.38| 38.97|
 |[GEN-VLKT+SCA](https://arxiv.org/pdf/2312.01713.pdf)|arXiv2023|34.79 |31.80| 35.68|-|-|-|
+|[SBM](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_5)|PRCV2023|34.92 |31.67| 35.85| 38.79| 35.43| 39.60|
 |[ (w/ CLIP)](https://github.com/YueLiao/)|CVPR2022|34.95 |31.18| 36.08| 38.22| 34.36| 39.37|
 |[SOV-STG (res101)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|35.01 |30.63 |36.32 |37.60 |32.77 |39.05|
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |33.71| 35.58| 37.56| 35.87| 38.06|
@@ -982,6 +985,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|ECCV2022|60.85|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|CVPR2022| 61.3|
 |[CDT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152) | TNNLS 2023|61.43|
+|[SBM](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_5)|PRCV2023|61.5|
 |[SDT](https://arxiv.org/pdf/2207.01869.pdf)|arXiv2022|61.8|
 |[OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)|CVPR2023|61.9|
 |[MSTR](https://arxiv.org/pdf/2203.14709.pdf)|CVPR2022|62.0|
