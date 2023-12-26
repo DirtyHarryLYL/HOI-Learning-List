@@ -130,6 +130,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- MLKD (WACV2024), [[Paper]](https://arxiv.org/pdf/2309.05069.pdf), [[Code]](https://github.com/bobwan1995/Zeroshot-HOI-with-CLIP)
+
 - SBM (PRCV2023), [[Paper]](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_5)
 
 - UnionDet (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2312.12664.pdf)
@@ -424,7 +426,7 @@ More...
 
 - FCL (CVPR2021) [[Paper]](https://arxiv.org/pdf/2103.08214.pdf), [[Code]](https://github.com/zhihou7/FCL)
 
-- Detecting Human-Object Interaction with Mixed Supervision (WACV 2021) [[Paper]](https://arxiv.org/pdf/2011.04971v1.pdf)
+- Detecting Human-Object Interaction with Mixed Supervision ( 2021) [[Paper]](https://arxiv.org/pdf/2011.04971v1.pdf)
 
 - ConsNet (ACMMM2020) [[Paper]](https://arxiv.org/pdf/2008.06254.pdf) [[Code]](https://github.com/yeliudev/ConsNet)
 
@@ -440,7 +442,7 @@ More...
 
 - Functional (AAAI2020) [[Paper]](https://arxiv.org/pdf/1904.03181.pdf)
 
-- Scaling Human-Object Interaction Recognition through Zero-Shot Learning (WACV2018) [[Paper]](http://vision.stanford.edu/pdf/shen2018wacv.pdf)
+- Scaling Human-Object Interaction Recognition through Zero-Shot Learning (2018) [[Paper]](http://vision.stanford.edu/pdf/shen2018wacv.pdf)
 
 More...
 
@@ -711,6 +713,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|34.02 |29.44| 35.39|-|-|-|
 |[VIL+](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|34.21| 30.58| 35.30| 37.67| 34.88| 38.50|
 |[Multi-Step](https://dl.acm.org/doi/10.1145/3581783.3612581)|ACMMM2023|34.42 |30.03| 35.73| 37.71| 33.74| 38.89|
+|[MLKD](https://github.com/bobwan1995/Zeroshot-HOI-with-CLIP)|WACV2024|34.69 |31.12| 35.74|-|-|-|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[PViC w/ detr](https://github.com/fredzzhang/pvic)|ICCV2023| 34.69 |32.14| 35.45| 38.14| 35.38| 38.97|
 |[GEN-VLKT+SCA](https://arxiv.org/pdf/2312.01713.pdf)|arXiv2023|34.79 |31.80| 35.68|-|-|-|
