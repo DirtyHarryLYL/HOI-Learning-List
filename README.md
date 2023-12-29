@@ -130,6 +130,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- OBPA-Net (PRCV 2023), [[Paper]](https://link.springer.com/chapter/10.1007/978-981-99-8555-5_30), [[Code]](https://github.com/zhuang1iu/OBPA-NET)
+
 - MLKD (WACV2024), [[Paper]](https://arxiv.org/pdf/2309.05069.pdf), [[Code]](https://github.com/bobwan1995/Zeroshot-HOI-with-CLIP)
 
 - SBM (PRCV2023), [[Paper]](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_5)
@@ -713,6 +715,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|34.02 |29.44| 35.39|-|-|-|
 |[VIL+](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|34.21| 30.58| 35.30| 37.67| 34.88| 38.50|
 |[Multi-Step](https://dl.acm.org/doi/10.1145/3581783.3612581)|ACMMM2023|34.42 |30.03| 35.73| 37.71| 33.74| 38.89|
+|[OBPA-Net](https://github.com/zhuang1iu/OBPA-NET)|PRCV2023|34.63 |32.83| 35.16| 36.78| 35.38| 38.04|
 |[MLKD](https://github.com/bobwan1995/Zeroshot-HOI-with-CLIP)|WACV2024|34.69 |31.12| 35.74|-|-|-|
 |[HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|34.69 |31.12| 35.74| 37.61| 34.47| 38.54|
 |[PViC w/ detr](https://github.com/fredzzhang/pvic)|ICCV2023| 34.69 |32.14| 35.45| 38.14| 35.38| 38.97|
@@ -1007,6 +1010,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SOV-STG](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|63.9|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
 |[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|64.1|
+|[OBPA-Net](https://github.com/zhuang1iu/OBPA-NET)|PRCV2023|64.1|
 |[RmLR](https://arxiv.org/pdf/2307.13529.pdf)|ICCV2023|64.17|
 |[RLIP-ParSe (COCO+VG)](https://github.com/JacobYuan7/RLIP)|NeurIPS2022|64.2|
 |[LOGICHOI](https://github.com/weijianan1/LogicHOI)|NeurIPS2023|64.4|
