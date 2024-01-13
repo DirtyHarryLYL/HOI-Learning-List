@@ -130,6 +130,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- SCTC (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2401.05676.pdf)
+
 - OBPA-Net (PRCV 2023), [[Paper]](https://link.springer.com/chapter/10.1007/978-981-99-8555-5_30), [[Code]](https://github.com/zhuang1iu/OBPA-NET)
 
 - MLKD (WACV2024), [[Paper]](https://arxiv.org/pdf/2309.05069.pdf), [[Code]](https://github.com/bobwan1995/Zeroshot-HOI-with-CLIP)
@@ -738,6 +740,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[HCVC](https://arxiv.org/pdf/2311.16475.pdf)|arXiv2023|37.54 |37.01| 37.78| 39.98| 39.01| 40.32|
 |[ADA-CM](https://github.com/ltttpku/ADA-CM)|ICCV2023|38.40	|37.52|	38.66|-|-|-|
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
+|[SCTC](https://arxiv.org/pdf/2401.05676.pdf)|arXiv2024|39.12 |36.09| 39.87|-|-|-|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|40.95 |40.27 |41.32| 43.26| 43.12| 43.25|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|43.23 | **45.64** | **45.09**|-|-|-|
@@ -1034,6 +1037,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[HODN](https://arxiv.org/pdf/2308.10158.pdf)|TMM2023| 67.0|
 |[VIL+DisTR](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|67.6|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|68.05|
+|[SCTC](https://arxiv.org/pdf/2401.05676.pdf)|arXiv2024|68.2|
 |[HCVC](https://arxiv.org/pdf/2311.16475.pdf)|arXiv2023|68.4|
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|68.8|
 |[GFIN](https://www.sciencedirect.com/science/article/pii/S0893608023006251?via%3Dihub#fig1)|NN2023|70.1|
