@@ -55,6 +55,8 @@ More...
 
 ### 3D HOI Datasets
 
+- ParaHome, [[Paper]](https://arxiv.org/pdf/2401.10232.pdf), [[Project]](https://jlogkim.github.io/parahome/)
+
 - BallPlay, [[Paper]](https://arxiv.org/pdf/2312.04393.pdf), [[Project]](https://wyhuai.github.io/physhoi-page/)
 
 - COINS, [[Paper]](https://drive.google.com/file/d/1LpJe1RiDsB49tQwUFWMUorjBTQfvXzvW/view?usp=sharing), [[Project]](https://zkf1997.github.io/COINS/index.html)
