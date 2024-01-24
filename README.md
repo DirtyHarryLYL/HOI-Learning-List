@@ -41,6 +41,8 @@ More...
 
 ### Video HOI Datasets
 
+- MOMA [[Paper]](https://proceedings.neurips.cc/paper/2021/file/95688ba636a4720a85b3634acfec8cdd-Paper.pdf), [[Project]](https://github.com/StanfordVL/moma)
+
 - MPHOI-72 RGB-D, [[Paper]](https://arxiv.org/pdf/2207.09425.pdf), [[Project]](https://github.com/tanqiu98/2G-GCN)
 
 - VidHOI [[Paper]](https://arxiv.org/pdf/2105.11731.pdf), [[Project]](https://github.com/coldmanck/VidHOI)
