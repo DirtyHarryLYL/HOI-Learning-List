@@ -478,6 +478,8 @@ More...
 
 ### 3D HOI Reconstruction/Generation/Understanding
 
+- P3HAOI (AAAI 2024) [[Paper]](https://arxiv.org/pdf/2312.10714.pdf), [[Project]](https://mvig-rhos.com/p3haoi)
+
 - IM-HOI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.08869.pdf), [[Project]](https://afterjourney00.github.io/IM-HOI.github.io/)
 
 - Ins-HOI (arXiv 2023) [[Paper]](https://arxiv.org/pdf/2312.09641.pdf), [[Project]](https://jiajunzhang16.github.io/ins-hoi/)
