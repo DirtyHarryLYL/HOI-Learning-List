@@ -134,6 +134,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- KI2HOI (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2403.07246.pdf)
+
 - SCTC (arXiv 2023), [[Paper]](https://arxiv.org/pdf/2401.05676.pdf)
 
 - OBPA-Net (PRCV 2023), [[Paper]](https://link.springer.com/chapter/10.1007/978-981-99-8555-5_30), [[Code]](https://github.com/zhuang1iu/OBPA-NET)
@@ -723,6 +725,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[IF](https://github.com/Foruck/Interactiveness-Field)|CVPR2022|33.51 |30.30 |34.46 |36.28 |33.16 |37.21|
 |[ICDT](https://github.com/bingnanG/ICDT)|ICANN2023|34.01 |27.60 |35.92 |36.29 |29.88 |38.21|
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|34.02 |29.44| 35.39|-|-|-|
+|[KI2HOI](https://arxiv.org/pdf/2403.07246.pdf)|arXiv2024|34.20 |32.26| 36.10| 37.85| 35.89| 38.78| 
 |[VIL+](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|34.21| 30.58| 35.30| 37.67| 34.88| 38.50|
 |[Multi-Step](https://dl.acm.org/doi/10.1145/3581783.3612581)|ACMMM2023|34.42 |30.03| 35.73| 37.71| 33.74| 38.89|
 |[OBPA-Net](https://github.com/zhuang1iu/OBPA-NET)|PRCV2023|34.63 |32.83| 35.16| 36.78| 35.38| 38.04|
@@ -799,7 +802,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [ConsNet](https://github.com/yeliudev/ConsNet) | ACMMM2020 | COCO |  16.99 ± 1.67 | 20.51 ± 0.62 | 19.81 ± 0.32 | 
 | [CDT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152) | TNNLS 2023| - | 18.06 | 23.34 | 20.72 |
 | [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385)|AAAI2023|-|23.01±1.54|30.39±0.40|28.91±0.27|
-| [HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|-|25.53|**34.85**|**32.99**|
+| [HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|-|25.53|34.85|32.99|
+| [KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) | arXiv2024|-|27.43|**35.76**|**34.56**|
 | [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73)|NeurIPS2023|-|**27.71**|33.25|32.11|
 ||
 | [VCL](https://github.com/zhihou7/VCL) (NF-UC)| ECCV2020 | HICO-DET | 16.22 | 18.52 |  18.06 | 
@@ -813,6 +817,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (NF-UC)| CVPR2023|HICO-DET|26.39 |28.10| 27.75|
 | [LOGICHOI](https://github.com/weijianan1/LogicHOI) (NF-UC)|NeurIPS2023|-|26.84 |27.86 |27.95|
 | [UniHOI](https://github.com/Caoyichao/UniHOI) (NF-UC)|NeurIPS2023|-|28.45 | 32.63 | 31.79 |
+| [KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) (NF-UC)| arXiv2024|-|28.89|28.31|27.77|
 | [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (NF-UC)|arXiv2023| HICO-DET + syn data| 29.45 | 31.68 |31.24|
 | [RLIPv2-ParSeDA](https://github.com/JacobYuan7/RLIPv2) (NF-UC)| ICCV2023| VG, COCO, O365 | 22.65 | **40.51** | **36.94**|
 | [HCVC](https://arxiv.org/pdf/2311.16475.pdf) (NF-UC)|arXiv2023|-|28.44 |31.35| 30.77|
@@ -827,6 +832,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [OpenCat](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.pdf)(RF-UC)| CVPR2023 | HICO-DET |21.46 |33.86| 31.38|
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) (RF-UC)| CVPR2023|HICO-DET| 25.53 |34.85| 32.99|
 | [LOGICHOI](https://github.com/weijianan1/LogicHOI) (RF-UC)|NeurIPS2023|-|25.97 |34.93| 33.17|
+| [KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) (RF-UC)| arXiv2024|-|26.33|35.79|34.10|
 | [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|-|28.47|35.48|34.08|
 | [UniHOI](https://github.com/Caoyichao/UniHOI) (RF-UC)|NeurIPS2023|-|28.68 | 33.16 | 32.27 |
 | [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (RF-UC)|arXiv2023| HICO-DET + syn data| 28.76 | 38.01 |36.16|
@@ -855,6 +861,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [GEN-VLKT](https://arxiv.org/pdf/2203.13954.pdf)|CVPR2022| - | 10.51|28.92|25.63|
 | [LOGICHOI](https://github.com/weijianan1/LogicHOI) |NeurIPS2023|-|15.67| 30.42| 28.23|
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) | CVPR2023|-|16.20|30.99|28.53|
+| [KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) | arXiv2024|-|16.50|31.70|28.84|
 | [HCVC](https://arxiv.org/pdf/2311.16475.pdf)| arXiv2023|-|16.78 |33.31 |30.53|
 | [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|-|**31.79**|**32.73**|**32.58**|
 
@@ -876,6 +883,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) | CVPR2023|-|24.30|32.19|31.09|
 |[LOGICHOI](https://github.com/weijianan1/LogicHOI) |NeurIPS2023|-|24.57 |31.88 |30.77|
 |[HCVC](https://arxiv.org/pdf/2311.16475.pdf)| arXiv2023|-|24.69 |36.11| 34.51|
+|[KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) | arXiv2024|-|25.20|32.95|31.85|
 |[CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|-|26.02|31.14|30.42|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|-|**26.05**|**36.78**|**34.68**|
 
@@ -1019,6 +1027,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SG2HOI](https://arxiv.org/pdf/2311.01755.pdf)|arxXiv2023|63.6|
 |[QPIC+HQM](https://arxiv.org/pdf/2207.05293.pdf)|ECCV2022|63.6|
 |[SOV-STG](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|63.9|
+|[KI2HOI](https://arxiv.org/pdf/2403.07246.pdf)|arXiv2024|63.9|
 |[CDN](https://github.com/YueLiao/CDN)|NeurIPS2021|63.91|
 |[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|64.1|
 |[OBPA-Net](https://github.com/zhuang1iu/OBPA-NET)|PRCV2023|64.1|
