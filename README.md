@@ -134,6 +134,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- DP-HOI (CVPR 2024), [[Paper]](https://arxiv.org/pdf/2404.01725.pdf), [[Code]](https://github.com/xingaoli/DP-HOI)
+
 - DPADN (AAAI 2024), [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/27949), [[Code]](https://github.com/PRIS-CV/DPADN)
 
 - KI2HOI (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2403.07246.pdf)
@@ -745,6 +747,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
 |[DPADN](https://github.com/PRIS-CV/DPADN)|AAAI2024|35.91 |35.82| 35.94| 38.99| 39.61| 38.80|
 |[-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|36.03| 33.16| 36.89| 38.82| 35.51| 39.81|
+|[HOICLIP+DP-HOI](https://github.com/xingaoli/DP-HOI)|CVPR2024|36.56 |34.36| 37.22|-|-|-|
 |[AGER](https://github.com/six6607/AGER)|ICCV2023|36.75 |33.53| 37.71| 39.84| 35.58| 40.23|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|37.18 |30.71| 39.11| 38.93| 31.93| 41.02|
 |[ViPLO](https://arxiv.org/pdf/2304.08114.pdf)|CVPR2023|37.22 |35.45| 37.75| 40.61| 38.82| 41.15| 
@@ -1055,6 +1058,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
 |[CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|66.3|
+|[GENs+DP-HOI](https://github.com/xingaoli/DP-HOI)|CVPR2024|66.6|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
 |[HODN](https://arxiv.org/pdf/2308.10158.pdf)|TMM2023| 67.0|
 |[VIL+DisTR](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|67.6|
