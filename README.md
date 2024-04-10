@@ -406,6 +406,8 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
+-  CMD-SE (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2404.06194.pdf), [[Code]](https://github.com/ltttpku/CMD-SE-release)
+
 - CLIP4HOI (NeurIPS 2023), [[Paper]](https://openreview.net/pdf?id=nqIIWnwe73)
 
 - UniHOI (NeurIPS 2023), [[Paper]](https://arxiv.org/pdf/2311.03799.pdf), [[Code]](https://github.com/Caoyichao/UniHOI)
