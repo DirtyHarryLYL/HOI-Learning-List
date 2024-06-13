@@ -136,6 +136,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- MP-HOI (CVPR 2024), [[Paper]](https://arxiv.org/pdf/2406.07221), [[Project]](https://mp-hoi.github.io/)
+
 - DP-HOI (CVPR 2024), [[Paper]](https://arxiv.org/pdf/2404.01725.pdf), [[Code]](https://github.com/xingaoli/DP-HOI)
 
 - DPADN (AAAI 2024), [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/27949), [[Code]](https://github.com/PRIS-CV/DPADN)
@@ -764,6 +766,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
 |[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|43.35| 42.25| 43.69|45.53|43.62| 46.11|
 |[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|44.32| **44.61**| 44.24| **47.81**| **48.38**| **47.64**|
+|[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|44.53|44.48|44.55|-|-|-|
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|**45.09**  | 43.23|**45.64**|-|-|-|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
@@ -1061,6 +1064,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[DPADN](https://github.com/PRIS-CV/DPADN)|AAAI2024|62.62|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
+|[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|66.2|
 |[CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|66.3|
 |[GENs+DP-HOI](https://github.com/xingaoli/DP-HOI)|CVPR2024|66.6|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
