@@ -85,6 +85,8 @@ More...
 
 ### HOI Image Generation
 
+- Person in Place: Generating Associative Skeleton-Guidance Maps for Human-Object Interaction Image Editing (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Person_in_Place_Generating_Associative_Skeleton-Guidance_Maps_for_Human-Object_Interaction_CVPR_2024_paper.pdf), [[Code]](https://github.com/YangChangHee/CVPR2024_Person-In-Place_RELEASE)
+
 - VirtualModel: Generating Object-ID-retentive Human-object Interaction Image by Diffusion Model for E-commerce Marketing (arXiv 2024.5) [[Paper]](https://arxiv.org/pdf/2405.09985) [[Code]](https://aigcdesigngroup.github.io/replace-anything/)
 
 - Exploiting Relationship for Complex-scene Image Generation (arXiv 2021.04) [[Paper]](https://arxiv.org/pdf/2104.00356.pdf)
@@ -135,6 +137,12 @@ More...
 More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
+
+- SICHOI (CVPR 2024), [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.pdf)
+
+- Pose-Aware (CVPR 2024), [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Exploring_Pose-Aware_Human-Object_Interaction_via_Hybrid_Learning_CVPR_2024_paper.pdf)
+
+- BCOM (CVPR 2024), [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Bilateral_Adaptation_for_Human-Object_Interaction_Detection_with_Occlusion-Robustness_CVPR_2024_paper.pdf)
 
 - MP-HOI (CVPR 2024), [[Paper]](https://arxiv.org/pdf/2406.07221), [[Project]](https://mp-hoi.github.io/)
 
@@ -762,12 +770,15 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[ADA-CM](https://github.com/ltttpku/ADA-CM)|ICCV2023|38.40	|37.52|	38.66|-|-|-|
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[SCTC](https://arxiv.org/pdf/2401.05676.pdf)|AAAI2024|39.12 |36.09| 39.87|-|-|-|
+|[BCOM](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Bilateral_Adaptation_for_Human-Object_Interaction_Detection_with_Occlusion-Robustness_CVPR_2024_paper.pdf)|CVPR2024|39.34 |39.90| 39.17| 42.24| 42.86| 42.05|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|40.95 |40.27 |41.32| 43.26| 43.12| 43.25|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
 |[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|43.35| 42.25| 43.69|45.53|43.62| 46.11|
-|[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|44.32| **44.61**| 44.24| **47.81**| **48.38**| **47.64**|
+|[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|44.32| 44.61| 44.24| 47.81| 48.38| 47.64|
 |[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|44.53|44.48|44.55|-|-|-|
-|[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|**45.09**  | 43.23|**45.64**|-|-|-|
+|[SICHOI](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.pdf)|CVPR2024|45.04 |45.61 |44.88 |48.16 |48.37 |48.09|
+|[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|45.09| 43.23|45.64|-|-|-|
+|[Pose-Aware](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Exploring_Pose-Aware_Human-Object_Interaction_via_Hybrid_Learning_CVPR_2024_paper.pdf)|CVPR2024|**46.01** |**46.74** |**45.80** |**49.50** |**50.59** |**49.18**|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -1060,8 +1071,10 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SQA](https://github.com/nmbzdwss/SQA)|ICASSP2023|65.4|
 |[AGER](https://github.com/six6607/AGER)|ICCV2023|65.68|
 |[DiffHOI](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|65.7|
+|[BCOM](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Bilateral_Adaptation_for_Human-Object_Interaction_Detection_with_Occlusion-Robustness_CVPR_2024_paper.pdf)|CVPR2024|65.8|
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|65.9|
 |[DPADN](https://github.com/PRIS-CV/DPADN)|AAAI2024|62.62|
+|[Pose-Aware](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Exploring_Pose-Aware_Human-Object_Interaction_via_Hybrid_Learning_CVPR_2024_paper.pdf)|CVPR2024|63.0|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
 |[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|66.2|
@@ -1075,6 +1088,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[HCVC](https://arxiv.org/pdf/2311.16475.pdf)|arXiv2023|68.4|
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|68.8|
 |[GFIN](https://www.sciencedirect.com/science/article/pii/S0893608023006251?via%3Dihub#fig1)|NN2023|70.1|
+|[SICHOI](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.pdf)|CVPR2024|71.1|
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|**72.1**|
 
 #### 2) Enhanced with HAKE:
