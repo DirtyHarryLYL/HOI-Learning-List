@@ -85,6 +85,8 @@ More...
 
 ### HOI Image Generation
 
+- InteractDiffusion: Interaction-Control for Text-to-Image Diffusion Model (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Hoe_InteractDiffusion_Interaction_Control_in_Text-to-Image_Diffusion_Models_CVPR_2024_paper.html), [[Project]](https://jiuntian.github.io/interactdiffusion/)
+
 - Person in Place: Generating Associative Skeleton-Guidance Maps for Human-Object Interaction Image Editing (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Person_in_Place_Generating_Associative_Skeleton-Guidance_Maps_for_Human-Object_Interaction_CVPR_2024_paper.pdf), [[Code]](https://github.com/YangChangHee/CVPR2024_Person-In-Place_RELEASE)
 
 - VirtualModel: Generating Object-ID-retentive Human-object Interaction Image by Diffusion Model for E-commerce Marketing (arXiv 2024.5) [[Paper]](https://arxiv.org/pdf/2405.09985) [[Code]](https://aigcdesigngroup.github.io/replace-anything/)
