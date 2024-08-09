@@ -142,6 +142,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- CMMP (ECCV 2024), [[Paper]](https://arxiv.org/pdf/2408.02484), [[Code]](https://github.com/ltttpku/CMMP)
+
 - CycleHOI (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2407.11433)
 
 - GeoHOI (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2406.18691), [[Code]](https://github.com/zhumanli/GeoHOI)
