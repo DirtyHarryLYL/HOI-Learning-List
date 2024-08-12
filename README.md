@@ -140,6 +140,12 @@ More...
 
 More...
 
+#### HOI for Robotics.
+
+- HOI4ABOT: Human-Object Interaction Anticipation for Assistive roBOTs (CORL 2023) [[Paper]](https://openreview.net/forum?id=rYZBdBytxBx), [[Project]](https://evm7.github.io/HOI4ABOT_page/)
+
+- Human–object interaction prediction in videos through gaze following (CVIU 2023) [[Paper]](https://arxiv.org/abs/2306.03597), [[Project]](https://evm7.github.io/HOIGaze-page/)
+
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
 - CMMP (ECCV 2024), [[Paper]](https://arxiv.org/pdf/2408.02484), [[Code]](https://github.com/ltttpku/CMMP)
