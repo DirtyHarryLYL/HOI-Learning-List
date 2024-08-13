@@ -148,6 +148,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- HOIGen (ACM MM 2024), [[Paper]](https://arxiv.org/pdf/2408.05974), [[Code]](https://github.com/soberguo/HOIGen)
+
 - CMMP (ECCV 2024), [[Paper]](https://arxiv.org/pdf/2408.02484), [[Code]](https://github.com/ltttpku/CMMP)
 
 - CycleHOI (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2407.11433)
@@ -799,6 +801,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|45.09| 43.23|45.64|-|-|-|
 |[CycleHOI](https://arxiv.org/pdf/2407.11433)|arXiv2024|45.71| 46.14| 45.52| 49.23| 49.87| 48.96|
 |[Pose-Aware](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Exploring_Pose-Aware_Human-Object_Interaction_via_Hybrid_Learning_CVPR_2024_paper.pdf)|CVPR2024|**46.01** |**46.74** |**45.80** |**49.50** |**50.59** |**49.18**|
+|[HOIGen](https://arxiv.org/pdf/2408.05974)|ACMMM2024|34.84	|34.52|	34.94|-|-|-|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
@@ -848,7 +851,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [EoID](https://ojs.aaai.org/index.php/AAAI/article/view/25385)|AAAI2023|-|23.01±1.54|30.39±0.40|28.91±0.27|
 | [HOICLIP](https://github.com/Artanic30/HOICLIP)|CVPR2023|-|25.53|34.85|32.99|
 | [KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) | arXiv2024|-|27.43|**35.76**|**34.56**|
-| [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73)|NeurIPS2023|-|**27.71**|33.25|32.11|
+| [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73)|NeurIPS2023|-|27.71|33.25|32.11|
+| [HOIGen](https://arxiv.org/pdf/2408.05974)|ACMMM2024|-|**30.26**| 34.23|33.44|
 ||
 | [VCL](https://github.com/zhihou7/VCL) (NF-UC)| ECCV2020 | HICO-DET | 16.22 | 18.52 |  18.06 | 
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((NF-UC))|CVPR2021| HICO-DET | 18.25|18.78| 18.67|
@@ -864,8 +868,9 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [UniHOI](https://github.com/Caoyichao/UniHOI) (NF-UC)|NeurIPS2023|-|28.45 | 32.63 | 31.79 |
 | [KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) (NF-UC)| arXiv2024|-|28.89|28.31|27.77|
 | [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (NF-UC)|arXiv2023| HICO-DET + syn data| 29.45 | 31.68 |31.24|
-| [HCVC](https://arxiv.org/pdf/2311.16475.pdf) (NF-UC)|arXiv2023|-|28.44 |**31.35**| **30.77**|
-| [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) (NF-UC)|NeurIPS2023|-|**31.44**|28.26|28.90|
+| [HCVC](https://arxiv.org/pdf/2311.16475.pdf) (NF-UC)|arXiv2023|-|28.44 |31.35| 30.77|
+| [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) (NF-UC)|NeurIPS2023|-|31.44|28.26|28.90|
+| [HOIGen](https://arxiv.org/pdf/2408.05974) (NF-UC)|ACMMM2024|-|**33.98**| **32.86**|**33.08** |
 ||
 | [VCL](https://github.com/zhihou7/VCL) (RF-UC)| ECCV2020 | HICO-DET | 10.06 | 24.28 | 21.43 |
 | [ATL(w/ COCO)](https://github.com/zhihou7/HOI-CL) ((RF-UC))|CVPR2021| HICO-DET |9.18|24.67|21.57|
@@ -883,6 +888,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf) (RF-UC)|arXiv2023| HICO-DET + syn data| 28.76 | 38.01 |36.16|
 | [HCVC](https://arxiv.org/pdf/2311.16475.pdf) (RF-UC)|arXiv2023|-|30.95 |37.16 |35.87|
 | [RLIPv2-ParSeDA](https://github.com/JacobYuan7/RLIPv2) (RF-UC)| ICCV2023| VG, COCO, O365 | **31.23** | **45.01** | **42.26**|
+| [HOIGen](https://arxiv.org/pdf/2408.05974) (RF-UC)|ACMMM2024|-|31.01| 34.57|33.86 |
 
 - \* indicates large Visual-Language model pretraining, \eg, CLIP. 
 - For the details of the setting, please refer to corresponding publications. This is not officially published and might miss some publications. Please find the corresponding publications.
@@ -909,7 +915,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 | [HOICLIP](https://arxiv.org/pdf/2303.15786.pdf) | CVPR2023|-|16.20|30.99|28.53|
 | [KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) | arXiv2024|-|16.50|31.70|28.84|
 | [HCVC](https://arxiv.org/pdf/2311.16475.pdf)| arXiv2023|-|16.78 |33.31 |30.53|
-| [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|-|**31.79**|**32.73**|**32.58**|
+| [CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|-|31.79|32.73|32.58|
+| [HOIGen](https://arxiv.org/pdf/2408.05974)|ACMMM2024|-| **36.35**|**32.90**|**33.48** |
 
 
 ##### Unseen action scenario (UA)
@@ -933,6 +940,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[KI2HOI](https://arxiv.org/pdf/2403.07246.pdf) | arXiv2024|-|25.20|32.95|31.85|
 |[CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|-|26.02|31.14|30.42|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|-|**26.05**|**36.78**|**34.68**|
+|[HOIGen](https://arxiv.org/pdf/2408.05974)|ACMMM2024|-| 20.27|34.31|32.34 |
 
 ##### Another setting
 | Method | Pub | Unseen| Seen | Full | 
