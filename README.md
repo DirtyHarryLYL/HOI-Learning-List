@@ -434,6 +434,8 @@ More...
 
 #### Unseen or zero/low-shot or weakly-supervised learning (instance-level detection).
 
+- HOIGen (ACM MM 2024), [[Paper]](https://arxiv.org/pdf/2408.05974), [[Code]](https://github.com/soberguo/HOIGen)
+
 -  CMD-SE (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2404.06194.pdf), [[Code]](https://github.com/ltttpku/CMD-SE-release)
 
 - CLIP4HOI (NeurIPS 2023), [[Paper]](https://openreview.net/pdf?id=nqIIWnwe73)
