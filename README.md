@@ -1,9 +1,11 @@
 # HOI-Learning-List
-Some recent (2015-now) Human-Object Interaction Learning studies. If you find any errors or problems, please don't hesitate to comment.
+Some recent (2015-now) Human-Object Interaction Learning studies. If you find any errors or problems, please don't hesitate to let me know.
 
-A list of Transfomer-based vision works: https://github.com/DirtyHarryLYL/Transformer-in-Vision.
+A list of Transfomer-based vision works https://github.com/DirtyHarryLYL/Transformer-in-Vision.
 
 ## Image Dataset/Benchmark
+
+- CAL (arXiv 2024.1), a contact-driven affordance learning dataset [[Paper]](https://arxiv.org/pdf/2410.11363), [[Project]](https://github.com/lhc1224/VCR-Net)
 
 - SynHOI (arXiv 2023.5), synthetic HOI data [[Paper]](https://arxiv.org/pdf/2305.12252.pdf)
 
