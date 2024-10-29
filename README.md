@@ -150,6 +150,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- CO-HOI (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2410.15657)
+
 - HOIGen (ACM MM 2024), [[Paper]](https://arxiv.org/pdf/2408.05974), [[Code]](https://github.com/soberguo/HOIGen)
 
 - CMMP (ECCV 2024), [[Paper]](https://arxiv.org/pdf/2408.02484), [[Code]](https://github.com/ltttpku/CMMP)
@@ -1105,6 +1107,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[PSN](https://arxiv.org/pdf/2307.10499.pdf)|arXiv2023|65.9|
 |[DPADN](https://github.com/PRIS-CV/DPADN)|AAAI2024|62.62|
 |[Pose-Aware](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Exploring_Pose-Aware_Human-Object_Interaction_via_Hybrid_Learning_CVPR_2024_paper.pdf)|CVPR2024|63.0|
+|[CO-HOI](https://arxiv.org/pdf/2410.15657)|arXiv2024|65.44|
 |[STIP](https://github.com/zyong812/STIP)|CVPR2022|66.0|
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
 |[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|66.2|
