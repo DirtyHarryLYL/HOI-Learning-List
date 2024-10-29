@@ -150,6 +150,12 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- HOIGen (ACM MM 2024), [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680927), [[Code]](https://github.com/soberguo/HOIGen)
+
+- DiffusionHOI (NeurIPS 2024), [[Paper]](https://arxiv.org/pdf/2410.20155), [[Code]](https://github.com/0liliulei/DiffusionHOI)
+
+- CEFA (ACM MM 2024), [[Paper]](https://arxiv.org/pdf/2407.21438), [[Code]](https://github.com/LijunZhang01/CEFA)
+
 - CO-HOI (arXiv 2024), [[Paper]](https://arxiv.org/pdf/2410.15657)
 
 - HOIGen (ACM MM 2024), [[Paper]](https://arxiv.org/pdf/2408.05974), [[Code]](https://github.com/soberguo/HOIGen)
@@ -799,6 +805,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[BCOM](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Bilateral_Adaptation_for_Human-Object_Interaction_Detection_with_Occlusion-Robustness_CVPR_2024_paper.pdf)|CVPR2024|39.34 |39.90| 39.17| 42.24| 42.86| 42.05|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|40.95 |40.27 |41.32| 43.26| 43.12| 43.25|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
+|[DiffusionHOI](https://arxiv.org/pdf/2410.20155)|NeurIPS2024|42.54 |42.95 |42.35 |44.91 |45.18 |44.83|
 |[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|43.35| 42.25| 43.69|45.53|43.62| 46.11|
 |[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|44.32| 44.61| 44.24| 47.81| 48.38| 47.64|
 |[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|44.53|44.48|44.55|-|-|-|
@@ -1116,6 +1123,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
 |[CycleHOI](https://arxiv.org/pdf/2407.11433)|arXiv2024|66.8|
 |[HODN](https://arxiv.org/pdf/2308.10158.pdf)|TMM2023| 67.0|
+|[DiffusionHOI](https://arxiv.org/pdf/2410.20155)|NeurIPS2024|67.1|
 |[VIL+DisTR](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|67.6|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|68.05|
 |[SCTC](https://arxiv.org/pdf/2401.05676.pdf)|AAAI2024|68.2|
