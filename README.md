@@ -150,6 +150,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- EZ-HOI (NeurIPS 2024), [[Paper]](https://arxiv.org/pdf/2410.23904), [[Code]](https://github.com/ChelsieLei/EZ-HOI)
+
 - HOIGen (ACM MM 2024), [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680927), [[Code]](https://github.com/soberguo/HOIGen)
 
 - DiffusionHOI (NeurIPS 2024), [[Paper]](https://arxiv.org/pdf/2410.20155), [[Code]](https://github.com/0liliulei/DiffusionHOI)
