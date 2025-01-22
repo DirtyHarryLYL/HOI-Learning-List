@@ -152,6 +152,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- DSU (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2501.11653), [[Project]](https://tau-vailab.github.io/Dynamic-Scene-Understanding/)
+
 - EZ-HOI (NeurIPS 2024), [[Paper]](https://arxiv.org/pdf/2410.23904), [[Code]](https://github.com/ChelsieLei/EZ-HOI)
 
 - HOIGen (ACM MM 2024), [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680927), [[Code]](https://github.com/soberguo/HOIGen)
@@ -816,7 +818,8 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[SICHOI](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.pdf)|CVPR2024|45.04 |45.61 |44.88 |48.16 |48.37 |48.09|
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|45.09| 43.23|45.64|-|-|-|
 |[CycleHOI](https://arxiv.org/pdf/2407.11433)|arXiv2024|45.71| 46.14| 45.52| 49.23| 49.87| 48.96|
-|[Pose-Aware](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Exploring_Pose-Aware_Human-Object_Interaction_via_Hybrid_Learning_CVPR_2024_paper.pdf)|CVPR2024|**46.01** |**46.74** |**45.80** |**49.50** |**50.59** |**49.18**|
+|[Pose-Aware](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Exploring_Pose-Aware_Human-Object_Interaction_via_Hybrid_Learning_CVPR_2024_paper.pdf)|CVPR2024|46.01 |46.74 |45.80|**49.50** |**50.59** |**49.18**|
+|[PViC+](https://tau-vailab.github.io/Dynamic-Scene-Understanding/)|arXiv2025|**46.49**| **47.43**| **46.21**|-|-|-|
 
 #### 3) Ground Truth human-object pair boxes (only evaluating HOI recognition)
 |Method| Pub|Full(def) | Rare(def) | None-Rare(def)|
