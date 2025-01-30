@@ -5,6 +5,8 @@ A list of Transfomer-based vision works https://github.com/DirtyHarryLYL/Transfo
 
 ## Image Dataset/Benchmark
 
+- BRIGHT (arXiv 2025.1), re-balanced dataset based on HICO-DET [[Paper]](https://arxiv.org/pdf/2501.16724)
+
 - CAL (arXiv 2024.1), a contact-driven affordance learning dataset [[Paper]](https://arxiv.org/pdf/2410.11363), [[Project]](https://github.com/lhc1224/VCR-Net)
 
 - SynHOI (arXiv 2023.5), synthetic HOI data [[Paper]](https://arxiv.org/pdf/2305.12252.pdf)
