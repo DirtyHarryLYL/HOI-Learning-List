@@ -154,6 +154,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- BC-HOI (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2507.06510), [[Code]](https://github.com/MPI-Lab/BC-HOI)
+
 - DSU (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2501.11653), [[Project]](https://tau-vailab.github.io/Dynamic-Scene-Understanding/)
 
 - EZ-HOI (NeurIPS 2024), [[Paper]](https://arxiv.org/pdf/2410.23904), [[Code]](https://github.com/ChelsieLei/EZ-HOI)
@@ -814,6 +816,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|40.95 |40.27 |41.32| 43.26| 43.12| 43.25|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
 |[DiffusionHOI](https://arxiv.org/pdf/2410.20155)|NeurIPS2024|42.54 |42.95 |42.35 |44.91 |45.18 |44.83|
+|[BC-HOI](https://arxiv.org/pdf/2507.06510)|arXiv2025|43.01 |45.76| 42.18|-|-|-|
 |[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|43.35| 42.25| 43.69|45.53|43.62| 46.11|
 |[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|44.32| 44.61| 44.24| 47.81| 48.38| 47.64|
 |[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|44.53|44.48|44.55|-|-|-|
@@ -1136,6 +1139,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[VIL+DisTR](https://arxiv.org/pdf/2308.02606.pdf)|ACMMM2023|67.6|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|68.05|
 |[SCTC](https://arxiv.org/pdf/2401.05676.pdf)|AAAI2024|68.2|
+|[BC-HOI](https://arxiv.org/pdf/2507.06510)|arXiv2025|68.2|
 |[HCVC](https://arxiv.org/pdf/2311.16475.pdf)|arXiv2023|68.4|
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|68.8|
 |[GeoHOI](https://github.com/zhumanli/GeoHOI)|arXiv2024| 69.4|
