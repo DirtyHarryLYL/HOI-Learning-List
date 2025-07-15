@@ -5,6 +5,8 @@ A list of Transfomer-based vision works https://github.com/DirtyHarryLYL/Transfo
 
 ## Image Dataset/Benchmark
 
+- RoHOI (arXiv 2025.7), Robustness Benchmark for Human-Object Interaction Detection [[Paper]](https://arxiv.org/pdf/2507.09111), [[Project]](https://github.com/Kratos-Wen/RoHOI)
+
 - BRIGHT (arXiv 2025.1), re-balanced dataset based on HICO-DET [[Paper]](https://arxiv.org/pdf/2501.16724)
 
 - CAL (arXiv 2024.1), a contact-driven affordance learning dataset [[Paper]](https://arxiv.org/pdf/2410.11363), [[Project]](https://github.com/lhc1224/VCR-Net)
