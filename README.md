@@ -156,6 +156,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- PDQD (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2508.08590)
+
 - BC-HOI (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2507.06510), [[Code]](https://github.com/MPI-Lab/BC-HOI)
 
 - DSU (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2501.11653), [[Project]](https://tau-vailab.github.io/Dynamic-Scene-Understanding/)
