@@ -156,6 +156,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- DQEN (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2508.18896), [[Code]](https://github.com/lzzhhh1019/DQEN)
+
 - PDQD (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2508.08590)
 
 - BC-HOI (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2507.06510), [[Code]](https://github.com/MPI-Lab/BC-HOI)
@@ -807,6 +809,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)|ECCV2022|35.15 |33.71| 35.58| 37.56| 35.87| 38.06|
 |[GFIN](https://www.sciencedirect.com/science/article/pii/S0893608023006251?via%3Dihub#fig1)|NN2023|35.28	|31.91|	36.29|	38.80|	35.48|	39.79|
 |[CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|35.33 | 33.95| 35.74| 37.19| 35.27| 37.77|
+|[DQEN](https://github.com/lzzhhh1019/DQEN)|arXiv2025|35.34 |33.10| 36.01| 38.19| 36.24| 38.77|
 |[LOGICHOI](https://github.com/weijianan1/LogicHOI)|NeurIPS2023|35.47 |32.03| 36.22| 38.21| 35.29| 39.03|
 |[QAHOI-Swin-Large-ImageNet-22K](https://github.com/cjw2021/QAHOI)|arXiv2021|35.78 |29.80 |37.56 |37.59 |31.66 |39.36|
 |[DPADN](https://github.com/PRIS-CV/DPADN)|AAAI2024|35.91 |35.82| 35.94| 38.99| 39.61| 38.80|
@@ -1094,6 +1097,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[CATN (w/ fastText)](https://arxiv.org/pdf/2204.04911.pdf)|CVPR2022|60.1|
 |[FGAHOI](https://github.com/xiaomabufei/FGAHOI)|arXiv2023|60.5|
 |[Iwin](https://arxiv.org/pdf/2203.10537.pdf)|ECCV2022|60.85|
+|[DQEN](https://github.com/lzzhhh1019/DQEN)|arXiv2025|60.88|
 |[UPT-ResNet-101-DC5](https://github.com/fredzzhang/upt)|CVPR2022| 61.3|
 |[CDT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242152) | TNNLS 2023|61.43|
 |[SBM](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_5)|PRCV2023|61.5|
