@@ -156,6 +156,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- Merge-then-split (ICCV 2025), [[Paper]](https://arxiv.org/pdf/2509.00760)
+
 - DQEN (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2508.18896), [[Code]](https://github.com/lzzhhh1019/DQEN)
 
 - PDQD (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2508.08590)
@@ -829,6 +831,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[DiffusionHOI](https://arxiv.org/pdf/2410.20155)|NeurIPS2024|42.54 |42.95 |42.35 |44.91 |45.18 |44.83|
 |[BC-HOI](https://arxiv.org/pdf/2507.06510)|arXiv2025|43.01 |45.76| 42.18|-|-|-|
 |[SOV-STG (swin-l)](https://arxiv.org/pdf/2307.02291.pdf)|arXiv2023|43.35| 42.25| 43.69|45.53|43.62| 46.11|
+|[Merge-then-split](https://arxiv.org/pdf/2509.00760)|ICCV2025|43.98 |43.27| 44.00| 45.90| 45.29| 46.32| 
 |[PViC w/ h-detr (swin-l)](https://github.com/fredzzhang/pvic)|ICCV2023|44.32| 44.61| 44.24| 47.81| 48.38| 47.64|
 |[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|44.53|44.48|44.55|-|-|-|
 |[SICHOI](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.pdf)|CVPR2024|45.04 |45.61 |44.88 |48.16 |48.37 |48.09|
@@ -1156,6 +1159,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[MUREN](http://cvlab.postech.ac.kr/research/MUREN/)|CVPR2023|68.8|
 |[GeoHOI](https://github.com/zhumanli/GeoHOI)|arXiv2024| 69.4|
 |[GFIN](https://www.sciencedirect.com/science/article/pii/S0893608023006251?via%3Dihub#fig1)|NN2023|70.1|
+|[Merge-then-split](https://arxiv.org/pdf/2509.00760)|ICCV2025|70.1|
 |[SICHOI](https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.pdf)|CVPR2024|71.1|
 |[RLIPv2-ParSeDA w/ extra data](https://github.com/JacobYuan7/RLIPv2)|ICCV2023|**72.1**|
 
